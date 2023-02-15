@@ -25,8 +25,8 @@ public class Camera : MonoBehaviour
      public UnityEngine.InputSystem.InputActionAsset controller;
     void Start()
     {
-      controller.FindAction("Reset").started +=resetV; 
-      controller.FindAction("Mov_press").started +=Move_press; 
+    //  controller.FindAction("Reset").started +=resetV; 
+     // controller.FindAction("Mov_press").started +=Move_press; 
       if(typeMCamera==typeMouve.gyro){
           EnableGyro();
           offset = transform.rotation * Quaternion.Inverse(new Quaternion(Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w));
@@ -73,22 +73,29 @@ public class Camera : MonoBehaviour
         }
        
     }
-    void resetV(UnityEngine.InputSystem.InputAction.CallbackContext context){
+    void resetV(){
             testaR.transform.localEulerAngles=new Vector3(0,0,0);
             
     }
-    void Move_press(UnityEngine.InputSystem.InputAction.CallbackContext context){
+    void up_down(){
           if(transform.localPosition.y>=heightH )
                 transform.localPosition-=Vector3.up*(heightH-heightL);
           else if(transform.localPosition.y<=heightL)
                 transform.localPosition+=Vector3.up*(heightH-heightL); 
     }
-    void Dir_ori(UnityEngine.InputSystem.InputAction.CallbackContext context){
+    void Dir_ori(){
        
     }
     private void Update(){
         angle();
-        float Dir=controller.FindAction("Inclin").ReadValue<float>();
+        float Dir=Input.GetAxis("d_pad_x");
+      
+        if(Input.GetButtonDown("y")){
+            resetV();
+        }
+         if(Input.GetButtonDown("stick_right_press")){
+            up_down();
+        }
         if(Dir==1 && transform.localPosition.x==0){
             posCamera=position.destra;
             transform.localPosition+=Vector3.right*(dInclinate); 

@@ -15,8 +15,10 @@ public class move : MonoBehaviour
     
     void Update()
     {    
-           Vector2 vMove=controller.FindAction("Move").ReadValue<Vector2>();
-           Vector3 move=new Vector3(vMove[0],-1,vMove[1]);
+           //Vector2 vMove=controller.FindAction("Move").ReadValue<Vector2>();
+ 
+           Vector3 move=new Vector3(Input.GetAxis("stick_right_x"),-1,-Input.GetAxis("stick_right_y"));
+           //Vector3 move=new Vector3(vMove[0],-1,vMove[1]);
            move = this.transform.TransformDirection(move);
            
            body.Move(move*speed);

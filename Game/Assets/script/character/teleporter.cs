@@ -11,12 +11,12 @@ public class teleporter : MonoBehaviour
      public InputActionAsset controller;
     void Start()
     {
-        controller.FindAction("Tel_press").started +=tel;      
+       // controller.FindAction("Tel_press").started +=tel;      
     }
     private void moveBall(){
-        Vector2 c=controller.FindAction("Tel").ReadValue<Vector2>();
-        float x=c[0];
-        float y=-c[1];
+  
+        float x=Input.GetAxis("stick_left_x");
+        float y=Input.GetAxis("stick_left_y");
         if(Mathf.Abs(x)>=0.1f || Mathf.Abs(y)>=0.1f){
            ball.SetActive(true);
           
@@ -40,8 +40,10 @@ public class teleporter : MonoBehaviour
            ball.GetComponent<CharacterController>().enabled = false;
            ball.transform.localPosition=new Vector3(0,0,3f);
         }
+        if(Input.GetButtonDown("stick_left_press"))
+           tel();
     }
-    void tel(UnityEngine.InputSystem.InputAction.CallbackContext context){
+    void tel(){
             Debug.Log(ball.transform.position);
             GetComponent<CharacterController>().enabled = false;
             transform.position=new Vector3(ball.transform.position.x,ball.transform.position.y+hteleport,ball.transform.position.z);

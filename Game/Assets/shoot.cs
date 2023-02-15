@@ -11,19 +11,25 @@ public class shoot : MonoBehaviour
      public InputActionAsset controller;
     void Start()
     {
-        controller.FindAction("RT").performed+=shootOn;      
+       
     }
-    void shootOn(UnityEngine.InputSystem.InputAction.CallbackContext context){
-           if(timeShoot>=mTimeShoot){
+    void shootOn(){
+         
+          
+        }
+    void Update()
+    {  
+        float rt=Input.GetAxis("rt_ps")+Input.GetAxis("rt_xbox");//in modo da poter usare sia controller xbox che playStation
+        if(rt>0f){
+             float t=(int)(pressLevels*rt+1);
+             if(timeShoot>=mTimeShoot/t){
                timeShoot=0f; 
                GameObject o=Instantiate(sampleBullet,transform.position,transform.rotation);
               
            }
-          
+           timeShoot+=Time.deltaTime;
         }
-    void Update()
-    {
-        timeShoot+=Time.deltaTime;
+       
     }
    
  

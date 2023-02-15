@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "f3be5773",
     "m_SelectedPackage": {
-        "deviceId": "f3be5773",
-        "name": "com.DefaultCompany.Myproject",
-        "processId": 2722,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -17,25 +17,31 @@
         {
             "deviceId": "f3be5773",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 16934,
+            "processId": 21305,
             "exited": true
         },
         {
             "deviceId": "f3be5773",
-            "name": "com.android.settings",
-            "processId": 19265,
-            "exited": false
-        },
-        {
-            "deviceId": "f3be5773",
-            "name": "com.unity3d.mobileremote",
-            "processId": 28538,
-            "exited": false
+            "name": "com.DefaultCompany.Myproject",
+            "processId": 3164,
+            "exited": true
         },
         {
             "deviceId": "f3be5773",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 2722,
+            "processId": 5256,
+            "exited": true
+        },
+        {
+            "deviceId": "f3be5773",
+            "name": "com.DefaultCompany.Myproject",
+            "processId": 28142,
+            "exited": true
+        },
+        {
+            "deviceId": "f3be5773",
+            "name": "com.DefaultCompany.Myproject",
+            "processId": 29542,
             "exited": false
         }
     ],

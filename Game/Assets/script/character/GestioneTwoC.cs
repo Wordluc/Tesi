@@ -8,22 +8,24 @@ public class GestioneTwoC : MonoBehaviour
 {
     public UnityEngine.Camera Dx;
     public UnityEngine.Camera Sx;
+    public GameObject d;
+     public GameObject s;
     public enum occhioPigro{destro,sinistro,sano};
     public enum pigroGrandezza{grande,piccolo}
     public pigroGrandezza occhioDiff;
     public occhioPigro oPigro;
     public int dOcchi;
     public InputActionAsset controller;
+    public float angle;
     void Start()
     { 
-      controller.FindAction("CambioO").started +=changePigro;    
-      Dx.transform.localPosition =new Vector3(dOcchi,0,0);
-      Sx.transform.localPosition =new Vector3(-dOcchi,0,0);
+    //  controller.FindAction("CambioO").started +=changePigro;    
+   
       occhioDiff=pigroGrandezza.grande;
-      changePigro(oPigro);
+      //changePigro(oPigro);
       
     }
-    public void changePigro(UnityEngine.InputSystem.InputAction.CallbackContext context){
+    public void changePigro(){
       if(oPigro==occhioPigro.destro){
             changePigro(occhioPigro.sinistro);
       }else if(oPigro==occhioPigro.sinistro){
@@ -58,5 +60,15 @@ public class GestioneTwoC : MonoBehaviour
               Dx.cullingMask=-1;
       }
 
+    }
+    private void Update() {
+      Dx.transform.localPosition =new Vector3(dOcchi,0,0);
+      Sx.transform.localPosition =new Vector3(-dOcchi,0,0);
+
+      Dx.transform.localEulerAngles=Vector3.up*angle;
+      Sx.transform.localEulerAngles=-Vector3.up*angle;
+      if(Input.GetButtonDown("x")){
+        changePigro();
+      }
     }
 }

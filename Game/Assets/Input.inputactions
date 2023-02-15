@@ -91,7 +91,7 @@
                 {
                     "name": "",
                     "id": "251c3dba-720d-4f73-ac3e-4e151e2fce22",
-                    "path": "<Gamepad>/rightStick",
+                    "path": "<DualShock4GamepadAndroid>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "Android",
@@ -113,7 +113,7 @@
                 {
                     "name": "",
                     "id": "57a15051-faa3-4e68-a872-96e48b4d64ee",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<DualShockGamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "Android",
@@ -345,6 +345,16 @@
                 },
                 {
                     "devicePath": "<XboxOneGamepadAndroid>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<DualShock4GamepadAndroid>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<DualShockGamepad>",
                     "isOptional": false,
                     "isOR": false
                 }
