@@ -20,7 +20,7 @@ public class shoot : MonoBehaviour
     void Update()
     {  
         float rt=Input.GetAxis("rt_ps")+Input.GetAxis("rt_xbox");//in modo da poter usare sia controller xbox che playStation
-        if(rt>0f){
+        if(rt>0f && SetUp.command){
              float t=(int)(pressLevels*rt+1);
              if(timeShoot>=mTimeShoot/t){
                timeShoot=0f; 

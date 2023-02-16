@@ -5,10 +5,9 @@ using UnityEngine;
 public class SetUp : MonoBehaviour
 {
     public float g;
+    static public bool command;
     void Start()
     {
-        if(Input.anyKeyDown)
-           Debug.Log(Input.inputString);
         Physics.gravity = new Vector3(0, -g, 0);
     }
 

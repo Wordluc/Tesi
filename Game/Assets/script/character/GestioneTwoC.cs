@@ -3,26 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-using UnityEngine.InputSystem;
+
 public class GestioneTwoC : MonoBehaviour
 {
     public UnityEngine.Camera Dx;
     public UnityEngine.Camera Sx;
-    public GameObject d;
-     public GameObject s;
     public enum occhioPigro{destro,sinistro,sano};
     public enum pigroGrandezza{grande,piccolo}
     public pigroGrandezza occhioDiff;
     public occhioPigro oPigro;
     public int dOcchi;
-    public InputActionAsset controller;
     public float angle;
     void Start()
     { 
-    //  controller.FindAction("CambioO").started +=changePigro;    
+    
    
       occhioDiff=pigroGrandezza.grande;
-      //changePigro(oPigro);
+    
       
     }
     public void changePigro(){
@@ -67,7 +64,7 @@ public class GestioneTwoC : MonoBehaviour
 
       Dx.transform.localEulerAngles=Vector3.up*angle;
       Sx.transform.localEulerAngles=-Vector3.up*angle;
-      if(Input.GetButtonDown("x")){
+      if(Input.GetButtonDown("x") && SetUp.command){
         changePigro();
       }
     }

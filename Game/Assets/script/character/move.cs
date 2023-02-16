@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class move : MonoBehaviour
 {
     public CharacterController body;
-    public InputActionAsset controller;
     public float speed;
     void Start()
     {
@@ -15,13 +14,12 @@ public class move : MonoBehaviour
     
     void Update()
     {    
-           //Vector2 vMove=controller.FindAction("Move").ReadValue<Vector2>();
- 
-           Vector3 move=new Vector3(Input.GetAxis("stick_right_x"),-1,-Input.GetAxis("stick_right_y"));
-           //Vector3 move=new Vector3(vMove[0],-1,vMove[1]);
-           move = this.transform.TransformDirection(move);
+          
+           Vector3 move=new Vector3(Input.GetAxis("stick_right_x"),-1,-Input.GetAxis("stick_right_y"))*Time.deltaTime;
            
-           body.Move(move*speed);
+           move = this.transform.TransformDirection(move);
+           if( SetUp.command)
+              body.Move(move*speed);
            
     }
 }

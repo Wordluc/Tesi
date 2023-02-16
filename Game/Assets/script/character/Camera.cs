@@ -6,7 +6,6 @@ public class Camera : MonoBehaviour
 {
     private Quaternion offset;
     private Gyroscope gyro;
-    public float speedRotationG;
     public float speedRotationM;
     public float limitRotate;
     public enum typeMouve{mouse,gyro};
@@ -22,15 +21,12 @@ public class Camera : MonoBehaviour
     public float dInclinate;
     public float MrotateX;
     public float MrotateZ;
-     public UnityEngine.InputSystem.InputActionAsset controller;
     void Start()
     {
     //  controller.FindAction("Reset").started +=resetV; 
      // controller.FindAction("Mov_press").started +=Move_press; 
-      if(typeMCamera==typeMouve.gyro){
           EnableGyro();
           offset = transform.rotation * Quaternion.Inverse(new Quaternion(Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w));
-      }
     }
     private bool EnableGyro(){
        if(SystemInfo.supportsGyroscope){
@@ -47,15 +43,15 @@ public class Camera : MonoBehaviour
                 float x=Mathf.Clamp(Input.gyro.rotationRate.x,-limitRotate,limitRotate);
                 float y=Mathf.Clamp(Input.gyro.rotationRate.y,-limitRotate,limitRotate);
                 float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate)*0.5f;
-                testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*speedRotationG;
+                testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*setSensibility.sensibility*Time.deltaTime;
             //   camera.transform.Rotate(-Input.gyro.rotationRateUnbiased.x*speedRotation,0, Input.gyro.rotationRateUnbiased.z*speedRotation);
-                body.transform.Rotate(0, -y*speedRotationG,0);
+                body.transform.Rotate(0, -y*setSensibility.sensibility*Time.deltaTime,0);
         }else if(typeMCamera==typeMouve.mouse){
       
-                rotationY = Input.GetAxis("Mouse X") * speedRotationM;
-                rotationX = Input.GetAxis("Mouse Y") * speedRotationM;
-                testaR.transform.localEulerAngles += new Vector3(-rotationX,0,0); 
-                body.transform.Rotate(0, rotationY*speedRotationM,0);
+                rotationY = Input.GetAxis("mouse_x") * speedRotationM;
+                rotationX = Input.GetAxis("mouse_y") * speedRotationM;
+                testaR.transform.localEulerAngles += new Vector3(-rotationX*Time.deltaTime*speedRotationM,0,0); 
+                body.transform.Rotate(0, rotationY*speedRotationM*Time.deltaTime,0);
               //  body.GetComponent<CharacterController>().Rotate(0, rotationY*speedRotationM,0);
         }
         if(testaR.transform.localEulerAngles.x>180 && testaR.transform.localEulerAngles.x<(360-MrotateX)){
@@ -83,28 +79,31 @@ public class Camera : MonoBehaviour
           else if(transform.localPosition.y<=heightL)
                 transform.localPosition+=Vector3.up*(heightH-heightL); 
     }
-    void Dir_ori(){
-       
-    }
-    private void Update(){
-        angle();
-        float Dir=Input.GetAxis("d_pad_x");
-      
-        if(Input.GetButtonDown("y")){
-            resetV();
-        }
-         if(Input.GetButtonDown("stick_right_press")){
-            up_down();
-        }
-        if(Dir==1 && transform.localPosition.x==0){
+    void dir_ori(float dir){
+        if(dir==1 && transform.localPosition.x==0){
             posCamera=position.destra;
             transform.localPosition+=Vector3.right*(dInclinate); 
-        }else if(Dir==-1 && transform.localPosition.x==0){
+        }else if(dir==-1 && transform.localPosition.x==0){
             posCamera=position.sinistra;
             transform.localPosition-=Vector3.right*(dInclinate); 
-        }else if(Dir==0){
+        }else if(dir==0){
            posCamera=position.centro;
             transform.localPosition-=Vector3.right*(transform.localPosition.x); 
         }
+    }
+    private void Update(){
+        angle();
+        float dir;
+        if(SetUp.command)
+           dir=Input.GetAxis("d_pad_x");
+        else
+           dir=0;
+        if(Input.GetButtonDown("y") && SetUp.command){
+            resetV();
+        }
+        if(Input.GetButtonDown("stick_right_press")&& SetUp.command){
+            up_down();
+        }
+        dir_ori(dir);
     }
 }

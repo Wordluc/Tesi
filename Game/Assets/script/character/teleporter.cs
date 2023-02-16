@@ -8,6 +8,7 @@ public class teleporter : MonoBehaviour
     public float speed;
     private GameObject o=null;
     public float hteleport;
+    public float g;
      public InputActionAsset controller;
     void Start()
     {
@@ -17,7 +18,7 @@ public class teleporter : MonoBehaviour
   
         float x=Input.GetAxis("stick_left_x");
         float y=Input.GetAxis("stick_left_y");
-        if(Mathf.Abs(x)>=0.1f || Mathf.Abs(y)>=0.1f){
+        if((Mathf.Abs(x)>=0.1f || Mathf.Abs(y)>=0.1f)){
            ball.SetActive(true);
           
            if(!ball.GetComponent<CharacterController>().enabled){
@@ -31,7 +32,7 @@ public class teleporter : MonoBehaviour
            }
            ball.GetComponent<CharacterController>().enabled = true;
            Vector3 v;
-           v=new Vector3(x,-2f,-y)*speed;
+           v=new Vector3(x,-g,-y)*speed*Time.deltaTime;
            v=o.transform.TransformDirection(v);
            ball.GetComponent<CharacterController>().Move(v);
         }
@@ -44,14 +45,14 @@ public class teleporter : MonoBehaviour
            tel();
     }
     void tel(){
-            Debug.Log(ball.transform.position);
+          
             GetComponent<CharacterController>().enabled = false;
             transform.position=new Vector3(ball.transform.position.x,ball.transform.position.y+hteleport,ball.transform.position.z);
             GetComponent<CharacterController>().enabled = true;
     }
     void Update()
     { 
-         
-        moveBall();
+        if(SetUp.command)
+           moveBall();
     }
 }
