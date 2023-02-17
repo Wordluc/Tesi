@@ -21,6 +21,9 @@ public class Camera : MonoBehaviour
     public float dInclinate;
     public float MrotateX;
     public float MrotateZ;
+     
+      public static float sensibilityIni=1f;
+      public static float sensibility=sensibilityIni;
     void Start()
     {
     //  controller.FindAction("Reset").started +=resetV; 
@@ -43,9 +46,9 @@ public class Camera : MonoBehaviour
                 float x=Mathf.Clamp(Input.gyro.rotationRate.x,-limitRotate,limitRotate);
                 float y=Mathf.Clamp(Input.gyro.rotationRate.y,-limitRotate,limitRotate);
                 float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate)*0.5f;
-                testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*setSensibility.sensibility*Time.deltaTime;
+                testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*sensibility;
             //   camera.transform.Rotate(-Input.gyro.rotationRateUnbiased.x*speedRotation,0, Input.gyro.rotationRateUnbiased.z*speedRotation);
-                body.transform.Rotate(0, -y*setSensibility.sensibility*Time.deltaTime,0);
+                body.transform.Rotate(0, -y*sensibility,0);
         }else if(typeMCamera==typeMouve.mouse){
       
                 rotationY = Input.GetAxis("mouse_x") * speedRotationM;
@@ -69,7 +72,7 @@ public class Camera : MonoBehaviour
         }
        
     }
-    void resetV(){
+    public void resetV(){
             testaR.transform.localEulerAngles=new Vector3(0,0,0);
             
     }

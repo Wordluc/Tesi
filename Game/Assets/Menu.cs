@@ -5,53 +5,60 @@ using UnityEngine;
 public class Menu : MonoBehaviour
 {
     public GameObject scelta;
-    public enum stati{setting,exit,menu};
+    public enum stati{setting,close,menu};
     public stati currentButton;
     public stati finestre;
+    private stati store_finestre;
     public GameObject setting_back;
     public GameObject exit_back;
     public GameObject setting;
+    public Camera camera;
     void Start()
     {
         setting_back.SetActive(true);
         exit_back.SetActive(false);
-        currentButton=stati.setting;
+    
     }
     
     void Update()
     {    
         switch(finestre){
-            case stati.exit:
-              if(currentButton==stati.exit)
-                 Application.Quit();
+            case stati.close:
+                 setting.SetActive(false);
+                 scelta.SetActive(false);
+                 if(Input.GetButtonDown("option_right"))
+                     finestre=stati.menu;
+                 SetUp.command=true;
             break;
             case stati.setting:
                  setting.SetActive(true);
                  scelta.SetActive(false);
             break;
             case stati.menu:
+             SetUp.command=false;
+                 scelta.SetActive(true);
                  setting.SetActive(false);
-                 scelta.SetActive(false);
+                 if(Input.GetAxis("d_pad_y")==-1)
+                       currentButton=stati.setting;
+                 if(Input.GetAxis("d_pad_y")==1){
+                       currentButton=stati.close;
+                       Application.Quit();
+                 }
+                 if(Input.GetButtonDown("x"))
+                     finestre=currentButton;
+                 if(Input.GetButtonDown("option_right") || Input.GetButtonDown("b")) {
+                     finestre=stati.close;
+                 }
             break;
         }
-        if(Input.GetButtonDown("option_right")){
-            if(statiMenu==stati.scelta)
-                statiMenu=stati.close;
-            else if(statiMenu==stati.close)
-                statiMenu=stati.scelta;
+        if(store_finestre!=finestre){//catturare cambio variabile
+            if(finestre==stati.close){
+                camera.resetV();
+            }
+            store_finestre=finestre;
         }
-        if(statiMenu==stati.scelta){
-            scelta.SetActive(true);
-            SetUp.command=false;
-        }
-        if(statiMenu==stati.close){
-            scelta.SetActive(false);
-            SetUp.command=true;
-        }
-      if(Input.GetAxis("d_pad_y")==-1)
-        currentButton=stati.setting;
-      if(Input.GetAxis("d_pad_y")==1)
-         currentButton=stati.exit;
+   
+     
         
         if(currentButton==stati.setting){
            setting_back.SetActive(true);
@@ -61,14 +68,7 @@ public class Menu : MonoBehaviour
            exit_back.SetActive(true);
         }
 
-         if(Input.GetButtonDown("x")){
-            
-            else{
-              
-              
-            }
-               
-         }
+
 
     }
 }

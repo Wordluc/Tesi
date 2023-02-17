@@ -16,25 +16,13 @@ public class GestioneTwoC : MonoBehaviour
     public float angle;
     void Start()
     { 
-    
-   
       occhioDiff=pigroGrandezza.grande;
-    
-      
-    }
-    public void changePigro(){
-      if(oPigro==occhioPigro.destro){
-            changePigro(occhioPigro.sinistro);
-      }else if(oPigro==occhioPigro.sinistro){
-            changePigro(occhioPigro.sano);
-      }else if(oPigro==occhioPigro.sano){
-            changePigro(occhioPigro.destro);
-      }
     }
     private void setGP(UnityEngine.Camera cP,UnityEngine.Camera cS){
             //Cp occhio pigro->visualizza tutto
             //cS visualizza in parte
             cP.cullingMask=-1;
+            cS.cullingMask=-1;
             if(occhioDiff==pigroGrandezza.grande)
               cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioPigroG"));
             else if(occhioDiff==pigroGrandezza.piccolo){
@@ -42,6 +30,7 @@ public class GestioneTwoC : MonoBehaviour
               cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioPigroP"));
             }
     }
+    
     public void changePigro(occhioPigro goal){
       //&=  ~(1 <<   ->visualizza tutto tranne...
       if(goal==occhioPigro.destro){
@@ -64,8 +53,15 @@ public class GestioneTwoC : MonoBehaviour
 
       Dx.transform.localEulerAngles=Vector3.up*angle;
       Sx.transform.localEulerAngles=-Vector3.up*angle;
+
       if(Input.GetButtonDown("x") && SetUp.command){
-        changePigro();
+         if(oPigro==occhioPigro.destro)
+            oPigro=occhioPigro.sinistro;
+         else if(oPigro==occhioPigro.sinistro)
+             oPigro=occhioPigro.sano;
+         else if(oPigro==occhioPigro.sano)
+             oPigro=occhioPigro.destro;  
       }
+      changePigro(oPigro);
     }
 }
