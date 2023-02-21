@@ -12,6 +12,7 @@ public class teleporter : MonoBehaviour
      public InputActionAsset controller;
     void Start()
     {
+      ball.SetActive(false);
        // controller.FindAction("Tel_press").started +=tel;      
     }
     private void moveBall(){
@@ -20,7 +21,7 @@ public class teleporter : MonoBehaviour
         float y=Input.GetAxis("stick_left_y");
         if((Mathf.Abs(x)>=0.1f || Mathf.Abs(y)>=0.1f)){
            ball.SetActive(true);
-          
+        
            if(!ball.GetComponent<CharacterController>().enabled){
                Vector3 angle;
                ball.transform.localEulerAngles=transform.localEulerAngles;
@@ -38,8 +39,9 @@ public class teleporter : MonoBehaviour
         }
         else{
            Destroy(o);
+           ball.SetActive(false);
            ball.GetComponent<CharacterController>().enabled = false;
-           ball.transform.localPosition=new Vector3(0,0,3f);
+           ball.transform.localPosition=new Vector3(0,0,0f);
         }
         if(Input.GetButtonDown("stick_left_press"))
            tel();

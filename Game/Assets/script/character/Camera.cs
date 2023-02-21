@@ -11,7 +11,6 @@ public class Camera : MonoBehaviour
     public enum typeMouve{mouse,gyro};
     public typeMouve typeMCamera;
     private enum position{sinistra,centro,destra}
-    private position posCamera;
     private float rotationX = 0f;
     private float rotationY = 0f;
     public GameObject testaR;
@@ -57,7 +56,11 @@ public class Camera : MonoBehaviour
                 body.transform.Rotate(0, rotationY*speedRotationM*Time.deltaTime,0);
               //  body.GetComponent<CharacterController>().Rotate(0, rotationY*speedRotationM,0);
         }
-        if(testaR.transform.localEulerAngles.x>180 && testaR.transform.localEulerAngles.x<(360-MrotateX)){
+       
+     
+    }
+    private void fixAngle(){
+         if(testaR.transform.localEulerAngles.x>180 && testaR.transform.localEulerAngles.x<(360-MrotateX)){
             testaR.transform.localEulerAngles+=Vector3.right*((360-MrotateX)-testaR.transform.localEulerAngles.x);
         }
         if(testaR.transform.localEulerAngles.x<180 && testaR.transform.localEulerAngles.x>MrotateX){
@@ -70,7 +73,6 @@ public class Camera : MonoBehaviour
         if(testaR.transform.localEulerAngles.z<180 && testaR.transform.localEulerAngles.z>MrotateZ){
             testaR.transform.localEulerAngles+=Vector3.forward*(MrotateZ-testaR.transform.localEulerAngles.z);
         }
-       
     }
     public void resetV(){
             testaR.transform.localEulerAngles=new Vector3(0,0,0);
@@ -84,18 +86,27 @@ public class Camera : MonoBehaviour
     }
     void dir_ori(float dir){
         if(dir==1 && transform.localPosition.x==0){
-            posCamera=position.destra;
             transform.localPosition+=Vector3.right*(dInclinate); 
         }else if(dir==-1 && transform.localPosition.x==0){
-            posCamera=position.sinistra;
             transform.localPosition-=Vector3.right*(dInclinate); 
         }else if(dir==0){
-           posCamera=position.centro;
             transform.localPosition-=Vector3.right*(transform.localPosition.x); 
         }
     }
     private void Update(){
-        angle();
+       
+        if(Input.GetAxis("rb")==0f){
+           angle();
+           SetUp.command=true;
+        }else{
+           
+            float x=Input.GetAxis("stick_right_x");
+            SetUp.command=false;
+            body.transform.Rotate(0, x*sensibility,0);
+            
+        }
+        
+        fixAngle();
         float dir;
         if(SetUp.command)
            dir=Input.GetAxis("d_pad_x");

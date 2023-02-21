@@ -6,6 +6,8 @@ public class bullet : MonoBehaviour
 {
     public float speed;
     public float force;
+    public float timeM;
+    private float time;
     void Start()
     
     {
@@ -14,6 +16,11 @@ public class bullet : MonoBehaviour
     void Update()
     {
        transform.Translate(Vector3.forward*speed*Time.deltaTime);
+       time+=Time.deltaTime;
+       if(time>=timeM){
+        time=0;
+          Destroy(gameObject);
+       }
 
     }
      void OnCollisionEnter(Collision collision) {
