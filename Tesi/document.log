@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.2.26)  26 FEB 2023 18:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.2.26)  27 FEB 2023 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -122,22 +122,51 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-] [2]
+]
+File: image/pvs.jpg Graphic file (type bmp)
+<image/pvs.jpg>
+ [2] [3]
 File: image/patching.jpg Graphic file (type bmp)
 <image/patching.jpg>
 File: image/penalizzazione ottica.jpg Graphic file (type bmp)
 <image/penalizzazione ottica.jpg>
- [3]
+ [4]
 File: image/luminopia.jpg Graphic file (type bmp)
 <image/luminopia.jpg>
- [4] (document.aux) ) 
+
+Overfull \hbox (11.66586pt too wide) in paragraph at lines 94--95
+\T1/lmr/m/n/10 Maggiore è l'età della di-ag-nosi, mi-nori sono le pos-si-bil-it
+à di re-cu-pero dall'ambliopia. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[5]
+File: image/3D4Amb.png Graphic file (type bmp)
+<image/3D4Amb.png>
+
+Overfull \hbox (13.08391pt too wide) in paragraph at lines 104--110
+\T1/lmr/m/n/10 costo rel-a-ti-va-mente basso che si ag-gira sui 10$, esso ci pe
+r-me-tte di mostrare/alterare
+ []
+
+[6]
+Overfull \hbox (1.8333pt too wide) in paragraph at lines 120--121
+\T1/lmr/m/n/10 agevolando quindi l'estensione del sis-tema, ag-giun-gendo nuove
+ ap-pli-cazione
+ []
+
+[7] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 1396 strings out of 411476
- 22915 string characters out of 5818380
- 1849001 words of memory out of 5000000
- 21632 multiletter control sequences out of 15000+600000
+ 1440 strings out of 411476
+ 23726 string characters out of 5818380
+ 1847001 words of memory out of 5000000
+ 21674 multiletter control sequences out of 15000+600000
  545364 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,6n,62p,336b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,6n,62p,371b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (4 pages).
+Output written on document.pdf (7 pages).
