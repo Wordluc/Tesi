@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SetUp : MonoBehaviour
 {
+    public static int score;
     public float g;
     static public bool command;
     void Start()
