@@ -1,6 +1,7 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage{graphicx} %LaTeX package to import graphics
 \graphicspath{image/} %configuring the graphicx package,le immagini si trovano in image/
+\usepackage{hyperref}
 \usepackage{float}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -16,7 +17,7 @@
 	
 	
 	\begin{abstract}
-		Trattazione condizione dell'ambliopia anche detta "occhio pigro" mediante l'utilizzo di un applicativo mobile.
+		Trattazione ambliopia anche detta "occhio pigro" mediante l'utilizzo di un applicativo mobile.
 	\end{abstract}
 	 \newpage
 	\section {Ambliopia}
@@ -26,7 +27,8 @@
 	La seguente patologia si può manifestare con più probabilità in maniera asimmetrica, \textbf{monolaterale}, il quale colpisce un solo occhio o più raramente possiamo trovare la forma \textbf{bilaterale}, il quale colpisce entrambi gli occhi.
 	Normalmente l'ambliopia non peggiora durante la vita adulta in quanto oramai lo sviluppo alterato della vista si è oramai instaurato, l'età in cui l'ambliopia si stabilizzi in modo permanente va dagli 8 ai 15 anni.
 	\subsection{Diagnosi}
-	La diagnosi è un punto fondamentale per il trattamento dell'ambliopia, in quanto, una diagnosi tardiva può influire negativamente sulla corretta terapia, che in genere viene personalizzata dal medico oculistico. 
+	La diagnosi è un punto fondamentale per il trattamento dell'ambliopia, in quanto, una diagnosi tardiva può influire negativamente sulla corretta terapia, ricucendo le possibilità di recupero.
+	Il trattamento in genere viene personalizzata dal medico oculistico.
 	\begin{itemize}
 		\item Classica, in cui si cerca di stabilire l'acuità visiva e la visione binoculare del piccolo paziente. In caso di strabismo sarà necessaria anche una visita ortottica, il quale, è una branca dell'oftalmologia che si occupa della valutazione e riabilitazione di deficit muscolari e sensoriali.
 		\item Pediatric Vision Scanner, Negli ultimi anni si sta sviluppando un nuovo metodo in grado di riconoscere l'ambliopia in età pediatrica con alta precisione.
@@ -35,14 +37,15 @@
 		Il seguente metodo potrebbe permettere di diagnosticare l'ambliopia già dai 2 di età.
 		\begin{figure}[h]
 			\centering
-			\includegraphics[width=0.6\linewidth]{image/pvs}
+			\includegraphics[width=0.5\linewidth]{image/pvs}
 			\caption{Pediatric Vision Scanner}
 			\label{fig:pvs}
 		\end{figure}
 	\end{itemize}
+    \newpage
 	\subsection{Cause}
 	In generale come detto prima, l'occhio pigro riguarda il progressivo trascuramento dei segnali di uno dei due occhi.
-	Questo processo di sviluppo è causato da un non corretto sviluppo delle vie nervose degli occhi, le quali vengono stimolate in modo non bilanciate, ciò è dovuto magari dalla presenza di una condizione oculare presente in uno dei due occhio(nel caso di \textbf{monolaterale }.
+	Questo processo di sviluppo è causato da un non corretto sviluppo delle vie nervose degli occhi, le quali vengono stimolate in modo non bilanciate, ciò è dovuto magari dalla presenza di una condizione oculare presente in uno dei due occhio(nel caso di \textbf{monolaterale}.
 	Alcune condizioni che possono insorgere sono:
 	\begin{itemize}
 		\item Astigmatismo:Visione è poco nitida e distorta in qualsivoglia direzione.
@@ -66,7 +69,7 @@
 	\begin{itemize}
 		\item Patching, La terapia consiste nel coprire l'occhio dominante, da applicare per un perioda di tempo variabile.
 		Il trattamento è efficacie ma il recupero della vista impiega diversi mesi.       	   
-			\begin{figure}[h]
+			\begin{figure}[!h]
 				\centering
 				\includegraphics[width=0.7\linewidth]{image/patching}
 				\caption{Trattamento con Patching}
@@ -84,7 +87,7 @@
     	\newpage
 		\item Collirio, permette di offuscare la vista dell'occhio dominante, in modo da poter stimolare il l'occhio più debole
 		
-		\item Luminopia, è un software approvato da  \textbf{Food and Drug Administration(FDA)} come annunciato dal CEO Scott Xiao, che permette ai pazienti di poter usufruire di 700 ore di serie o film, adattati tramite AI, questo permette di rendere il trattamento dell'ambliopia piacevole e quindi sopportabile nel lungo periodo.
+		\item Luminopia, è un software approvato da  \textbf{Food and Drug Administration(FDA)} come annunciato dal CEO Scott Xiao, che permette ai pazienti di poter usufruire di 700 ore di serie o film, adattati tramite AI. Questo sistema permette di rendere il trattamento dell'ambliopia piacevole e quindi sopportabile nel lungo periodo.
 		I pazienti usufruiscono di questi contenuti mediante il vr, in modo da poter visionare i contenuti scelti.
 			\begin{figure}[h]
 				\centering
@@ -93,35 +96,74 @@
 				\label{fig:luminopia}
 			\end{figure}
 	\end{itemize}
-	Maggiore è l'età della diagnosi, minori sono le possibilità di recupero dall'ambliopia.\\
-	\newpage
+	\newpages
 	\section{3D4Amb}
-	Il progetto è nato con l'intenzione di, creare uno strumento utile ed economico per il trattamento dell'occhio pigro basato sul 3D e per andare a misurare l'ambliopia.
+	Il progetto è nato con l'intenzione di, creare uno strumento utile ed economico per il trattamento, misurazione dell'occhio pigro basato sul 3D.
 	
-	\subsection{Funzionamento}
+	\subsection{Funzionamento e strumenti}
 	Il funzionamento di base è sempre lo stesso, si va a mostrare al paziente due immagini diverse ma correlate tra loro, pre-elaborate tramite il software 3D4Amb.
-	3D4Amb utilizza diversi supporti tecnologici, come il cardboard o la il quale ci permette di realizzare delle applicazione video ludiche basate sulla differenziazione delle immagini,come detto sopra, il tutto relativamente a basso costo.
-	Per poter utilizzare 3D4Amb bisogna garantire lo sdoppiamento delle immagine per i due occhi, le quali dovranno essere mostrate ai due occhi, per garantire la corretta esposizione si sono sperimentate diverse strade tra cui, Cardboard o occhiali anaglifici.
-	\subsubsection{Cardboard}
-	Questo dispositivo ci permette di poter usufruire della tecnolagia 3D con un costo relativamente basso che si aggira sui 10\$, esso ci permette di mostrare/alterare alcuni elementi i una delle due lenti, in cui si trova l'occhio sano. 
+	3D4Amb utilizza diversi supporti tecnologici, il quale ci permette di realizzare delle applicazione video ludiche basate sulla differenziazione delle immagini,come detto sopra, il tutto relativamente a basso costo.
+	Per poter utilizzare 3D4Amb bisogna garantire lo sdoppiamento delle immagine per i due occhi, le quali dovranno essere mostrate ai due occhi, per garantire la corretta esposizione si sono sperimentate diverse strade per separare le immagini.
+	\subsubsection{Cardboard}\label{chap:cardboard}
+	Questo dispositivo ci permette di poter usufruire della tecnolagia 3D con un costo relativamente basso che si aggira sui 10\$, esso ci permette di mostrare e/o alterare alcuni elementi i una delle due lenti, in cui si trova l'occhio sano. 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{image/3D4Amb}
-		\caption{Gioco creato per il cardboard }
-		\label{fig:cardboard-3D4Amb}
+		\includegraphics[width=0.6\linewidth]{image/3D4Amb_1}
+		\caption{Differenziazione colori }
+		\label{fig:cardboard-3D4Amb_colori}
 	\end{figure}
-    Come mostrato nella figura \label{cardboard-3D4Amb}, le immagini mostrate differisco per il colore, vi sono casi in cui si può andare ad mettere un elemento della scena
+
+    Come mostrato nella fig:\ref{fig:cardboard-3D4Amb_colori}, le immagini mostrate differisco per il colore, vi sono casi in cui si può andare ad omettere un elemento della scena fig:\ref{fig:cardboard-3D4Amb_elementi}
+    	\begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.8\linewidth]{image/3D4Amb_2}
+    	\caption{Differenziazione elementi su schermo }
+    	\label{fig:cardboard-3D4Amb_elementi}
+    \end{figure}
+	\newpage
 	\subsubsection{Occhiali Anaglifici}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\linewidth]{image/occhiali_anaglifici}
+		\caption{occhiali anaglifici}
+		\label{fig:occhiali_anaglifici}
+	\end{figure}
+	Gli occhiale fig:\ref{fig:occhiali_anaglifici}, sono provvisti da due lenti dette anche  filtri in \textbf{gelatina rossa e ciano}, i quali vengono usati per poter osservare un immagine composta, da due immagini distanti (generalmente 5,7 cm) con colori complementari fig:\ref{fig:anaglifo}, gli occhiali vengo usati per poter osservare l'immagine cromatica complementare, questo permette di ricreare l'effetto tridimensionale.
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.6\linewidth]{image/anaglifo}
+	 	\caption{Anaglifo }
+	 	\label{fig:anaglifo}
+	 \end{figure}
+ \newpage
+	\subsubsection{Active shutter 3D system}
+	Questo tipi di tecnologia ci permette di mostrare delle immagini immagine in rapida successione, un volta nel occhio di destra, una quello di sinistra, questa operazione viene fatta con alta frequenza, creando quindi la sensazione di visione tridimensionale, a differenza del cardboard cap:\ref{chap:cardboard}, in cui le immagini sono mostrate contemporaneamente.
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{image/active-shutter-3d-technology}
+		\caption{Differenziazione elementi su schermo }
+		\label{fig:occhiali active-shutter-3d-technology}
+	\end{figure}
+
 	\subsection{Obiettivi}
 	Utilizzando la tecnologia 3D è possibile trattare la l'ambliopia, attraverso un approccio ludico, permettendo quindi di intrattenere maggiormente il paziente, spesso in età giovanile, aumentando quindi la probabilità di successo.
 	I punti in cui 3D4Amb si focalizza sono:
 	\begin{itemize}
-		\item Basso costoso, il sistema e si basa su tecnologie a basso costo.
+		\item Basso costoso, il sistema si basa su tecnologie a basso costo.
 		\item Facile da usare, non richiede nessun particolare capacità, permettendo anche ai pazienti più piccoli di poter usufruire del sistema senza l'assistenza dei genitori.
 		\item Uso domestico, il sistema può essere utilizzato nel ambiente domestico, evitando quindi le visite frequenti all'ospedale
 		\item Facilmente estendibile, 3D4Amb permette di usare le librerie software, agevolando  quindi l'estensione del sistema, aggiungendo nuove applicazione o funzioni.
 	\end{itemize}
-	
-	\section{title}
+	\newpage
+	\section{Tecnologie utilizzate}
+	Nel era moderna, le tecnologie disponibili sono diverse, per la realizzazione del progetto mi sono avvalso delle seguenti tecnologie:
+	\begin{itemize}
+		\item:Unity 3D, motore di gioco
+		\item:Visual Code, editor di codice sorgente
+		\item:Blender, creazione di elementi 3D
+	\end{itemize}
+	\subsection{Unity 3D}
+	\subsection{Visual code}
+	\subsection{Blender}
 	\thanks{Cristina D'avena,Matteo Verzeroli }
 \end{document}
