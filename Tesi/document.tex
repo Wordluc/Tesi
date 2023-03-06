@@ -18,8 +18,12 @@
 	
 	\begin{abstract}
 		Trattazione ambliopia anche detta "occhio pigro" mediante l'utilizzo di un applicativo mobile.
-	\end{abstract}
-	 \newpage
+	\end{abstract} 
+    \newpage
+    \null
+    \newpage
+    
+	 
 	\section {Ambliopia}
 	L'ambliopia, anche conosciuta come "occhio pigro" è una patologia che si manifesta nei prima anni dello sviluppo, età compresa tra 0-6 anni, il quale colpisce circa il 4\% della popolazione mondiale.
 	La patologia riguarda la non corretta stimolazione dell'apparato visivo, in questo caso il cervello non riesce a ricreare l'immagine tridimensionale e quindi per evitare il fenomeno della visione doppia, anche detta \textbf{diplopia}, il cervello tenterà a sopprimere un immagine.
@@ -33,16 +37,17 @@
 		\item Classica, in cui si cerca di stabilire l'acuità visiva e la visione binoculare del piccolo paziente. In caso di strabismo sarà necessaria anche una visita ortottica, il quale, è una branca dell'oftalmologia che si occupa della valutazione e riabilitazione di deficit muscolari e sensoriali.
 		\item Pediatric Vision Scanner, Negli ultimi anni si sta sviluppando un nuovo metodo in grado di riconoscere l'ambliopia in età pediatrica con alta precisione.
 		Come pubblicato nel articolo 	ARTICOLOOOOO, in cui si prende in esame Pediatric Vision Scanner(PVS),il quale scatta una foto di entrambi gli occhi andando a misurare errore di rifrazione e disallineamento.
-		Si è riscontrata una precisione del 100\%, ovvero tutti e 6 i bambini sono stati identificati correttamente.
-		Il seguente metodo potrebbe permettere di diagnosticare l'ambliopia già dai 2 di età.
-		\begin{figure}[h]
+			\begin{figure}[h]
 			\centering
 			\includegraphics[width=0.5\linewidth]{image/pvs}
 			\caption{Pediatric Vision Scanner}
 			\label{fig:pvs}
-		\end{figure}
+		\end{figure}\\
+		Si è riscontrata una precisione del 100\%, ovvero tutti e 6 i bambini sono stati identificati correttamente.
+		Il seguente metodo potrebbe permettere di diagnosticare l'ambliopia già dai 2 di età.
+	
 	\end{itemize}
-    \newpage
+   
 	\subsection{Cause}
 	In generale come detto prima, l'occhio pigro riguarda il progressivo trascuramento dei segnali di uno dei due occhi.
 	Questo processo di sviluppo è causato da un non corretto sviluppo delle vie nervose degli occhi, le quali vengono stimolate in modo non bilanciate, ciò è dovuto magari dalla presenza di una condizione oculare presente in uno dei due occhio(nel caso di \textbf{monolaterale}.
@@ -96,7 +101,10 @@
 				\label{fig:luminopia}
 			\end{figure}
 	\end{itemize}
-	\newpages
+\newpage
+\null
+\newpage
+
 	\section{3D4Amb}
 	Il progetto è nato con l'intenzione di, creare uno strumento utile ed economico per il trattamento, misurazione dell'occhio pigro basato sul 3D.
 	
@@ -155,6 +163,9 @@
 		\item Facilmente estendibile, 3D4Amb permette di usare le librerie software, agevolando  quindi l'estensione del sistema, aggiungendo nuove applicazione o funzioni.
 	\end{itemize}
 	\newpage
+	\null
+	\newpage
+	
 	\section{Tecnologie utilizzate}
 	Nel era moderna, le tecnologie disponibili sono diverse, per la realizzazione del progetto mi sono avvalso delle seguenti tecnologie:
 	\begin{itemize}
@@ -162,8 +173,54 @@
 		\item:Visual Code, editor di codice sorgente
 		\item:Blender, creazione di elementi 3D
 	\end{itemize}
-	\subsection{Unity 3D}
+	\subsection{Unity 3D}\label{unity3D}
+	Unity 3D è un motore di gioco, il quale permette di realizzare dei videogiochi, la sua comunity e le varie guide messe a disposizione da unity mi hanno permesso di cimentarmi in questo progetto superando il plateau d'apprendimento.
+	Si tratta di uno strumento che permette di alleggerire il processo di produzione attraverso l'utilizzo di un interfaccia grafica ben organizzata, vi sono 4 schermate principali:
+	\begin{itemize}
+		\item Scene, Permette di spostare e/o modificare gli oggetti nella scena.
+		\item Simulator, Permette di eseguire l'applicativo.
+		\item Inspector, Il quale mette a disposizione delle impostazione di modifica.
+		\item Hierarchy, Mostra i vari elementi nella scena.
+	\end{itemize}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{image/unity}
+	\caption{Schermate unity}
+	\label{fig:unity}
+\end{figure}
+    Questo motore di gioco ci permette di poter realizzare i propri prodotti indipendentemente dalla piattaforma per poi andare a costruire la versione apposita, senza dovere modificare niente
+    Una funzione molto importante per questo progetto è stata la simulazione su dispositivo android, il quale mi ha permesso di poter provare l'applicativo direttamente sul mio telefono con il cardboard, cap:\ref{chap:cardboard}, e al contempo interagire e/o modificare la scena.
+    \subsection{Blender}
+    Software di modellazione 3D Open-Source, che offre tutte le funzionalità necessarie per creare, modellare e animare qualsiasi oggetto tridimensionale, e non solo. Ecco un elenco delle sue principali caratteristiche:
+    \begin{itemize}
+    	\item Strumenti di creazione, per la modellazione di oggetti tridimensionali
+    	\item Funzionalità di animazione, per rendere vivaci gli oggetti creati
+        \item Strumenti di pittura, per la creazione di texture
+    	\item Funzionalità di rendering, per poter visualizzare l'oggetto realizzato, in relazione con l'ambiente.
+    \end{itemize}
+    Blender è stato principalmente usato per la realizzazione delle strutture architettoniche presenti all'interno del progetto.
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.7\linewidth]{image/blender}
+    	\caption{Schermata iniziale Blender}
+    	\label{fig:Blender}
+    \end{figure}
 	\subsection{Visual code}
-	\subsection{Blender}
+	Visual code è un editor di codice usato in correlazione con unity 3D per la realizzazione degli script di gioco.
+	L'editor presenta diverse estensioni, i quale permettono di ampliare le funzionalità e/o linguaggi supportati.
+	 \begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{image/visual_code}
+		\caption{Esempio di script realizzato con visual code}
+		\label{fig:visual_code}
+	\end{figure}
+    Le estensioni utilizzate in questo progetto riguardano principalmente l'interazione con unity 3D, \ref{unity3D}, esempio:
+    \begin{itemize}
+    	\item Unity code snippets, usato per introdurre l'auto completamento di porzioni di codice standard.
+    	\item Unity tools, installato per poter consultare la documentazione in modo facile e dinamico. 
+    \end{itemize}
+    \newpage
+    \null
+    \newpage
 	\thanks{Cristina D'avena,Matteo Verzeroli }
 \end{document}

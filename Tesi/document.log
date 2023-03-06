@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.2.26)  4 MAR 2023 16:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.2.26)  6 MAR 2023 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,61 +280,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-]
+] [2]
 File: image/pvs.jpg Graphic file (type bmp)
 <image/pvs.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3]
+ [3] [4]
 File: image/patching.jpg Graphic file (type bmp)
 <image/patching.jpg>
 File: image/penalizzazione ottica.jpg Graphic file (type bmp)
 <image/penalizzazione ottica.jpg>
- [4]
+ [5]
 File: image/luminopia.jpg Graphic file (type bmp)
 <image/luminopia.jpg>
-
-! Undefined control sequence.
-l.99 ^^I\newpages
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+ [6] [7]
 File: image/3D4Amb_1.png Graphic file (type bmp)
 <image/3D4Amb_1.png>
-[5]
 File: image/3D4Amb_2.png Graphic file (type bmp)
 <image/3D4Amb_2.png>
- [6]
+
+[8]
 File: image/occhiali_anaglifici.png Graphic file (type bmp)
 <image/occhiali_anaglifici.png>
 File: image/anaglifo.jpg Graphic file (type bmp)
 <image/anaglifo.jpg>
- [7]
+ [9]
 File: image/active-shutter-3d-technology.png Graphic file (type bmp)
 <image/active-shutter-3d-technology.png>
 
-Overfull \hbox (1.8333pt too wide) in paragraph at lines 155--156
+Overfull \hbox (1.8333pt too wide) in paragraph at lines 163--164
 \T1/lmr/m/n/10 agevolando quindi l'estensione del sis-tema, ag-giun-gendo nuove
  ap-pli-cazione
  []
 
-[8] [9] (document.aux)
+[10] [11]
+File: image/unity.png Graphic file (type bmp)
+<image/unity.png>
+ [12]
+File: image/blender.png Graphic file (type bmp)
+<image/blender.png>
+File: image/visual_code.png Graphic file (type bmp)
+<image/visual_code.png>
+
+Overfull \hbox (19.05608pt too wide) in paragraph at lines 217--218
+[]\T1/lmr/m/n/10 Le es-ten-sioni uti-liz-zate in questo pro-getto riguardano pr
+in-ci-pal-mente l'interazione
+ []
+
+[13]
+Overfull \hbox (0.5276pt too wide) in paragraph at lines 219--220
+[]\T1/lmr/m/n/10 Unity code snip-pets, us-ato per in-tro-durre l'auto com-ple-t
+a-mento di porzioni
+ []
+
+[14] [15] [16] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 6D9BD3067BA5649761F7FD0DC77D87ED;1771.
+(rerunfilecheck)             Checksum: F351DB136E7593DC491BA7B8FC36EA3C;1771.
  ) 
 Here is how much of TeX's memory you used:
- 8434 strings out of 411476
- 133898 string characters out of 5818380
+ 8492 strings out of 411476
+ 135133 string characters out of 5818380
  1851001 words of memory out of 5000000
- 28574 multiletter control sequences out of 15000+600000
+ 28629 multiletter control sequences out of 15000+600000
  545724 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,6n,76p,473b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,76p,473b,388s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document.pdf (9 pages).
+Output written on document.pdf (16 pages).
