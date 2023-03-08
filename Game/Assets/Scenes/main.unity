@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedRotationM: 1
   limitRotate: 1
-  typeMCamera: 0
+  typeMCamera: 1
   testaR: {fileID: 1615888794}
   heightH: 1
   heightL: -0.1

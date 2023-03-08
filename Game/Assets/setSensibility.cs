@@ -16,7 +16,7 @@ public class setSensibility : MonoBehaviour
        
     }
    void OnEnable(){
-         dot.transform.localPosition=Vector3.right*((Camera.sensibility-Camera.sensibilityIni)*step); 
+         dot.transform.localPosition=Vector3.right*(-6+Camera.sensibility/(step*multi)); 
    }
     void Update()
     {   
