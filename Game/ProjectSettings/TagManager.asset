@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - bullet
+  - OcchioMalato
+  - new
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - Teletrasporto
   - Water
   - UI
-  - OcchioPigroG
-  - OcchioPigroP
+  - OcchioMalato
+  - 
   - Terreno
   - 
   - 

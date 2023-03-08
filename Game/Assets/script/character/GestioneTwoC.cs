@@ -9,26 +9,20 @@ public class GestioneTwoC : MonoBehaviour
     public UnityEngine.Camera Dx;
     public UnityEngine.Camera Sx;
     public enum occhioPigro{destro,sinistro,sano};
-    public enum pigroGrandezza{grande,piccolo}
-    public pigroGrandezza occhioDiff;
     public occhioPigro oPigro;
     public int dOcchi;
     public float angle;
     void Start()
     { 
-      occhioDiff=pigroGrandezza.grande;
+      oPigro=occhioPigro.destro;
     }
     private void setGP(UnityEngine.Camera cP,UnityEngine.Camera cS){
             //Cp occhio pigro->visualizza tutto
             //cS visualizza in parte
             cP.cullingMask=-1;
             cS.cullingMask=-1;
-            if(occhioDiff==pigroGrandezza.grande)
-              cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioPigroG"));
-            else if(occhioDiff==pigroGrandezza.piccolo){
-              cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioPigroG"));
-              cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioPigroP"));
-            }
+            cS.cullingMask&=  ~(1 << LayerMask.NameToLayer("OcchioMalato"));
+           
     }
     
     public void changePigro(occhioPigro goal){
