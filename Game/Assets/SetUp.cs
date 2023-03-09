@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class SetUp : MonoBehaviour
 {
+       public TextMeshPro text;
     public static int score;
     public float g;
     public float trasparency;
@@ -12,33 +13,39 @@ public class SetUp : MonoBehaviour
     {
         Physics.gravity = new Vector3(0, -g, 0);
         GameObject []a=GameObject.FindGameObjectsWithTag("OcchioMalato");
-       foreach(GameObject o in a){
+        foreach(GameObject o in a){
            GameObject sano=Instantiate(o);
-           sano.GetComponent<Rigidbody>().isKinematic = true;
+           Destroy(sano.GetComponent<Rigidbody>());//creo l'oggetto e disattivo rigidbody
+           Collider[] colliders = sano.GetComponents<Collider>();
+            // Disattiva tutti i Collider
+            foreach (Collider collider in colliders)
+            {
+                collider.enabled = false;
+            }
            sano.layer=0;
-           sano.tag="new";
+           sano.tag="new";//imposto il layer di default e cambio tag
            sano.transform.localScale=new Vector3(1,1,1);
-           Material m=Resources.Load<Material>("s"+o.GetComponent<Renderer>().material.name.Replace(" (Instance)",""));
+           Material m=Resources.Load<Material>("s"+o.GetComponent<Renderer>().material.name.Replace(" (Instance)",""));//carico il materiale presente in resurces
            Color c=m.color;
-           c.a = trasparency;
+           c.a = trasparency/100;//rendo il materiale trasparente
            m.color=c;
            sano.GetComponent<Renderer>().material=m;
-           sano.transform.SetParent(o.transform);
-            sano.transform.localScale=new Vector3(1,1,1);
+           sano.transform.SetParent(o.transform);//settto l'oggetto creato come figlio
+           sano.transform.localScale=new Vector3(1,1,1);
        }
     }
-    void changeT(){
-          GameObject []a=GameObject.FindGameObjectsWithTag("new");
-       foreach(GameObject o in a){
-         
-           Material m=o.GetComponent<Renderer>().material;
-           Color c=m.color;
-           c.a = trasparency;
-           m.color=c;
-           o.GetComponent<Renderer>().material=m;
-       }
+    void changeT(){//adeguo la trasparenza a tutti gli oggetti con tag new 
+           GameObject []a=GameObject.FindGameObjectsWithTag("new");
+           foreach(GameObject o in a){   
+                Material m=o.GetComponent<Renderer>().material;
+                Color c=m.color;
+                c.a = trasparency;
+                m.color=c;
+                o.GetComponent<Renderer>().material=m;
+           }
     }
     void Update(){
         changeT();
+        text.text="Score:"+SetUp.score;
     }
 }
