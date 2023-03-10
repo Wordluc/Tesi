@@ -21,13 +21,15 @@ public class Menu : MonoBehaviour
     }
     
     void Update()
-    {    
+    {   
         switch(finestre){
             case stati.close:
                  setting.SetActive(false);
                  scelta.SetActive(false);
-                 if(Input.GetButtonDown("option_right"))
+                 if(Input.GetButtonDown("option_right")){
                      finestre=stati.menu;
+                       SetUp.setCommand("chiusura menù",false);
+                 }
                 
             break;
             case stati.setting:
@@ -35,7 +37,6 @@ public class Menu : MonoBehaviour
                  scelta.SetActive(false);
             break;
             case stati.menu:
-             SetUp.command=false;
                  scelta.SetActive(true);
                  setting.SetActive(false);
                  if(Input.GetAxis("d_pad_y")==-1)
@@ -54,7 +55,7 @@ public class Menu : MonoBehaviour
         if(store_finestre!=finestre){//catturare cambio variabile
             if(finestre==stati.close){
                 camera.resetV();
-                 SetUp.command=true;
+                SetUp.setCommand("chiusura menù",true);
             }
             store_finestre=finestre;
         }
@@ -68,7 +69,6 @@ public class Menu : MonoBehaviour
              setting_back.SetActive(false);
            exit_back.SetActive(true);
         }
-
 
 
     }

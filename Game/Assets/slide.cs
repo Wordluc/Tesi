@@ -1,24 +1,30 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class slide : MonoBehaviour
 {
     public GameObject dot;//oggetto dot 
-    private float sen;
     public float step;//incremento posizione dot
-    public float multi;
-    public TextMeshPro text;
+   
+ 
     public bool status;//indicatore di selezione 
-    public GameObject statusText;
+    public GameObject statusText;//indicatore di stato
+    private float yt;
+      public TextMeshPro textValue;
     void Start()
     {
        
     }
-   void OnEnable(){
-         dot.transform.localPosition=Vector3.right*(-6+Camera.sensibility/(step*multi)); 
+   public void setUp(float multi,float y){
+         dot.transform.localPosition=Vector3.right*(-5+y/multi); 
+          yt=((dot.transform.localPosition.x+5));
+            textValue.text=((int)yt+"");
    }
-    void Update()
+   public float getY(){
+      return yt;
+   }
+    public void changeDot()
     {   
       if(status){
          statusText.SetActive(true);
@@ -30,14 +36,12 @@ public class slide : MonoBehaviour
             if(dot.transform.localPosition.x>-5){
                dot.transform.Translate(Vector3.left*step); 
             }
-            sen=((dot.transform.localPosition.x+6)*step);
-            text.text=((int)sen+"");
-         if(Input.GetButtonDown("x")){
-               Camera.sensibility=sen*multi;
-         }
+       
+            yt=((dot.transform.localPosition.x+5));
+            
+        
         
       }else
          statusText.SetActive(false);
    }
 }
-*/

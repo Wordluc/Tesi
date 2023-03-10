@@ -18,7 +18,7 @@ public class move : MonoBehaviour
            Vector3 move=new Vector3(Input.GetAxis("stick_right_x"),-1,-Input.GetAxis("stick_right_y"))*Time.deltaTime;
            
            move = this.transform.TransformDirection(move);
-           if( SetUp.command){
+           if( SetUp.getCommand()){
               body.Move(move*speed);
         
            }

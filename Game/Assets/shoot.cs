@@ -23,7 +23,7 @@ public class shoot : MonoBehaviour
          
         float rt=Input.GetAxis(command);//in modo da poter usare sia controller xbox che playStation
         gun.transform.localPosition+=(originalP-gun.transform.localPosition)*resistThrill*Time.deltaTime;
-        if(rt>0f && SetUp.command){
+        if(rt>0f && SetUp.getCommand()){
              if(timeShoot>=mTimeShoot){
                  timeShoot=0f; 
                  gun.transform.localPosition+=Vector3.forward*forceThrill*Time.deltaTime;

@@ -4,11 +4,18 @@ using UnityEngine;
 using TMPro;
 public class SetUp : MonoBehaviour
 {
-       public TextMeshPro text;
+    public TextMeshPro text;
     public static int score;
     public float g;
     public float trasparency;
-    static public bool command;
+    static private bool command;
+    public static void setCommand(string who,bool value){
+        command=value;
+        Debug.Log(who+":"+value);
+    }
+     public static bool getCommand(){
+        return command;
+    }
     void Start()
     {
         Physics.gravity = new Vector3(0, -g, 0);

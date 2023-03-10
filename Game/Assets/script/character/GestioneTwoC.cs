@@ -48,7 +48,7 @@ public class GestioneTwoC : MonoBehaviour
       Dx.transform.localEulerAngles=Vector3.up*angle;
       Sx.transform.localEulerAngles=-Vector3.up*angle;
 
-      if(Input.GetButtonDown("b") && SetUp.command){
+      if(Input.GetButtonDown("b") && SetUp.getCommand()){
          if(oPigro==occhioPigro.destro)
             oPigro=occhioPigro.sinistro;
          else if(oPigro==occhioPigro.sinistro)

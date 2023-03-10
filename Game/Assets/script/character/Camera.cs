@@ -97,25 +97,24 @@ public class Camera : MonoBehaviour
        
         if(Input.GetAxis("rb")==0f){
            angle();
-           SetUp.command=true;
         }else{
            
             float x=Input.GetAxis("stick_right_x");
-            SetUp.command=false;
+        
             body.transform.Rotate(0, x*sensibility,0);
             
         }
         
         fixAngle();
         float dir;
-        if(SetUp.command)
+        if(SetUp.getCommand())
            dir=Input.GetAxis("d_pad_x");
         else
            dir=0;
-        if(Input.GetButtonDown("y") && SetUp.command){
+        if(Input.GetButtonDown("y") && SetUp.getCommand()){
             resetV();
         }
-        if(Input.GetButtonDown("stick_right_press")&& SetUp.command){
+        if(Input.GetButtonDown("stick_right_press")&& SetUp.getCommand()){
             up_down();
         }
         dir_ori(dir);

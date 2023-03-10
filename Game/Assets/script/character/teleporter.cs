@@ -54,7 +54,7 @@ public class teleporter : MonoBehaviour
     }
     void Update()
     { 
-        if(SetUp.command)
+        if(SetUp.getCommand())
            moveBall();
     }
 }
