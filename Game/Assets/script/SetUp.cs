@@ -8,18 +8,17 @@ public class SetUp : MonoBehaviour
     public static int score;
     public float g;
     public static float trasparency;
-    static private bool command;
+    static private bool command=true;
 
     public static void setCommand(string who,bool value){
         command=value;
         Debug.Log(who+":"+value);
     }
      public static bool getCommand(){
+        
         return command;
     }
-    void Start()
-    {
-        Physics.gravity = new Vector3(0, -g, 0);
+    private void makeTransparentO(){
         GameObject []a=GameObject.FindGameObjectsWithTag("OcchioMalato");
         foreach(GameObject o in a){
            GameObject sano=Instantiate(o);
@@ -42,7 +41,13 @@ public class SetUp : MonoBehaviour
            sano.transform.localScale=new Vector3(1,1,1);
        }
     }
-    void changeT(){//adeguo la trasparenza a tutti gli oggetti con tag new 
+    void Start()
+    {
+        makeTransparentO();
+        Physics.gravity = new Vector3(0, -g, 0);
+       
+    }
+    void changeTransparent(){//adeguo la trasparenza a tutti gli oggetti con tag new 
            GameObject []a=GameObject.FindGameObjectsWithTag("new");
            foreach(GameObject o in a){   
                 Material m=o.GetComponent<Renderer>().material;
@@ -53,7 +58,7 @@ public class SetUp : MonoBehaviour
            }
     }
     void Update(){
-        changeT();
+        changeTransparent();
         text.text="Score:"+SetUp.score;
     }
 }

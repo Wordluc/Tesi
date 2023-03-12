@@ -10,7 +10,9 @@ public class Scelta : Choice
     void Update()
     {
         scroll();
-        if(Input.GetButtonDown("option_right")|| Input.GetButtonDown("x"))
+        if(Input.GetButtonDown("option_right")){
            gameObject.SetActive(false);
+           SetUp.setCommand("Chiusura menu scelta",true);
+        }
     }
 }

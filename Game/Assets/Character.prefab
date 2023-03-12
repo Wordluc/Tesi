@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 8013161952150685033}
   - component: {fileID: 8013161952150685034}
   - component: {fileID: 8013161952150685035}
-  - component: {fileID: 8013161952150685032}
+  - component: {fileID: 8760112976961934975}
   m_Layer: 0
   m_Name: Setting
   m_TagString: Untagged
@@ -453,7 +453,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8013161952150685032
+--- !u!114 &8760112976961934975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,10 +462,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8013161952150685077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b462cf43db734b742978e897f56fbc2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 067e2f2cef2e8f545a760d7629324151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setting: {fileID: 0}
+  set_option:
+  - {fileID: 8013161952503441657}
+  - {fileID: 8013161953549740441}
+  - {fileID: 8013161953988915904}
+  i_vector: 0
 --- !u!1 &8013161952190212209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1365,7 @@ GameObject:
   - component: {fileID: 8013161952451758927}
   - component: {fileID: 8013161952451758920}
   - component: {fileID: 8013161952451758921}
-  - component: {fileID: 2302155113928745855}
+  - component: {fileID: 2743358931868036489}
   m_Layer: 0
   m_Name: Scelta
   m_TagString: Untagged
@@ -1451,7 +1455,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2302155113928745855
+--- !u!114 &2743358931868036489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1460,7 +1464,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8013161952451758923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c79940948d96db34d9339f2b67f61fa5, type: 3}
+  m_Script: {fileID: 11500000, guid: bc5b09465a950554188b427952c9893b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   set_option:
@@ -2075,7 +2079,7 @@ GameObject:
   - component: {fileID: 8013161952735868622}
   - component: {fileID: 8013161952735868623}
   - component: {fileID: 8231261356405010294}
-  - component: {fileID: 856110076884099219}
+  - component: {fileID: 3000639762745235119}
   m_Layer: 0
   m_Name: exit
   m_TagString: Untagged
@@ -2178,7 +2182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: 0
   back: {fileID: 8013161952609593312}
---- !u!114 &856110076884099219
+  a: {fileID: 3000639762745235119}
+--- !u!114 &3000639762745235119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2187,9 +2192,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8013161952735868617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed0cbec8834e9a341ad85c207dd9d1e5, type: 3}
+  m_Script: {fileID: 11500000, guid: a5a90d76ee3161e458a5c24ef53130ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  a: 1
+  panel: {fileID: 0}
 --- !u!1 &8013161952753620651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,7 +2310,7 @@ GameObject:
   - component: {fileID: 8013161952760316140}
   - component: {fileID: 8013161952760316141}
   - component: {fileID: 7119864771678983659}
-  - component: {fileID: 2434407184025495473}
+  - component: {fileID: 2639400795672517942}
   m_Layer: 0
   m_Name: setting
   m_TagString: Untagged
@@ -2406,7 +2413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: 0
   back: {fileID: 8013161953079436113}
---- !u!114 &2434407184025495473
+  a: {fileID: 2639400795672517942}
+--- !u!114 &2639400795672517942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2415,10 +2423,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8013161952760316143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b462cf43db734b742978e897f56fbc2b, type: 3}
+  m_Script: {fileID: 11500000, guid: a5a90d76ee3161e458a5c24ef53130ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setting: {fileID: 8013161952150685077}
+  a: 0
+  panel: {fileID: 8013161952150685077}
 --- !u!1 &8013161952912041600
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public class target : MonoBehaviour
           SetUp.score+=p;  
           GameObject a=Instantiate(score_fly);
           a.transform.position=transform.position;
-          a.GetComponent<fly_score>().go(p+"",size_text*transform.localScale.magnitude);
+          a.GetComponent<fly_score>().go(p+"",size_text);
           
     }
 }

@@ -23,6 +23,7 @@ public class fly_score : MonoBehaviour
         if(transform.localScale.x<=0 || t_actual>=10 )
            Destroy(gameObject);
         t_actual+=Time.deltaTime;
+        transform.rotation =Quaternion.LookRotation(transform.position-GameObject.FindWithTag("Character").transform.position);
     }
       void OnTriggerExit(Collider other)
     {
@@ -30,7 +31,7 @@ public class fly_score : MonoBehaviour
     }
          void OnTriggerStay(Collider other)
     {
-          GetComponent<TextMeshPro>().enabled =true;
+          GetComponent<TextMeshPro>().enabled =false;
     }
   
 }

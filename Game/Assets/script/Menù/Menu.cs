@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour
         
         if(Input.GetButtonDown("option_right")){
                scelta.SetActive(true);
+               SetUp.setCommand("Apertura menu scelta",false);
         }
 
     }
