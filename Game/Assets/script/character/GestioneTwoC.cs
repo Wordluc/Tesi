@@ -8,14 +8,11 @@ public class GestioneTwoC : MonoBehaviour
 {
     public UnityEngine.Camera Dx;
     public UnityEngine.Camera Sx;
-    public enum occhioPigro{destro,sinistro,sano};
-    public occhioPigro oPigro;
+    public  enum occhioPigro{destro,sinistro,sano};
+    public static occhioPigro oPigro;
     public int dOcchi;
     public float angle;
-    void Start()
-    { 
-      oPigro=occhioPigro.destro;
-    }
+   
     private void setGP(UnityEngine.Camera cP,UnityEngine.Camera cS){
             //Cp occhio pigro->visualizza tutto
             //cS visualizza in parte

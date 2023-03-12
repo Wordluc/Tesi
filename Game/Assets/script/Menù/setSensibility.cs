@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class setSensibility : slide
+public class SetSensibility : Slide
 {
    public float multi;
     

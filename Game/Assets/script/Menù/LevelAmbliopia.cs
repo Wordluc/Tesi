@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class LevelAmbliopia : slide
+public class LevelAmbliopia : Slide
 { 
     public float multi;
     void Start()

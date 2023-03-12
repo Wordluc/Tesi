@@ -6,7 +6,7 @@ public class Setting : MonoBehaviour
 {
     public Menu Menu;
  
-    public slide []set_Settings;
+    public Slide []set_Settings;
     public int i_vector;
     private float pre_t;
    // public LevelAmbliopia lev;
@@ -37,7 +37,7 @@ public class Setting : MonoBehaviour
     void Update()
     {
         if(Input.GetAxis("d_pad_y")!=pre_t){
-            int a=slide(i_vector,set_Settings.Length,-Input.GetAxis("d_pad_y"));
+            int a=slide(i_vector,set_Settings.Length,Input.GetAxis("d_pad_y"));
             set_Settings[i_vector].status=(false);
             i_vector=a;
             set_Settings[i_vector].status=(true);

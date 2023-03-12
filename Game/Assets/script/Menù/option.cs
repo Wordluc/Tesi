@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class option : MonoBehaviour
+public class Option : MonoBehaviour
 {
         public bool status;//indicatore di selezione 
 
