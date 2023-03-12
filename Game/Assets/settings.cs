@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Option : MonoBehaviour
+public class settings : MonoBehaviour
 {
-    public bool status;//indicatore di selezione 
-    
+    // Start is called before the first frame update
     void Start()
     {
         
