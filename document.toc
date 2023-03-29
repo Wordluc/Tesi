@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Ambliopia}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Diagnosi}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Cause}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Sintomi}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Trattamenti}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}3D4Amb}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Funzionamento e strumenti}{10}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Cardboard}{10}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Occhiali Anaglifici}{11}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Active shutter 3D system}{13}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Obiettivi}{13}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Progetto}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Tecnologie utilizzate}{15}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Cardboard, motivi della scelta}{16}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Unity 3D}{16}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Visual code}{17}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Struttura}{18}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Target}{18}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Implementazione}{19}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Fase di prototipazione}{20}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Fase di sviluppo}{23}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Problemi}{25}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Sviluppi futuri}{26}{subsection.3.5}%

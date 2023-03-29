@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: document.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Database file #1: ./reference/r_web.bib
+Warning--entry type for "PVS_image" isn't style-file defined
+--line 1 of file ./reference/r_web.bib
+Warning--entry type for "Patching_image" isn't style-file defined
+--line 13 of file ./reference/r_web.bib
+Warning--entry type for "Bangerter_image" isn't style-file defined
+--line 25 of file ./reference/r_web.bib
+Warning--entry type for "Lumiopia_image" isn't style-file defined
+--line 37 of file ./reference/r_web.bib
+Warning--entry type for "3d4amb_image" isn't style-file defined
+--line 49 of file ./reference/r_web.bib
+Warning--entry type for "Anaglifo_image" isn't style-file defined
+--line 63 of file ./reference/r_web.bib
+Warning--entry type for "active-shutter-3d_image" isn't style-file defined
+--line 77 of file ./reference/r_web.bib
+Warning--entry type for "controller_image" isn't style-file defined
+--line 89 of file ./reference/r_web.bib
+Warning--entry type for "Rock_asset" isn't style-file defined
+--line 101 of file ./reference/r_web.bib
+Warning--entry type for "Pack_asset" isn't style-file defined
+--line 113 of file ./reference/r_web.bib
+Warning--entry type for "Wall_asset" isn't style-file defined
+--line 125 of file ./reference/r_web.bib
+Warning--entry type for "Path_asset" isn't style-file defined
+--line 137 of file ./reference/r_web.bib
+Warning--entry type for "Distanza_occhi" isn't style-file defined
+--line 149 of file ./reference/r_web.bib
+Warning--entry type for "Stereogramma" isn't style-file defined
+--line 163 of file ./reference/r_web.bib
+Warning--entry type for "Stereoscopio" isn't style-file defined
+--line 177 of file ./reference/r_web.bib
+Warning--entry type for "Funzionamento_cardboard" isn't style-file defined
+--line 191 of file ./reference/r_web.bib
+Warning--entry type for "Cardboard_image" isn't style-file defined
+--line 205 of file ./reference/r_web.bib
+Warning--entry type for "mottion_sickness" isn't style-file defined
+--line 219 of file ./reference/r_web.bib
+Warning--entry type for "I-Bit" isn't style-file defined
+--line 231 of file ./reference/r_web.bib
+You've used 19 entries,
+            1791 wiz_defined-function locations,
+            544 strings with 6537 characters,
+and the built_in function-call counts, 2568 in all, are:
+= -- 228
+> -- 76
+< -- 0
++ -- 38
+- -- 19
+* -- 2
+:= -- 410
+add.period$ -- 76
+call.type$ -- 19
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 95
+empty$ -- 343
+format.name$ -- 19
+if$ -- 609
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 0
+newline$ -- 117
+num.names$ -- 19
+pop$ -- 133
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 0
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 19
+width$ -- 21
+write$ -- 211
+(There were 19 warnings)
