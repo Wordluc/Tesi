@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  28 MAR 2023 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  31 MAR 2023 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,30 +6,261 @@ entering extended mode
 (document.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07>
-(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbook.cls
+Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
+k.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+))) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Class scrbook Info: File `scrsize11pt.clo' used instead of
+(scrbook)           file `scrsize11.clo' to setup font sizes on input line 2617
+.
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.
+clo
+File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt
+)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count185
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 47.2316pt
+(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1767.
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5898.
+\scr@dte@section@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 5909.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 5909.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 5918.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 5928.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 5928.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 5938.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 5938.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 5949.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 5949.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 5959.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 5959.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7142.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count193
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7159.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count194
+Class scrbook Info: Redefining `\numberline' on input line 7330.
 \bibindent=\dimen140
+) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ld
+f
+Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
+\it@lettering=\count197
+\it@doublequoteactive=\count198
+\it@ISOcompliance=\count199
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-
+italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen142
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count272
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip16
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks18
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks19
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks20
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/frontespizio\frontespizi
+o.sty
+Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks22
+\AP@partial=\box55
+\AP@footins=\box56
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
@@ -45,15 +276,398 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
-(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.st
+y
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\front@out=\write3
+\openout3 = `document-frn.tex'.
+
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count279
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def
+\pgfutil@abb=\box57
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
+\pgf@xd=\dimen163
+\pgf@yd=\dimen164
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count284
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen165
+\pgfmath@count=\count287
+\pgfmath@box=\box58
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count288
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen166
+\pgf@picmaxx=\dimen167
+\pgf@picminy=\dimen168
+\pgf@picmaxy=\dimen169
+\pgf@pathminx=\dimen170
+\pgf@pathmaxx=\dimen171
+\pgf@pathminy=\dimen172
+\pgf@pathmaxy=\dimen173
+\pgf@xx=\dimen174
+\pgf@xy=\dimen175
+\pgf@yx=\dimen176
+\pgf@yy=\dimen177
+\pgf@zx=\dimen178
+\pgf@zy=\dimen179
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen180
+\pgf@path@lasty=\dimen181
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen182
+\pgf@shorten@start@additional=\dimen183
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count289
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen184
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen185
+\pgf@pt@y=\dimen186
+\pgf@pt@temp=\dimen187
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen188
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen189
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box62
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box63
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
+y
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count292
+\pgfplotmarksize=\dimen194
+)
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikz@lastmovetox=\dimen199
+\tikz@lastmovetoy=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count293
+\tikznumberofchildren=\count294
+\tikznumberofcurrentchild=\count295
+\tikz@fig@count=\count296
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count297
+\pgfmatrixcurrentcolumn=\count298
+\pgf@matrix@numberofcolumns=\count299
+)
+\tikz@expandcount=\count300
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen259
+\calc@Bdimen=\dimen260
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count303
+\calc@Cskip=\skip70
+)
+\c@@todonotes@numberoftodonotes=\count304
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks37
+\verbatim@line=\toks38
+\verbatim@in@stream=\read4
+)
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
 sty
@@ -99,11 +713,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count193
+\c@section@level=\count305
 )
-\@linkdim=\dimen143
-\Hy@linkcounter=\count194
-\Hy@pagecounter=\count195
+\@linkdim=\dimen261
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
  (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -115,7 +729,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count196
+\Hy@SavedSpaceFactor=\count308
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -128,14 +742,14 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count197
+\c@Hy@tempcnt=\count309
 
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen144
+\XeTeXLinkMargin=\dimen262
 
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -145,9 +759,9 @@ sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count198
-\Field@Width=\dimen145
-\Fld@charsize=\dimen146
+\Fld@menulength=\count310
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -155,14 +769,9 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count199
-\c@Item=\count266
-\c@Hfootnote=\count267
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -174,8 +783,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count268
-\c@bookmark@seq@number=\count269
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
 
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
 check.sty
@@ -188,20 +797,20 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip50
+\Hy@SectionHShift=\skip71
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count270
-\float@exts=\toks17
-\float@box=\box51
-\@float@everytoks=\toks18
-\@floatcapt=\box52
+\c@float@type=\count316
+\float@exts=\toks39
+\float@box=\box68
+\@float@everytoks=\toks40
+\@floatcapt=\box69
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -214,44 +823,46 @@ Package: cite 2015/02/27  v 5.5
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count271
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count317
+\l__pdf_internal_box=\box70
 ) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Info: Redefining \it@ocap on input line 26.
+LaTeX Info: Redefining \it@ccap on input line 26.
 
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen147
-\scratchbox=\box54
-\nofMPsegments=\count273
-\nofMParguments=\count274
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen148
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count318
+\scratchdimen=\dimen265
+\scratchbox=\box71
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen266
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks44
 )
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -263,476 +874,699 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 26.
  (document.out) (document.out)
-\@outlinefile=\write3
-\openout3 = `document.out'.
+\@outlinefile=\write5
+\openout5 = `document.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
- (document.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-)
-\tf@toc=\write4
-\openout4 = `document.toc'.
+Class scrbook Info: loading recommended package `bookmark'.
+(scrbook)           Using `bookmark' together with `hyperref' is recommended,
+(scrbook)           because of handling of possible bookmark level gaps.
+(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
+(scrbook)           `bookmarkpackage=false' before \begin{document} and
+(scrbook)           you can avoid this message adding:
+(scrbook)             \usepackage{bookmark}
+(scrbook)           before \begin{document} on input line 26.
 
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count324
+))
+<document-frn.pdf, id=6, 597.50829pt x 845.0471pt>
+File: document-frn.pdf Graphic file (type pdf)
+<use document-frn.pdf>
+Package pdftex.def Info: document-frn.pdf  used on input line 32.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
-{C:/Users/Luca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-<image/pvs.jpg, id=135, 329.23pt x 250.9375pt>
+
+
+
+
+ <./document-frn.pdf{C:/Users/Luca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex
+.map}>] [2
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
+7.
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+(document.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write6
+\openout6 = `document.toc'.
+
+
+[3] [4
+
+
+] (document.lof)
+\tf@lof=\write7
+\openout7 = `document.lof'.
+
+ [5] [6
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[1
+
+
+] [2
+
+
+]
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface.
+
+<image/pvs.jpg, id=180, 329.23pt x 250.9375pt>
 File: image/pvs.jpg Graphic file (type jpg)
 <use image/pvs.jpg>
-Package pdftex.def Info: image/pvs.jpg  used on input line 44.
-(pdftex.def)             Requested size: 241.49895pt x 184.075pt.
-
+Package pdftex.def Info: image/pvs.jpg  used on input line 76.
+(pdftex.def)             Requested size: 292.7776pt x 223.15752pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.72 \newpage
-              <./image/pvs.jpg>]
-<image/patching.jpg, id=149, 327.2225pt x 154.5775pt>
+l.98 	\begin{itemize}
+                      <./image/pvs.jpg>]
+<image/patching.jpg, id=197, 327.2225pt x 154.5775pt>
 File: image/patching.jpg Graphic file (type jpg)
 <use image/patching.jpg>
-Package pdftex.def Info: image/patching.jpg  used on input line 80.
-(pdftex.def)             Requested size: 276.00105pt x 130.38197pt.
-<image/penalizzazione ottica.jpg, id=151, 819.06pt x 658.46pt>
+Package pdftex.def Info: image/patching.jpg  used on input line 111.
+(pdftex.def)             Requested size: 209.12778pt x 98.79008pt.
+<image/penalizzazione ottica.jpg, id=202, 819.06pt x 658.46pt>
 File: image/penalizzazione ottica.jpg Graphic file (type jpg)
 <use image/penalizzazione ottica.jpg>
-Package pdftex.def Info: image/penalizzazione ottica.jpg  used on input line 88
-.
-(pdftex.def)             Requested size: 241.49895pt x 194.14354pt.
+Package pdftex.def Info: image/penalizzazione ottica.jpg  used on input line 11
+9.
+(pdftex.def)             Requested size: 250.95587pt x 201.74933pt.
  [5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.94     	\newpage
-                  
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94     	\newpage
-                   <./image/patching.jpg> <./image/penalizzazione ottica.jpg>]
-[6]
-<image/luminopia.jpg, id=165, 266.9975pt x 190.7125pt>
+l.124 	
+        <./image/patching.jpg>]
+<image/luminopia.jpg, id=213, 266.9975pt x 190.7125pt>
 File: image/luminopia.jpg Graphic file (type jpg)
 <use image/luminopia.jpg>
-Package pdftex.def Info: image/luminopia.jpg  used on input line 101.
-(pdftex.def)             Requested size: 241.49895pt x 172.50684pt.
-<image/I_bit.jpg, id=168, 433.62pt x 289.08pt>
+Package pdftex.def Info: image/luminopia.jpg  used on input line 131.
+(pdftex.def)             Requested size: 209.12778pt x 149.3837pt.
+<image/I_bit.jpg, id=218, 433.62pt x 289.08pt>
 File: image/I_bit.jpg Graphic file (type jpg)
 <use image/I_bit.jpg>
-Package pdftex.def Info: image/I_bit.jpg  used on input line 108.
-(pdftex.def)             Requested size: 241.49895pt x 161.00148pt.
+Package pdftex.def Info: image/I_bit.jpg  used on input line 138.
+(pdftex.def)             Requested size: 209.12778pt x 139.41846pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.144 	    	\item P
+                   attern Flicker\cite{Pattern-Flicker}, è costituito da un...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.144 	    	\item P
+                   attern Flicker\cite{Pattern-Flicker}, è costituito da un...
+ <./image/penalizzazione ottica.jpg> <./image/luminopia.jpg>]
+<image/Pattern_Flicker.jpg, id=228, 698.61pt x 750.805pt>
+File: image/Pattern_Flicker.jpg Graphic file (type jpg)
+<use image/Pattern_Flicker.jpg>
+Package pdftex.def Info: image/Pattern_Flicker.jpg  used on input line 147.
+(pdftex.def)             Requested size: 209.12778pt x 224.75061pt.
  [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
+l.152     \end{itemize}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 	
-        <./image/luminopia.jpg> <./image/I_bit.jpg>] [8] [9]
-<image/cardboard.jpg, id=190, 1204.5pt x 633.36626pt>
+l.152     \end{itemize}
+                        <./image/I_bit.jpg> <./image/Pattern_Flicker.jpg>]
+[8]
+chapter 2.
+<image/3D4Amb.png, id=240, 497.86pt x 111.41624pt>
+File: image/3D4Amb.png Graphic file (type png)
+<use image/3D4Amb.png>
+Package pdftex.def Info: image/3D4Amb.png  used on input line 158.
+(pdftex.def)             Requested size: 334.60571pt x 74.8831pt.
+<image/cardboard.jpg, id=247, 1204.5pt x 633.36626pt>
 File: image/cardboard.jpg Graphic file (type jpg)
 <use image/cardboard.jpg>
-Package pdftex.def Info: image/cardboard.jpg  used on input line 132.
-(pdftex.def)             Requested size: 276.00105pt x 145.12996pt.
-<image/3D4Amb_1.png, id=192, 889.82437pt x 405.76593pt>
+Package pdftex.def Info: image/cardboard.jpg  used on input line 172.
+(pdftex.def)             Requested size: 334.60571pt x 175.94968pt.
+
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [9
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175 	\end{figure}
+                    <./image/3D4Amb.png>]
+<image/3D4Amb_1.png, id=255, 889.82437pt x 405.76593pt>
 File: image/3D4Amb_1.png Graphic file (type png)
 <use image/3D4Amb_1.png>
-Package pdftex.def Info: image/3D4Amb_1.png  used on input line 139.
-(pdftex.def)             Requested size: 276.00105pt x 125.85423pt.
- [10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.144 
-       <./image/cardboard.jpg>]
-<image/3D4Amb_2.png, id=205, 1003.75pt x 501.875pt>
+Package pdftex.def Info: image/3D4Amb_1.png  used on input line 179.
+(pdftex.def)             Requested size: 334.60571pt x 152.58287pt.
+<image/3D4Amb_2.png, id=260, 1003.75pt x 501.875pt>
 File: image/3D4Amb_2.png Graphic file (type png)
 <use image/3D4Amb_2.png>
-Package pdftex.def Info: image/3D4Amb_2.png  used on input line 148.
-(pdftex.def)             Requested size: 276.00105pt x 137.9969pt.
-<image/occhiali_anaglifici.png, id=208, 646.415pt x 411.5375pt>
+Package pdftex.def Info: image/3D4Amb_2.png  used on input line 187.
+(pdftex.def)             Requested size: 334.60571pt x 167.30402pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.191     I
+           l cardboard è uno strumento di realtà virtuale a basso costo ch...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.191     I
+           l cardboard è uno strumento di realtà virtuale a basso costo ch...
+ <./image/cardboard.jpg> <./image/3D4Amb_1.png>]
+<image/occhiali_anaglifici.png, id=273, 646.415pt x 411.5375pt>
 File: image/occhiali_anaglifici.png Graphic file (type png)
 <use image/occhiali_anaglifici.png>
-Package pdftex.def Info: image/occhiali_anaglifici.png  used on input line 159.
+Package pdftex.def Info: image/occhiali_anaglifici.png  used on input line 196.
 
-(pdftex.def)             Requested size: 241.49895pt x 153.74846pt.
+(pdftex.def)             Requested size: 250.95587pt x 159.77055pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.163 	L
+l.200 	L
         e immagini sono distanti tra loro(generalmente 5,7 cm), con colori c...
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.163 	L
-        e immagini sono distanti tra loro(generalmente 5,7 cm), con colori c...
- <./image/3D4Amb_1.png> <./image/3D4Amb_2.png>]
-<image/anaglifo.jpg, id=221, 220.825pt x 229.85875pt>
+ <./image/3D4Amb_2.png>]
+<image/anaglifo.jpg, id=284, 220.825pt x 229.85875pt>
 File: image/anaglifo.jpg Graphic file (type jpg)
 <use image/anaglifo.jpg>
-Package pdftex.def Info: image/anaglifo.jpg  used on input line 166.
-(pdftex.def)             Requested size: 241.49895pt x 251.38983pt.
- [12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.170  \newpage
-               
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.170  \newpage
-                <./image/occhiali_anaglifici.png (PNG copy)> <./image/anaglifo.
-jpg>]
-<image/active-shutter-3d-technology.png, id=230, 507.8975pt x 292.09125pt>
+Package pdftex.def Info: image/anaglifo.jpg  used on input line 203.
+(pdftex.def)             Requested size: 250.95587pt x 261.23499pt.
+<image/active-shutter-3d-technology.png, id=287, 507.8975pt x 292.09125pt>
 File: image/active-shutter-3d-technology.png Graphic file (type png)
 <use image/active-shutter-3d-technology.png>
 Package pdftex.def Info: image/active-shutter-3d-technology.png  used on input 
-line 175.
-(pdftex.def)             Requested size: 276.00105pt x 158.73418pt.
+line 212.
+(pdftex.def)             Requested size: 250.95587pt x 144.32487pt.
 
-Overfull \hbox (1.75479pt too wide) in paragraph at lines 188--189
-\T1/cmr/m/n/10 agevolando quindi l'estensione del sis-tema, ag-giun-gendo nuove
- ap-pli-cazione
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
-as been already used, duplicate ignored
+ [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.190     \newpage
-                   <./image/active-shutter-3d-technology.png (PNG copy)>]
-[14]
-<image/gamepad.jpg, id=244, 803.0pt x 602.25pt>
+l.215 	\end{figure}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.215 	\end{figure}
+                    <./image/occhiali_anaglifici.png (PNG copy)> <./image/anagl
+ifo.jpg>] [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.226     \chapter
+                  {Progetto} <./image/active-shutter-3d-technology.png (PNG cop
+y)>] [14
+
+
+]
+chapter 3.
+<image/gamepad.jpg, id=306, 803.0pt x 602.25pt>
 File: image/gamepad.jpg Graphic file (type jpg)
 <use image/gamepad.jpg>
-Package pdftex.def Info: image/gamepad.jpg  used on input line 203.
-(pdftex.def)             Requested size: 276.00105pt x 207.00455pt.
+Package pdftex.def Info: image/gamepad.jpg  used on input line 230.
+(pdftex.def)             Requested size: 334.60571pt x 250.95831pt.
 
-Overfull \hbox (1.69312pt too wide) in paragraph at lines 217--219
-\T1/cmr/m/n/10 bud-get ri-dotto, fatto cru-ciale, visto che si parla prin-ci-pa
-l-mente di un'applicazione
- []
+Underfull \vbox (badness 4995) has occurred while \output is active []
 
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
-as been already used, duplicate ignored
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219     \subsubsection
-                        {Unity 3D}\label{unity3D} <./image/gamepad.jpg>]
-<image/unity.png, id=253, 1394.96156pt x 947.03813pt>
+l.238     	\item:
+                 Cardboard, <./image/gamepad.jpg>]
+<image/unity.png, id=313, 1394.96156pt x 947.03813pt>
 File: image/unity.png Graphic file (type png)
 <use image/unity.png>
-Package pdftex.def Info: image/unity.png  used on input line 231.
-(pdftex.def)             Requested size: 276.00105pt x 187.36673pt.
-
-[16
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.240     \subsubsection
-                        {Visual code} <./image/unity.png>]
-<image/visual_code.png, id=261, 1156.32pt x 649.2255pt>
+Package pdftex.def Info: image/unity.png  used on input line 258.
+(pdftex.def)             Requested size: 334.60571pt x 227.16373pt.
+ [16]
+<image/visual_code.png, id=324, 1156.32pt x 649.2255pt>
 File: image/visual_code.png Graphic file (type png)
 <use image/visual_code.png>
-Package pdftex.def Info: image/visual_code.png  used on input line 247.
-(pdftex.def)             Requested size: 276.00105pt x 154.95544pt.
-
-Overfull \hbox (18.97034pt too wide) in paragraph at lines 251--252
-[]\T1/cmr/m/n/10 Le es-ten-sioni uti-liz-zate in questo pro-getto riguardano pr
-in-ci-pal-mente l'interazione
- []
-
-
-Overfull \hbox (0.44955pt too wide) in paragraph at lines 253--254
-[]\T1/cmr/m/n/10 Unity code snip-pets, us-ato per in-tro-durre l'auto com-ple-t
-a-mento di porzioni
- []
-
-<image/Pr_trasparenza.png, id=262, 452.892pt x 227.04825pt>
+Package pdftex.def Info: image/visual_code.png  used on input line 274.
+(pdftex.def)             Requested size: 334.60571pt x 187.86441pt.
+ [17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.278     L
+           e estensioni utilizzate in questo progetto riguardano principalme...
+ <./image/unity.png>]
+<image/Pr_trasparenza.png, id=335, 452.892pt x 227.04825pt>
 File: image/Pr_trasparenza.png Graphic file (type png)
 <use image/Pr_trasparenza.png>
-Package pdftex.def Info: image/Pr_trasparenza.png  used on input line 263.
-(pdftex.def)             Requested size: 276.00105pt x 138.37103pt.
-[17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
-as been already used, duplicate ignored
+Package pdftex.def Info: image/Pr_trasparenza.png  used on input line 290.
+(pdftex.def)             Requested size: 334.60571pt x 167.75322pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.266     \end{figure}
-                       <./image/visual_code.png>]
-<image/target_score.png, id=270, 440.847pt x 224.037pt>
+l.294     N
+           ella figura \ref{fig:pozzo}, possiamo notare come hai due occhi v...
+ <./image/visual_code.png>]
+<image/target_score.png, id=345, 440.847pt x 224.037pt>
 File: image/target_score.png Graphic file (type png)
 <use image/target_score.png>
-Package pdftex.def Info: image/target_score.png  used on input line 273.
-(pdftex.def)             Requested size: 241.49895pt x 122.72845pt.
- [18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
-as been already used, duplicate ignored
+Package pdftex.def Info: image/target_score.png  used on input line 301.
+(pdftex.def)             Requested size: 292.7776pt x 148.78786pt.
+ [19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.277 
-       <./image/Pr_trasparenza.png>]
-Overfull \hbox (8.28098pt too wide) in paragraph at lines 283--284
-[]\T1/cmr/m/n/10 Scudo in Movi-mento, mostrato in fig:[]17[], carat-ter-iz-zato
- dal fatto che l'oggetto
- []
+l.308        \item S
+                    cudo in Movimento, mostrato in figura:\ref{fig:target_mo...
 
-<image/target_movimento.png, id=281, 483.60675pt x 269.20575pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.308        \item S
+                    cudo in Movimento, mostrato in figura:\ref{fig:target_mo...
+ <./image/Pr_trasparenza.png> <./image/target_score.png>]
+<image/target_movimento.png, id=357, 483.60675pt x 269.20575pt>
 File: image/target_movimento.png Graphic file (type png)
 <use image/target_movimento.png>
-Package pdftex.def Info: image/target_movimento.png  used on input line 287.
-(pdftex.def)             Requested size: 241.49895pt x 134.43411pt.
-<image/protot.png, id=283, 501.072pt x 298.716pt>
+Package pdftex.def Info: image/target_movimento.png  used on input line 312.
+(pdftex.def)             Requested size: 292.7776pt x 162.97882pt.
+<image/protot.png, id=358, 501.072pt x 298.716pt>
 File: image/protot.png Graphic file (type png)
 <use image/protot.png>
-Package pdftex.def Info: image/protot.png  used on input line 298.
-(pdftex.def)             Requested size: 276.00105pt x 164.54044pt.
-[19
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
-as been already used, duplicate ignored
+Package pdftex.def Info: image/protot.png  used on input line 323.
+(pdftex.def)             Requested size: 334.60571pt x 199.47775pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.301         \end{figure}
-                          
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.301         \end{figure}
-                           <./image/target_score.png> <./image/target_movimento
-.png>]
-<image/gamepad_tasti.jpg, id=296, 578.16pt x 462.528pt>
+l.327         \item F
+                     ase di sviluppo, dopo aver definito i vari requisiti ed...
+ <./image/target_movimento.png>]
+<image/gamepad_tasti.jpg, id=367, 578.16pt x 462.528pt>
 File: image/gamepad_tasti.jpg Graphic file (type jpg)
 <use image/gamepad_tasti.jpg>
-Package pdftex.def Info: image/gamepad_tasti.jpg  used on input line 323.
-(pdftex.def)             Requested size: 276.00105pt x 220.797pt.
+Package pdftex.def Info: image/gamepad_tasti.jpg  used on input line 347.
+(pdftex.def)             Requested size: 334.60571pt x 267.68063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 336--352
 
  []
 
-[20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
-as been already used, duplicate ignored
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.326      \end{figure}
-                        <./image/protot.png>] [21
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
-as been already used, duplicate ignored
+l.352      \begin{itemize}
+                           <./image/protot.png>] [22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.343      	\item S
-                   elezionare:\textit{Tasto quadrato} <./image/gamepad_tasti.jp
-g>]
-<image/menu_scena.png, id=312, 654.64575pt x 260.172pt>
+l.364      	\item C
+                   hiusura:\textit{B} <./image/gamepad_tasti.jpg>]
+<image/menu_scena.png, id=383, 654.64575pt x 260.172pt>
 File: image/menu_scena.png Graphic file (type png)
 <use image/menu_scena.png>
-Package pdftex.def Info: image/menu_scena.png  used on input line 350.
-(pdftex.def)             Requested size: 276.00105pt x 109.69229pt.
+Package pdftex.def Info: image/menu_scena.png  used on input line 374.
+(pdftex.def)             Requested size: 250.95587pt x 99.73578pt.
+<image/menu_simulatore.png, id=385, 437.83575pt x 211.38976pt>
+File: image/menu_simulatore.png Graphic file (type png)
+<use image/menu_simulatore.png>
+Package pdftex.def Info: image/menu_simulatore.png  used on input line 381.
+(pdftex.def)             Requested size: 250.95587pt x 121.1643pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--353
+Underfull \hbox (badness 10000) in paragraph at lines 369--386
 
  []
 
-<image/menu_simulatore.png, id=314, 437.83575pt x 211.38976pt>
-File: image/menu_simulatore.png Graphic file (type png)
-<use image/menu_simulatore.png>
-Package pdftex.def Info: image/menu_simulatore.png  used on input line 357.
-(pdftex.def)             Requested size: 276.00105pt x 133.2601pt.
-[22
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
-as been already used, duplicate ignored
+[23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.362     \subsubsection
+l.386     \subsubsection
                         {Fase di sviluppo}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.362     \subsubsection
+l.386     \subsubsection
                         {Fase di sviluppo} <./image/menu_scena.png> <./image/me
 nu_simulatore.png>]
-<image/script_character.png, id=330, 290.88675pt x 121.6545pt>
+<image/script_character.png, id=400, 290.88675pt x 121.6545pt>
 File: image/script_character.png Graphic file (type png)
 <use image/script_character.png>
-Package pdftex.def Info: image/script_character.png  used on input line 383.
-(pdftex.def)             Requested size: 276.00105pt x 115.43188pt.
- [23]
-<image/mappa.png, id=345, 576.35326pt x 367.3725pt>
+Package pdftex.def Info: image/script_character.png  used on input line 408.
+(pdftex.def)             Requested size: 334.60571pt x 139.94241pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]
+<image/mappa.png, id=415, 576.35326pt x 367.3725pt>
 File: image/mappa.png Graphic file (type png)
 <use image/mappa.png>
-Package pdftex.def Info: image/mappa.png  used on input line 402.
-(pdftex.def)             Requested size: 276.00105pt x 175.92757pt.
- [24
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.406     \subsection
-                     {Problemi} <./image/script_character.png>]
-<image/low_hight.jpg, id=354, 803.0pt x 435.6275pt>
+Package pdftex.def Info: image/mappa.png  used on input line 427.
+(pdftex.def)             Requested size: 292.7776pt x 186.61754pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<image/low_hight.jpg, id=418, 1003.75pt x 627.34375pt>
 File: image/low_hight.jpg Graphic file (type jpg)
 <use image/low_hight.jpg>
-Package pdftex.def Info: image/low_hight.jpg  used on input line 410.
-(pdftex.def)             Requested size: 276.00105pt x 149.73329pt.
+Package pdftex.def Info: image/low_hight.jpg  used on input line 436.
+(pdftex.def)             Requested size: 250.95587pt x 156.84512pt.
+<image/controller_test.png, id=423, 445.665pt x 215.00325pt>
+File: image/controller_test.png Graphic file (type png)
+<use image/controller_test.png>
+Package pdftex.def Info: image/controller_test.png  used on input line 446.
+(pdftex.def)             Requested size: 292.7776pt x 141.24643pt.
+
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
  [25
-pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.417     \subsection
-                     {Sviluppi futuri}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
-as been already used, duplicate ignored
+l.452     \chapter
+                  {Conclusioni e Sviluppi futuri} <./image/script_character.png
+>] [26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.417     \subsection
-                     {Sviluppi futuri} <./image/mappa.png> <./image/low_hight.j
-pg>] [26] [27] (document.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-.
+l.452     \chapter
+                  {Conclusioni e Sviluppi futuri}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.452     \chapter
+                  {Conclusioni e Sviluppi futuri} <./image/mappa.png> <./image/
+low_hight.jpg>] [27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.452     \chapter
+                  {Conclusioni e Sviluppi futuri} <./image/controller_test.png>
+] [28
+
+
+]
+chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+(document.bbl [29] [30
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+4.
 
 (C:\Users\Luca\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 4647) in paragraph at lines 4--9
-\T1/cmr/m/n/10 hood vi-sion prob-lems.  []$\T1/cmtt/m/n/10 https : / / www . un
-iversaldesignstyle . com /
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+[]\T1/cmr/m/n/10.95 Universal De-si-gn Sty-le.  Pe-dia-tric vi-sion scan-ner de
+-tec-ts ear-ly chil-
  []
 
 
-Overfull \hbox (22.99554pt too wide) in paragraph at lines 4--9
-\T1/cmtt/m/n/10 pediatric-[]vision-[]scanner-[]detects-[]early-[]childhood-[]vi
-sion-[]problems/$[]\T1/cmr/m/n/10 .
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\T1/cmr/m/n/10.95 d-hood vi-sion pro-blems.  []$\T1/cmtt/m/n/10.95 https : / / 
+www . universaldesignstyle . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-[]\T1/cmr/m/n/10 Fresnel Prism.  Bangerter oc-clu-sion foils.  []$\T1/cmtt/m/n/
-10 https : / /
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\T1/cmtt/m/n/10.95 pediatric-[]vision-[]scanner-[]detects-[]early-[]childhood-[
+]vision-[]problems/$[]\T1/cmr/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-\T1/cmtt/m/n/10 www . fresnel-[]prism . com / product / professional-[]products
- /
+Underfull \hbox (badness 5696) in paragraph at lines 26--31
+[]\T1/cmr/m/n/10.95 Poliambulatori San Gae-ta-no.  Am-blio-pia, l'im-por-tan-za
+ di una dia-gno-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-\T1/cmtt/m/n/10 professional-[]bangerter-[]occlusion-[]foils / professional-[]f
-oils /
+Underfull \hbox (badness 1852) in paragraph at lines 26--31
+\T1/cmr/m/n/10.95 si pre-co-ce.  []$\T1/cmtt/m/n/10.95 https : / / poliambulato
+risangaetano . it / poliambulatorio / news /
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 25--31
-[]\T1/cmr/m/n/10 ELISE REUTER.  Startup test-ing video-based treat-ment for `la
-zy
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+\T1/cmtt/m/n/10.95 product / professional-[]products / professional-[]bangerter
+-[]occlusion-[]foils /
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 25--31
-\T1/cmr/m/n/10 eye' touts phase 3 re-sults.  []$\T1/cmtt/m/n/10 https : / / med
-citynews . com / 2021 / 09 /
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+\T1/cmtt/m/n/10.95 professional-[]foils / bangerter-[]occlusion-[]foils/$[]\T1/
+cmr/m/n/10.95 .  [On-li-ne; vi-si-ted on
  []
 
 
-Overfull \hbox (66.98529pt too wide) in paragraph at lines 25--31
-\T1/cmtt/m/n/10 startup-[]testing-[]video-[]based-[]treatment-[]for-[]lazy-[]ey
-e-[]touts-[]phase-[]3-[]results/$[]\T1/cmr/m/n/10 .
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+[]\T1/cmr/m/n/10.95 businesswire.  Lu-mi-no-pia an-noun-ces fda ap-pro-val of d
+i-gi-tal the-ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-[]\T1/cmr/m/n/10 wikipedia.  Stereo-sco-pio.  []$\T1/cmtt/m/n/10 https : / / it
- . wikipedia . org / wiki /
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+\T1/cmr/m/n/10.95 peu-tic that uses tv sho-ws to im-pro-ve vi-sion in chil-dren
+ with la-zy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
-\T1/cmtt/m/n/10 it / che-[]cose-[]google-[]cardboard-[]come-[]funziona-[]google
--[]cardboard/$[]\T1/cmr/m/n/10 .
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+\T1/cmr/m/n/10.95 eye.  []$\T1/cmtt/m/n/10.95 https : / / www . businesswire . 
+com / news / home / 20211020005896 / en /
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 77--81
-[]\T1/cmr/m/n/10 Alexia Simard.  Ps4 con-troller.  []$\T1/cmtt/m/n/10 https : /
- / dribbble . com / shots /
+Overfull \hbox (283.87338pt too wide) in paragraph at lines 47--53
+\T1/cmtt/m/n/10.95 Luminopia-[]Announces-[]FDA-[]Approval-[]of-[]Digital-[]Ther
+apeutic-[]that-[]Uses-[]TV-[]Shows-[]to-[]Improve-[]Vision-[]in-[]Children-[]wi
+th-[]Lazy-[]Eye$[]\T1/cmr/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-[]\T1/cmr/m/n/10 wikipedia.  Stere-ogramma.  []$\T1/cmtt/m/n/10 https : / / it 
-. wikipedia . org / wiki /
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
+[]\T1/cmr/m/n/10.95 ELISE REU-TER.  Star-tup te-sting video-based treat-ment fo
+r `la-
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
-\T1/cmtt/m/n/10 com / packages / 3d / props / exterior / mobile-[]wooden-[]fenc
-es-[]54772$[]\T1/cmr/m/n/10 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
+\T1/cmr/m/n/10.95 zy eye' tou-ts pha-se 3 re-sul-ts.  []$\T1/cmtt/m/n/10.95 htt
+ps : / / medcitynews . com / 2021 / 09 /
  []
 
-) [29] (document.aux)
+
+Overfull \hbox (25.74669pt too wide) in paragraph at lines 55--61
+\T1/cmtt/m/n/10.95 startup-[]testing-[]video-[]based-[]treatment-[]for-[]lazy-[
+]eye-[]touts-[]phase-[]3-[]results/$[]\T1/cmr/m/n/10.95 .
+ []
+
+[31]
+Underfull \hbox (badness 3482) in paragraph at lines 81--85
+[]\T1/cmr/m/n/10.95 wikipedia.  Ste-reo-sco-pio.  []$\T1/cmtt/m/n/10.95 https :
+ / / it . wikipedia . org / wiki / Stereoscopio$[]\T1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 87--92
+[]\T1/cmr/m/n/10.95 mrcardboard.  Che co-s'� pop! card-board?  []$\T1/cmtt/m/n/
+10.95 https : / / mrcardboard . eu /
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 107--111
+[]\T1/cmr/m/n/10.95 Brilens.  Ac-ti-ve shut-ter 3d tech-no-lo-gy.  []$\T1/cmtt/
+m/n/10.95 https : / / www . brilens . com / news /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
+[]\T1/cmr/m/n/10.95 Alexia Si-mard.  Ps4 con-trol-ler.  []$\T1/cmtt/m/n/10.95 h
+ttps : / / dribbble . com / shots /
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 119--124
+[]\T1/cmr/m/n/10.95 Kleber Sil-va.  Uni-ty co-de snip-pe-ts.  []$\T1/cmtt/m/n/1
+0.95 https : / / marketplace . visualstudio .
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 119--124
+\T1/cmtt/m/n/10.95 com / items ? itemName = kleber-[]swf . unity-[]code-[]snipp
+ets$[]\T1/cmr/m/n/10.95 .  [On-li-ne; vi-si-ted on
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 133--137
+[]\T1/cmr/m/n/10.95 otticavasari.  Di-stan-za in-ter-pu-pil-la-re: co-s'� e co-
+me si mi-su-ra.  []$\T1/cmtt/m/n/10.95 https : / /
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 139--143
+[]\T1/cmr/m/n/10.95 wikipedia.  Ste-reo-gram-ma.  []$\T1/cmtt/m/n/10.95 https :
+ / / it . wikipedia . org / wiki / Stereogramma$[]\T1/cmr/m/n/10.95 .
+ []
+
+[32]) [33] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 774E42371C94DD50BD931F9F10D1AEEF;2929.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9033 strings out of 476339
- 146638 string characters out of 5788591
+ 26409 strings out of 476339
+ 513659 string characters out of 5788591
  1864340 words of memory out of 5000000
- 29223 multiletter control sequences out of 15000+600000
- 524054 words of font info for 54 fonts, out of 8000000 for 9000
+ 46210 multiletter control sequences out of 15000+600000
+ 522925 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,76p,537b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,106p,10632b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-000.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecti1000.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1000.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecrm0900.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Luca\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Luca\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Luca\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on document.pdf (29 pages, 3756969 bytes).
+095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecsx1440.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecti1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecsx2074.pk><C:/Users/Luca/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Luca/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Luca/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on document.pdf (39 pages, 3979667 bytes).
 PDF statistics:
- 794 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 937 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
