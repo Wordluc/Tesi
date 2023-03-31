@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  31 MAR 2023 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  31 MAR 2023 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,84 +998,80 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.98 	\begin{itemize}
-                      <./image/pvs.jpg>]
+l.99 		\item S
+              carsa percezione della profondità: l'ambliopia può ridurre l...
+ <./image/pvs.jpg>]
 <image/patching.jpg, id=197, 327.2225pt x 154.5775pt>
 File: image/patching.jpg Graphic file (type jpg)
 <use image/patching.jpg>
-Package pdftex.def Info: image/patching.jpg  used on input line 111.
+Package pdftex.def Info: image/patching.jpg  used on input line 112.
 (pdftex.def)             Requested size: 209.12778pt x 98.79008pt.
 <image/penalizzazione ottica.jpg, id=202, 819.06pt x 658.46pt>
 File: image/penalizzazione ottica.jpg Graphic file (type jpg)
 <use image/penalizzazione ottica.jpg>
-Package pdftex.def Info: image/penalizzazione ottica.jpg  used on input line 11
-9.
-(pdftex.def)             Requested size: 250.95587pt x 201.74933pt.
+Package pdftex.def Info: image/penalizzazione ottica.jpg  used on input line 12
+0.
+(pdftex.def)             Requested size: 209.12778pt x 168.1211pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.124 	
-        <./image/patching.jpg>]
-<image/luminopia.jpg, id=213, 266.9975pt x 190.7125pt>
+l.124 			\end{figure}
+                      <./image/patching.jpg>]
+<image/luminopia.jpg, id=212, 266.9975pt x 190.7125pt>
 File: image/luminopia.jpg Graphic file (type jpg)
 <use image/luminopia.jpg>
-Package pdftex.def Info: image/luminopia.jpg  used on input line 131.
+Package pdftex.def Info: image/luminopia.jpg  used on input line 132.
 (pdftex.def)             Requested size: 209.12778pt x 149.3837pt.
-<image/I_bit.jpg, id=218, 433.62pt x 289.08pt>
+<image/I_bit.jpg, id=217, 433.62pt x 289.08pt>
 File: image/I_bit.jpg Graphic file (type jpg)
 <use image/I_bit.jpg>
-Package pdftex.def Info: image/I_bit.jpg  used on input line 138.
+Package pdftex.def Info: image/I_bit.jpg  used on input line 139.
 (pdftex.def)             Requested size: 209.12778pt x 139.41846pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.144 	    	\item P
-                   attern Flicker\cite{Pattern-Flicker}, è costituito da un...
-
+l.142 		    \end{figure}
+                        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.144 	    	\item P
-                   attern Flicker\cite{Pattern-Flicker}, è costituito da un...
- <./image/penalizzazione ottica.jpg> <./image/luminopia.jpg>]
+l.142 		    \end{figure}
+                         <./image/penalizzazione ottica.jpg> <./image/luminopia
+.jpg>]
 <image/Pattern_Flicker.jpg, id=228, 698.61pt x 750.805pt>
 File: image/Pattern_Flicker.jpg Graphic file (type jpg)
 <use image/Pattern_Flicker.jpg>
-Package pdftex.def Info: image/Pattern_Flicker.jpg  used on input line 147.
-(pdftex.def)             Requested size: 209.12778pt x 224.75061pt.
+Package pdftex.def Info: image/Pattern_Flicker.jpg  used on input line 148.
+(pdftex.def)             Requested size: 167.29967pt x 179.7959pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.152     \end{itemize}
+l.153     \end{itemize}
                        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.152     \end{itemize}
+l.153     \end{itemize}
                         <./image/I_bit.jpg> <./image/Pattern_Flicker.jpg>]
 [8]
 chapter 2.
 <image/3D4Amb.png, id=240, 497.86pt x 111.41624pt>
 File: image/3D4Amb.png Graphic file (type png)
 <use image/3D4Amb.png>
-Package pdftex.def Info: image/3D4Amb.png  used on input line 158.
+Package pdftex.def Info: image/3D4Amb.png  used on input line 159.
 (pdftex.def)             Requested size: 334.60571pt x 74.8831pt.
 <image/cardboard.jpg, id=247, 1204.5pt x 633.36626pt>
 File: image/cardboard.jpg Graphic file (type jpg)
 <use image/cardboard.jpg>
-Package pdftex.def Info: image/cardboard.jpg  used on input line 172.
+Package pdftex.def Info: image/cardboard.jpg  used on input line 173.
 (pdftex.def)             Requested size: 334.60571pt x 175.94968pt.
 
 Underfull \vbox (badness 1210) has occurred while \output is active []
@@ -1088,37 +1084,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.175 	\end{figure}
+l.176 	\end{figure}
                     <./image/3D4Amb.png>]
 <image/3D4Amb_1.png, id=255, 889.82437pt x 405.76593pt>
 File: image/3D4Amb_1.png Graphic file (type png)
 <use image/3D4Amb_1.png>
-Package pdftex.def Info: image/3D4Amb_1.png  used on input line 179.
+Package pdftex.def Info: image/3D4Amb_1.png  used on input line 180.
 (pdftex.def)             Requested size: 334.60571pt x 152.58287pt.
 <image/3D4Amb_2.png, id=260, 1003.75pt x 501.875pt>
 File: image/3D4Amb_2.png Graphic file (type png)
 <use image/3D4Amb_2.png>
-Package pdftex.def Info: image/3D4Amb_2.png  used on input line 187.
+Package pdftex.def Info: image/3D4Amb_2.png  used on input line 188.
 (pdftex.def)             Requested size: 334.60571pt x 167.30402pt.
  [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191     I
+l.192     I
            l cardboard è uno strumento di realtà virtuale a basso costo ch...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191     I
+l.192     I
            l cardboard è uno strumento di realtà virtuale a basso costo ch...
  <./image/cardboard.jpg> <./image/3D4Amb_1.png>]
 <image/occhiali_anaglifici.png, id=273, 646.415pt x 411.5375pt>
 File: image/occhiali_anaglifici.png Graphic file (type png)
 <use image/occhiali_anaglifici.png>
-Package pdftex.def Info: image/occhiali_anaglifici.png  used on input line 196.
+Package pdftex.def Info: image/occhiali_anaglifici.png  used on input line 197.
 
 (pdftex.def)             Requested size: 250.95587pt x 159.77055pt.
 
@@ -1129,19 +1125,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.200 	L
+l.201 	L
         e immagini sono distanti tra loro(generalmente 5,7 cm), con colori c...
  <./image/3D4Amb_2.png>]
 <image/anaglifo.jpg, id=284, 220.825pt x 229.85875pt>
 File: image/anaglifo.jpg Graphic file (type jpg)
 <use image/anaglifo.jpg>
-Package pdftex.def Info: image/anaglifo.jpg  used on input line 203.
+Package pdftex.def Info: image/anaglifo.jpg  used on input line 204.
 (pdftex.def)             Requested size: 250.95587pt x 261.23499pt.
 <image/active-shutter-3d-technology.png, id=287, 507.8975pt x 292.09125pt>
 File: image/active-shutter-3d-technology.png Graphic file (type png)
 <use image/active-shutter-3d-technology.png>
 Package pdftex.def Info: image/active-shutter-3d-technology.png  used on input 
-line 212.
+line 213.
 (pdftex.def)             Requested size: 250.95587pt x 144.32487pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1151,20 +1147,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.215 	\end{figure}
+l.216 	\end{figure}
                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.215 	\end{figure}
+l.216 	\end{figure}
                     <./image/occhiali_anaglifici.png (PNG copy)> <./image/anagl
 ifo.jpg>] [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.226     \chapter
+l.227     \chapter
                   {Progetto} <./image/active-shutter-3d-technology.png (PNG cop
 y)>] [14
 
@@ -1174,7 +1170,7 @@ chapter 3.
 <image/gamepad.jpg, id=306, 803.0pt x 602.25pt>
 File: image/gamepad.jpg Graphic file (type jpg)
 <use image/gamepad.jpg>
-Package pdftex.def Info: image/gamepad.jpg  used on input line 230.
+Package pdftex.def Info: image/gamepad.jpg  used on input line 231.
 (pdftex.def)             Requested size: 334.60571pt x 250.95831pt.
 
 Underfull \vbox (badness 4995) has occurred while \output is active []
@@ -1184,31 +1180,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.238     	\item:
+l.239     	\item:
                  Cardboard, <./image/gamepad.jpg>]
 <image/unity.png, id=313, 1394.96156pt x 947.03813pt>
 File: image/unity.png Graphic file (type png)
 <use image/unity.png>
-Package pdftex.def Info: image/unity.png  used on input line 258.
+Package pdftex.def Info: image/unity.png  used on input line 259.
 (pdftex.def)             Requested size: 334.60571pt x 227.16373pt.
  [16]
-<image/visual_code.png, id=324, 1156.32pt x 649.2255pt>
+<image/visual_code.png, id=323, 1156.32pt x 649.2255pt>
 File: image/visual_code.png Graphic file (type png)
 <use image/visual_code.png>
-Package pdftex.def Info: image/visual_code.png  used on input line 274.
+Package pdftex.def Info: image/visual_code.png  used on input line 275.
 (pdftex.def)             Requested size: 334.60571pt x 187.86441pt.
  [17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.278     L
+l.279     L
            e estensioni utilizzate in questo progetto riguardano principalme...
  <./image/unity.png>]
-<image/Pr_trasparenza.png, id=335, 452.892pt x 227.04825pt>
+<image/Pr_trasparenza.png, id=334, 452.892pt x 227.04825pt>
 File: image/Pr_trasparenza.png Graphic file (type png)
 <use image/Pr_trasparenza.png>
-Package pdftex.def Info: image/Pr_trasparenza.png  used on input line 290.
+Package pdftex.def Info: image/Pr_trasparenza.png  used on input line 292.
 (pdftex.def)             Requested size: 334.60571pt x 167.75322pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1218,38 +1214,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.294     N
+l.296     N
            ella figura \ref{fig:pozzo}, possiamo notare come hai due occhi v...
  <./image/visual_code.png>]
-<image/target_score.png, id=345, 440.847pt x 224.037pt>
+<image/target_score.png, id=344, 440.847pt x 224.037pt>
 File: image/target_score.png Graphic file (type png)
 <use image/target_score.png>
-Package pdftex.def Info: image/target_score.png  used on input line 301.
+Package pdftex.def Info: image/target_score.png  used on input line 303.
 (pdftex.def)             Requested size: 292.7776pt x 148.78786pt.
  [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.308        \item S
+l.310        \item S
                     cudo in Movimento, mostrato in figura:\ref{fig:target_mo...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.308        \item S
+l.310        \item S
                     cudo in Movimento, mostrato in figura:\ref{fig:target_mo...
  <./image/Pr_trasparenza.png> <./image/target_score.png>]
-<image/target_movimento.png, id=357, 483.60675pt x 269.20575pt>
+<image/target_movimento.png, id=356, 483.60675pt x 269.20575pt>
 File: image/target_movimento.png Graphic file (type png)
 <use image/target_movimento.png>
-Package pdftex.def Info: image/target_movimento.png  used on input line 312.
+Package pdftex.def Info: image/target_movimento.png  used on input line 314.
 (pdftex.def)             Requested size: 292.7776pt x 162.97882pt.
-<image/protot.png, id=358, 501.072pt x 298.716pt>
+<image/protot.png, id=357, 501.072pt x 298.716pt>
 File: image/protot.png Graphic file (type png)
 <use image/protot.png>
-Package pdftex.def Info: image/protot.png  used on input line 323.
+Package pdftex.def Info: image/protot.png  used on input line 325.
 (pdftex.def)             Requested size: 334.60571pt x 199.47775pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1259,16 +1255,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.327         \item F
+l.329         \item F
                      ase di sviluppo, dopo aver definito i vari requisiti ed...
  <./image/target_movimento.png>]
-<image/gamepad_tasti.jpg, id=367, 578.16pt x 462.528pt>
+<image/gamepad_tasti.jpg, id=366, 578.16pt x 462.528pt>
 File: image/gamepad_tasti.jpg Graphic file (type jpg)
 <use image/gamepad_tasti.jpg>
-Package pdftex.def Info: image/gamepad_tasti.jpg  used on input line 347.
+Package pdftex.def Info: image/gamepad_tasti.jpg  used on input line 349.
 (pdftex.def)             Requested size: 334.60571pt x 267.68063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 338--354
 
  []
 
@@ -1277,26 +1273,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.352      \begin{itemize}
+l.354      \begin{itemize}
                            <./image/protot.png>] [22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.364      	\item C
+l.366      	\item C
                    hiusura:\textit{B} <./image/gamepad_tasti.jpg>]
-<image/menu_scena.png, id=383, 654.64575pt x 260.172pt>
+<image/menu_scena.png, id=382, 654.64575pt x 260.172pt>
 File: image/menu_scena.png Graphic file (type png)
 <use image/menu_scena.png>
-Package pdftex.def Info: image/menu_scena.png  used on input line 374.
+Package pdftex.def Info: image/menu_scena.png  used on input line 376.
 (pdftex.def)             Requested size: 250.95587pt x 99.73578pt.
-<image/menu_simulatore.png, id=385, 437.83575pt x 211.38976pt>
+<image/menu_simulatore.png, id=384, 437.83575pt x 211.38976pt>
 File: image/menu_simulatore.png Graphic file (type png)
 <use image/menu_simulatore.png>
-Package pdftex.def Info: image/menu_simulatore.png  used on input line 381.
+Package pdftex.def Info: image/menu_simulatore.png  used on input line 383.
 (pdftex.def)             Requested size: 250.95587pt x 121.1643pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--386
+Underfull \hbox (badness 10000) in paragraph at lines 371--388
 
  []
 
@@ -1305,43 +1301,43 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386     \subsubsection
+l.388     \subsubsection
                         {Fase di sviluppo}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386     \subsubsection
+l.388     \subsubsection
                         {Fase di sviluppo} <./image/menu_scena.png> <./image/me
 nu_simulatore.png>]
-<image/script_character.png, id=400, 290.88675pt x 121.6545pt>
+<image/script_character.png, id=399, 290.88675pt x 121.6545pt>
 File: image/script_character.png Graphic file (type png)
 <use image/script_character.png>
-Package pdftex.def Info: image/script_character.png  used on input line 408.
+Package pdftex.def Info: image/script_character.png  used on input line 410.
 (pdftex.def)             Requested size: 334.60571pt x 139.94241pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24]
-<image/mappa.png, id=415, 576.35326pt x 367.3725pt>
+<image/mappa.png, id=414, 576.35326pt x 367.3725pt>
 File: image/mappa.png Graphic file (type png)
 <use image/mappa.png>
-Package pdftex.def Info: image/mappa.png  used on input line 427.
+Package pdftex.def Info: image/mappa.png  used on input line 429.
 (pdftex.def)             Requested size: 292.7776pt x 186.61754pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<image/low_hight.jpg, id=418, 1003.75pt x 627.34375pt>
+<image/low_hight.jpg, id=417, 1003.75pt x 627.34375pt>
 File: image/low_hight.jpg Graphic file (type jpg)
 <use image/low_hight.jpg>
-Package pdftex.def Info: image/low_hight.jpg  used on input line 436.
+Package pdftex.def Info: image/low_hight.jpg  used on input line 438.
 (pdftex.def)             Requested size: 250.95587pt x 156.84512pt.
-<image/controller_test.png, id=423, 445.665pt x 215.00325pt>
+<image/controller_test.png, id=422, 445.665pt x 215.00325pt>
 File: image/controller_test.png Graphic file (type png)
 <use image/controller_test.png>
-Package pdftex.def Info: image/controller_test.png  used on input line 446.
+Package pdftex.def Info: image/controller_test.png  used on input line 448.
 (pdftex.def)             Requested size: 292.7776pt x 141.24643pt.
 
 Underfull \vbox (badness 1394) has occurred while \output is active []
@@ -1351,27 +1347,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452     \chapter
+l.453     \chapter
                   {Conclusioni e Sviluppi futuri} <./image/script_character.png
 >] [26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452     \chapter
+l.453     \chapter
                   {Conclusioni e Sviluppi futuri}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452     \chapter
+l.453     \chapter
                   {Conclusioni e Sviluppi futuri} <./image/mappa.png> <./image/
 low_hight.jpg>] [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452     \chapter
+l.453     \chapter
                   {Conclusioni e Sviluppi futuri} <./image/controller_test.png>
 ] [28
 
@@ -1379,22 +1375,22 @@ l.452     \chapter
 ]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
@@ -1551,7 +1547,7 @@ Here is how much of TeX's memory you used:
  46210 multiletter control sequences out of 15000+600000
  522925 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,106p,10632b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,106p,10632b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
@@ -1564,9 +1560,9 @@ jfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\Luca\AppData\Local\MiKTeX\fonts
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Luca/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Luca/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on document.pdf (39 pages, 3979667 bytes).
+Output written on document.pdf (39 pages, 3979903 bytes).
 PDF statistics:
- 937 PDF objects out of 1000 (max. 8388607)
+ 935 PDF objects out of 1000 (max. 8388607)
  134 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
