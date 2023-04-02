@@ -14,13 +14,13 @@
 \contentsline {chapter}{\numberline {3}Progetto}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Tecnologie utilizzate}{16}{section.3.1}%
 \contentsline {subsubsection}{\nonumberline Cardboard, motivi della scelta}{16}{subsubsection*.11}%
-\contentsline {subsubsection}{\nonumberline Unity 3D}{16}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Visual code}{17}{subsubsection*.15}%
-\contentsline {section}{\numberline {3.2}Struttura}{18}{section.3.2}%
+\contentsline {subsubsection}{\nonumberline Unity 3D}{17}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Visual code}{18}{subsubsection*.15}%
+\contentsline {section}{\numberline {3.2}Struttura}{19}{section.3.2}%
 \contentsline {subsubsection}{\nonumberline Target}{19}{subsubsection*.17}%
 \contentsline {section}{\numberline {3.3}Implementazione}{20}{section.3.3}%
 \contentsline {subsubsection}{\nonumberline Fase di prototipazione}{21}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline Fase di sviluppo}{24}{subsubsection*.21}%
-\contentsline {section}{\numberline {3.4}Problemi}{26}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Conclusioni e Sviluppi futuri}{29}{chapter.4}%
+\contentsline {subsubsection}{\nonumberline Fase di sviluppo}{25}{subsubsection*.21}%
+\contentsline {section}{\numberline {3.4}Problemi}{27}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Conclusioni e Sviluppi futuri}{31}{chapter.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

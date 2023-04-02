@@ -107,17 +107,17 @@ numbers=autoenddot,
 	\begin{itemize}
 		\item Patching\cite{patching}, La terapia consiste nel coprire l'occhio dominante, da applicare per un perioda di tempo variabile, figura:\ref{fig:patching}.
 		Il trattamento è efficacie, ma il recupero della vista impiega diversi mesi.       	   
-			\begin{figure}[h]
+			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.5\linewidth]{image/patching}
+				\includegraphics[width=0.7\linewidth]{image/patching}
 				\caption{Trattamento con Patching.Fonte:\cite{Patching_image}}
 				\label{fig:patching}
 			\end{figure}	
 	
 		\item Lenti opacizzazione, usate per limitare la visione dell'occhio sano e stimolare l'occhio pigro a lavorare di più, figura:\ref{fig:penalizzazione-ottica}. Un articolo che ha esaminato gli effetti delle lenti di Bangerter sulla funzione binoculare in pazienti con ambliopia è The effect of Bangerter filters on binocular function in observers with amblyopia\cite{filtro}.
-			\begin{figure}[H]
+			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.5\linewidth]{image/penalizzazione ottica}
+				\includegraphics[width=0.7\linewidth]{image/penalizzazione ottica}
 				\caption{Trattamento con lente di bangerter.
 					Fonte:\cite{Bangerter_image}}
 				\label{fig:penalizzazione-ottica}
@@ -127,19 +127,13 @@ numbers=autoenddot,
 		
 		\item Luminopia, è un software approvato da \textbf{Food and Drug Administration(FDA)}\cite{Approvazione_luminopia} come annunciato dal CEO Scott Xiao, che permette ai pazienti di poter usufruire di 700 ore di serie o film, adattati tramite AI, figura:\ref{fig:luminopia}. Questo sistema permette di rendere il trattamento dell'ambliopia piacevole e quindi sopportabile nel lungo periodo.
 		I pazienti usufruiscono di questi contenuti mediante il vr, in modo da poter visionare i contenuti scelti.
-			\begin{figure}[H]
+			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.5\linewidth]{image/luminopia}
+				\includegraphics[width=0.7\linewidth]{image/luminopia}
 				\caption{Trattamento innovativo con Luminopia.Fonte:\cite{Lumiopia_image}}
 				\label{fig:luminopia}
 			\end{figure}
-	    \item Esiste poi un altro tipo di tecnologia, I-BiT Plus\cite{I-Bit}, figura:\ref{fig:I_bit}, il quale permette al paziente di intrattenersi mediante giochi interattivi o video.
-		    \begin{figure}[H]
-		    	\centering
-		    	\includegraphics[width=0.5\linewidth]{image/I_bit}
-		    	\caption{I bit.Fonte:\cite{I-Bit}}
-		    	\label{fig:I_bit}
-		    \end{figure}
+	    \item Esiste poi un altro tipo di tecnologia, I-BiT Plus\cite{I-Bit}s, il quale permette al paziente di intrattenersi mediante giochi interattivi o video.
 	    Il suo funzionamento si baso sul mostrare la parte più "interessante" del gioco o DVD, come ostacoli o obiettivi, mentre nell'occhio pigro vengono mostrati oggetti di contorno, come i paesaggi.
 	    Per assicurare che il paziente continui a guardare le immagini in un posizione ottimale il sistema si serve di un Eye tracker, in modo da garantire il coretto posizionamento dell'immagine.
 	    	\item Pattern Flicker\cite{Pattern-Flicker}, è costituito da una cupola semisferica nera contenente un ottagono di LED rossi e una console utilizzata per controllare i LED stessi, figura:\ref{fig:Pattern-Flicker}.
@@ -243,7 +237,13 @@ numbers=autoenddot,
     \end{itemize}
   \subsubsection{Cardboard, motivi della scelta}\label{chap:cardboard_motivi}
     La motivazione che mi ha portato a scegliere il cardboard e non gli occhiali anaglifici, risiedono principalmente nella sua versatilità, visto che mi permette di poter realizzare un applicazione con limitati limiti tecnici e con un budget ridotto, fatto cruciale, visto che si parla principalmente di un'applicazione idealmente indirizzata per pazienti giovanissimi, i quali potranno usufruire dei sui benefici comodamente da casa.
-    Una delle tecnologie che mi è stata particolarmente utile grazie al cardboard e allo smartphone, è il giroscopio. Questo componente ha permesso di creare un'esperienza di immersione più avanzata, in quanto ha reso possibile la percezione del movimento e dell'orientamento spaziale del dispositivo, trasferendo queste informazioni nel gioco. Grazie al giroscopio, infatti, il giocatore può muoversi all'interno dell'ambiente virtuale semplicemente inclinando la testa, senza dover utilizzare alcun altro dispositivo di controllo. Questo ha reso l'esperienza di gioco più fluida e naturale, aumentando l'immersione del paziente nell'ambiente virtuale e rendendo il gioco ancora più coinvolgente.
+    Una delle tecnologie che mi è stata particolarmente utile grazie al cardboard e allo smartphone, è il giroscopio. Questo componente ha permesso di creare un'esperienza di immersione più avanzata, in quanto ha reso possibile la percezione del movimento e dell'orientamento spaziale del dispositivo, trasferendo queste informazioni nel gioco. Grazie al giroscopio\ref{fig:giroscopio}, il giocatore può muoversi all'interno dell'ambiente virtuale semplicemente inclinando la testa, senza dover utilizzare alcun altro dispositivo di controllo. Questo ha reso l'esperienza di gioco più fluida e naturale, aumentando l'immersione del paziente nell'ambiente virtuale e rendendo il gioco ancora più coinvolgente.
+     \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.5\linewidth]{image/giroscopio}
+    	\caption{Assi Giroscopio.Fonte:\cite{Giro_image}}
+    	\label{fig:giroscopio}
+    \end{figure}
     \subsubsection{Unity 3D}\label{unity3D}
     Unity 3D è un motore di gioco sviluppato dalla Unity
     Technologies, il quale permette di realizzare dei videogiochi tridimensionali e bidimensionali, la sua comunity e le varie guide messe a disposizione da unity permettono di cimentarsi in questo progetto superando il plateau d'apprendimento.
@@ -335,12 +335,35 @@ numbers=autoenddot,
      	\item Mappatura dei tasti, in cui ho definito i tasti utilizzati e le azioni a esse collegate.
      	\item Menu, in cui ho implementato i menu di scelta con le relative finestre.
      \end{itemize}
-     Per la visuale, la preoccupazione più grande è stata ideare un sistema che permettesse di differenziare le immagini dirette nei rispettivi occhi, per fare ciò ho usato due telecamere.
+     Per la visuale, la preoccupazione più grande è stata ideare un sistema che permettesse di differenziare le immagini dirette nei rispettivi occhi, per fare ciò ho usato due telecamere, poste al interno di un oggetto, in cui è presente lo script \textit{Camera}, di cui discuterò più avanti.
      Le due telecamere sono state poste alla distanza interpupillare media, 62mm\cite{Distanza_occhi}.
      Come accennato prima, le telecamere mostrano oggetti diversi, ovvero, oltre alla loro distanza, utile per ricreare l'effetto tridimensionale, mi sono anche preoccupato di trovare uno stratagemma che mi permettesse di mostrare lo stesso oggetto in maniera differente, l'effetto trasparenza.
-     L'effetto, in questo caso, è stato ricreato andando a sfruttare la possibilità di unity3D di poter duplicare gli oggetto, identificati con il tag "OcchioMalato", attraverso il metodo \textit{Instantiate}, per poi andare a modificare il materiale, aggiungendo un effetto di trasparenza.
-     Per concludere vado a mostrare la copia(trasparente) al occhio sano, mentre l'originare(non trasparente) all'occhio pigro.
-     Utilizzo questo meccanismo in ogni livello, andando a variare la gravita della trasparenza.\\\\
+     L'effetto visivo desiderato è stato ricreato mediante la creazione dello script \textit{SetUp}, che sfrutta la funzionalità di Unity3D di poter duplicare gli oggetti identificati con il tag \textit{OcchioMalato}. Lo script utilizza il metodo \textit{Instantiate} per creare una copia dell'oggetto, a cui viene applicato un effetto di trasparenza modificando il materiale. Infine, la copia trasparente viene mostrata all'occhio sano, mentre l'originale non trasparente viene mostrato all'occhio pigro. Quest'ultima parte è gestita dallo script \textit{GestioneTwoC}.
+     Come detto in precedenza le due telecamere sono poste all'interno di un oggetto padre, il quale contiene lo script \textit{Camera}.
+     Questo script mi permette di utilizzare il giroscopio del telefono in modo da poter regolare l'angolazione della visuale.
+     Per l'integrazione del giroscopio all'interno del sistema ho utilizzato la classe \textit{Gyroscope}, il quale mi permette di ottenere diversi valori:
+     \begin{itemize}
+        \item attitude,	Restituisce l'orientamento nello spazio del dispositivo.
+        \item enabled, Imposta o recupera lo stato di abilitazione del giroscopio.
+        \item gravity, Restituisce il vettore dell'accelerazione di gravità.
+        \item rotationRate,	Restituisce la velocità di rotazione misurata dal giroscopio.
+        \item rotationRateUnbiased,	Restituisce il tasso di rotazione elaborato.
+        \item updateInterval, Imposta o recupera l'intervallo di misurazione del giroscopio in secondi.
+        \item userAcceleration,	Restituisce l'accelerazione che l'utente fornisce al dispositivo.
+     \end{itemize}
+     Nel mio caso sono andato ad usare \textit{rotationRate}\ref{fig:code_giro}
+      \begin{figure}[H]
+     	\centering
+     	\includegraphics[width=1\linewidth]{image/codice_giro}
+     	\caption{Codice usato}
+     	\label{fig:code_giro}
+     \end{figure}
+     Per evitare movimenti troppo bruschi, ho limitato la massima e minima velocità di rotazione, attraverso \textit{limitRotate}.
+     Nella figura\ref{for:rotate}, riporto il comportamento della X
+     \begin{displaymath}\label{for:rotate}
+     	-limtiRotate  \leq X \leq limitRotate
+     \end{displaymath}
+ 
      Per la mappatura mi sono preoccupato di associare ogni tasto ad una specifica funzione, in modo da ricreare, una facile ergonomia, in modo tale da poter riconoscere i tasti principali senza l'utilizzo della vista, in quanto durante l'esperienza è richiesto l'uso del cardboard.
      Di seguito, figura:\ref{fig:gamepad_tasti}, riporto il layout dei tasti con le funzioni associate.
      Ho raggruppato la presentazione in 2 macro gruppi:Azioni personaggio e Navigazione menu.
@@ -405,7 +428,7 @@ numbers=autoenddot,
         \item Teleporter, è uno script che ho creato per gestire il teletrasporto all'interno del gioco. Questo elemento è stato implementato per garantire una seconda opzione di movimento, nel caso in cui il motion sickness\cite{mottion_sickness} dovesse influenzare negativamente l'esperienza di gioco degli utenti.
     \end{itemize}
     Gli script sopra citati, vengo organizzati seguendo uno scema gerarchico, figura:\ref{fig:script_character}, essi compongono il personaggio, il componente più importate del gioco.
-    \begin{figure}[h]
+    \begin{figure}[H]
     	\centering
     	\includegraphics[width=0.8\linewidth]{image/script_character}
     	\caption{Organizzazione script}
@@ -418,22 +441,31 @@ numbers=autoenddot,
         \item Menu, implementa il sistema menu, descritto nel paragrafo precedente.
         \item spawnT, consente di impostare la posizione di origine dell'oggetto chiamato \textit{TeleSphere}, il quale può essere spostato in modo che funga da punto di riferimento per il teletrasporto.
     \end{itemize}
+    L'oggetto \textit{GunHeavy} contiene lo script \textit{shoot} come mostrato nella figura \ref{fig:script_character}. Questo script gestisce l'azione di sparare utilizzando la classe Raycast di Unity 3D. La classe Raycast permette di emettere un raggio dalla posizione dell'oggetto in gioco e di determinare se colpisce altri oggetti nella scena. Questa funzione è stata utilizzata per permettere al giocatore di sparare ai vari target e guadagnare punti.
+    Quando il Raycast colpisce i target, attiva una funzione all'interno degli stessi che permette di conteggiare i punti ottenuti dal giocatore, chiamata hit.\\
     Dopo aver costruito il personaggio giocante, sono andato a creare il terreno di gioco, disseminandolo di rocce, edifici e oggetti di scena.
     Uno degli aspetti fondamentali è stato il posizionamento e la scelta degli oggetti "OcchioMalato", in quanto l'obiettivo principale è quello di andare a stimolare efficacemente l'occhio pigro, costringendo il paziente a prestare attenzione agli elementi del paesaggio.
     Legato a questo, ho disseminato ogni livello con un determinato numero di target fissi e/o in movimento, i quali sono essenziali per il proseguo del gioco e della terapia.
-    Per quanto riguarda i target sono composti da un singolo script, nel caso degli statici, invece per quelli in movimento, mi sono servito di uno script che ricrea le curve di Bézier\cite{Pack_asset}.
+    Per quanto riguarda i target sono composti da un singolo script chiamato \textit{target} nel caso degli statici, invece per quelli in movimento, mi sono servito di uno script aggiuntivo che ricrea le curve di Bézier\cite{Pack_asset}.
     \textbf{Le curve di Bézier}\cite{Path_asset}, sono utilizzate principalmente in ambito grafico e di progettazione assistita dal computer (CAD), in questo caso sono state usate per delineare il percorso che i vari target devono seguire. Queste curve sono particolarmente utili per creare forme e traiettorie fluide e precise utilizzando un insieme di punti di controllo.
     Le curve sono state rappresentate in verde nella figura:\ref{fig:mappa}.
-     \begin{figure}[h]
+     \begin{figure}[H]
     	\centering
-    	\includegraphics[width=0.7\linewidth]{image/mappa}
+    	\includegraphics[width=0.6\linewidth]{image/mappa}
     	\caption{Secondo livello}
     	\label{fig:mappa}
+    \end{figure}
+    Nello script del target, oltre a definire la funzione "hit" scatenata dal Raycast, è stata implementata anche la creazione dell'oggetto \textit{fly score} attraverso il metodo \textit{Istantiate}, che sostituisce il target colpito. All'interno di questo oggetto è stato implementato uno script che crea un effetto visivo in cui il punteggio del target colpito vola verso l'alto rimpicciolendosi gradualmente\ref{fig:fly score}. Inoltre, è stata utilizzata una funzione coseno per generare una leggera turbolenza, al fine di rendere l'effetto più dinamico.
+     \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.6\linewidth]{image/fly score}
+    	\caption{Esempio fly score}
+    	\label{fig:fly score}
     \end{figure}
     \section{Problemi}
     In questo paragrafo elencherò le limitazioni e le forzature che ho introdotto nel progetto per garantirne la stabilità. Come già accennato in precedenza\ref{chap:cardboard_motivi}, l'utilizzo del Cardboard mi ha fornito un set di tecnologie molto utili, ma ha anche comportato una limitazione tecnica significativa. Lo smartphone utilizzato con il Cardboard non è in grado di elaborare immagini troppo complesse, il che mi ha costretto a scegliere uno stile low poly per gli asset  gioco.
     Questa limitazione si può anche osservare dagli alberi scelti i quali non presentano foglie ma chiome stilizzate, figura:\ref{fig:low_hight}.
-    \begin{figure}[h]
+    \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{image/low_hight}
 		\caption{Albero low poly contro hight poly.Fonte:\cite{low_high}}
@@ -441,9 +473,11 @@ numbers=autoenddot,
     \end{figure}
     In relazione a ciò, parlerò della trasparenza, che è stata ampiamente discussa nei paragrafi precedenti e che comporta la duplicazione degli oggetti identificati come "OcchioMalato", modificandone il materiale.
     L'operazione sopra descritta implica che lo smartphone dovrà renderizzare e tenere in memoria nel peggior dei casi, il doppio degli elementi, questo implica che bisogna scegliere saggiamente a quali oggetti impostare il tag "OcchioMalato", per evitare di sovraccaricare il telefono.
+    In fine per chiudere il discorso cardboard, andrò a parlare della limitazione che influisce maggiorante sull'immersività del gioco, ovvero la limitazione dei gradi di libertà dell'oggetto \text{Testa}, il quale è responsabile di orientare le due telecamere.
+    Ho deciso di limitare la rotazione sull'asse z in quanto, dopo svariati test, mi sono accorto che essa causava problemi di mancata sincronizzazione tra il cardboard e il gioco.\\\\
     Un altro problema, non correlato al cardboard, riguarda la mappatura dei comandi. Inizialmente, non avevo trovato la mappatura del gamepad utilizzato, il che significava che non avevo informazioni sui codici associati ad ogni tasto.
     Per risolvere il problema della mappatura dei comandi, ho utilizzato un asset chiamato "Controller test"\cite{Controller_test}, reperibile sull'Asset Store di Unity3D. Dopo averlo installato sul telefono, l'asset mi ha permesso di visualizzare i codici associati ai tasti del gamepad e di mapparli correttamente in Unity3D. In questo modo, ho risolto il problema della mappatura dei comandi, come mostrato nella figura \ref{fig:controller_test}.
-    \begin{figure}[h]
+    \begin{figure}[H]
     	\centering
     	\includegraphics[width=0.7\linewidth]{image/controller_test}
     	\caption{Prova controller test, per tasto X}

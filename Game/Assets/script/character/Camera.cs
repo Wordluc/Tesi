@@ -41,9 +41,8 @@ public class Camera : MonoBehaviour
           
                 float x=Mathf.Clamp(Input.gyro.rotationRate.x,-limitRotate,limitRotate);
                 float y=Mathf.Clamp(Input.gyro.rotationRate.y,-limitRotate,limitRotate);
-                float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate)*0.5f;
+                float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate);
                 testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*sensibility*Time.deltaTime;
-            //   camera.transform.Rotate(-Input.gyro.rotationRateUnbiased.x*speedRotation,0, Input.gyro.rotationRateUnbiased.z*speedRotation);
                 body.transform.Rotate(0, -y*sensibility*Time.deltaTime,0);
         }else if(typeMCamera==typeMouve.mouse){
       
