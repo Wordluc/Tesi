@@ -4,6 +4,7 @@ cleardoublepage=empty,
 headings=twolinechapter,
 numbers=autoenddot,
 ]{scrbook}
+\setcounter{secnumdepth}{4}
 \usepackage[italian]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -54,12 +55,15 @@ numbers=autoenddot,
 	
 	In particolare, il progetto 3D4Amb si prefigge di utilizzare la tecnologia 3D e gli strumenti di realtà virtuale per la creazione di applicazioni interattive che stimolino la visione dell'occhio pigro, sfruttando supporti fisici per differenziare le immagini dirette ai rispettivi occhi. L'obiettivo finale è quello di fornire una soluzione innovativa e personalizzata per la diagnosi e la cura dell'ambliopia, che possa essere utilizzata sia in ambito clinico che a casa.\\\\
 	
-	Nel primo capitolo, approfondirò il problema dell'occhio pigro, descrivendone i sintomi e i possibili trattamenti, evidenziando l'importanza di una diagnosi precoce e della cura della patologia per prevenire conseguenze a lungo termine. Nel secondo capitolo, descriverò il progetto 3D4Amb, illustrando gli strumenti e i supporti utilizzati per la creazione delle applicazioni, evidenziando l'importanza dell'innovazione tecnologica per la diagnosi e la cura dell'ambliopia.\\\\
+	Nel primo capitolo, approfondirò il problema dell'occhio pigro, descrivendone i sintomi e i possibili trattamenti, evidenziando l'importanza di una diagnosi precoce e della cura della patologia per prevenire conseguenze a lungo termine. \\\\
+	Nel secondo capitolo, descriverò il progetto 3D4Amb, illustrando gli strumenti e i supporti utilizzati per la creazione delle applicazioni, evidenziando l'importanza dell'innovazione tecnologica per la diagnosi e la cura dell'ambliopia.\\\\
 	
-	Nel terzo capitolo, mi concentrerò sulla descrizione dettagliata del flusso di lavoro che mi ha portato alla realizzazione del gioco mobile all'interno del progetto, evidenziando i problemi incontrati e le soluzioni adottate per superarli. Infine, nell'ultimo capitolo, le conclusioni, esprimerò le mie considerazioni sul progetto e le possibili migliorie future per sviluppare soluzioni ancora più efficaci per la diagnosi e la cura dell'ambliopia.
+	Nel terzo capitolo, mi concentrerò sulla descrizione dettagliata del flusso di lavoro che mi ha portato alla realizzazione del gioco mobile all'interno del progetto, evidenziando i problemi incontrati e le soluzioni adottate per superarli.\\\\
+	
+    Infine, nell'ultimo capitolo, le conclusioni, esprimerò le mie considerazioni sul progetto e le possibili migliorie future per sviluppare soluzioni ancora più efficaci per la diagnosi e la cura dell'ambliopia.
 	 
 	\chapter{Ambliopia}
-	L'ambliopia, anche conosciuta come "occhio pigro" è una patologia che si manifesta nei prima anni dello sviluppo, età compresa tra 0-6 anni, il quale colpisce circa il 4\% della popolazione mondiale.
+	L'ambliopia, anche conosciuta come "occhio pigro" è una patologia che si manifesta nei prima anni dello sviluppo, età compresa tra 0-6 anni, il quale colpisce circa il 4\% della popolazione mondiale\cite{perc_amblipia}.
 	La patologia riguarda la non corretta stimolazione dell'apparato visivo, in questo caso il cervello non riesce a ricreare l'immagine tridimensionale e quindi per evitare il fenomeno della visione doppia, anche detta \textbf{diplopia}, il cervello tenterà di sopprimere un immagine.
 	Nella maggior parte dei casi, l'occhio è anatomicamente perfetto, \textbf{ambliopia funzionale}, in casi peggiori possiamo riscontrare \textbf{ambliopia organica} in cui vi è una deviazione delle vie ottiche.
 	La seguente patologia si può manifestare con più probabilità in maniera asimmetrica, \textbf{monolaterale}, la quale colpisce un solo occhio, o più raramente possiamo trovare la forma \textbf{bilaterale}, la quale colpisce entrambi gli occhi.
@@ -117,7 +121,7 @@ numbers=autoenddot,
 		\item Lenti opacizzazione, usate per limitare la visione dell'occhio sano e stimolare l'occhio pigro a lavorare di più, figura:\ref{fig:penalizzazione-ottica}. Un articolo che ha esaminato gli effetti delle lenti di Bangerter sulla funzione binoculare in pazienti con ambliopia è The effect of Bangerter filters on binocular function in observers with amblyopia\cite{filtro}.
 			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.7\linewidth]{image/penalizzazione ottica}
+				\includegraphics[width=0.5\linewidth]{image/penalizzazione ottica}
 				\caption{Trattamento con lente di bangerter.
 					Fonte:\cite{Bangerter_image}}
 				\label{fig:penalizzazione-ottica}
@@ -127,13 +131,13 @@ numbers=autoenddot,
 		
 		\item Luminopia, è un software approvato da \textbf{Food and Drug Administration(FDA)}\cite{Approvazione_luminopia} come annunciato dal CEO Scott Xiao, che permette ai pazienti di poter usufruire di 700 ore di serie o film, adattati tramite AI, figura:\ref{fig:luminopia}. Questo sistema permette di rendere il trattamento dell'ambliopia piacevole e quindi sopportabile nel lungo periodo.
 		I pazienti usufruiscono di questi contenuti mediante il vr, in modo da poter visionare i contenuti scelti.
-			\begin{figure}[h]
+			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.7\linewidth]{image/luminopia}
+				\includegraphics[width=0.6\linewidth]{image/luminopia}
 				\caption{Trattamento innovativo con Luminopia.Fonte:\cite{Lumiopia_image}}
 				\label{fig:luminopia}
 			\end{figure}
-	    \item Esiste poi un altro tipo di tecnologia, I-BiT Plus\cite{I-Bit}s, il quale permette al paziente di intrattenersi mediante giochi interattivi o video.
+	    \item Esiste poi un altro tipo di tecnologia, I-BiT Plus\cite{I-Bit}, il quale permette al paziente di intrattenersi mediante giochi interattivi o video.
 	    Il suo funzionamento si baso sul mostrare la parte più "interessante" del gioco o DVD, come ostacoli o obiettivi, mentre nell'occhio pigro vengono mostrati oggetti di contorno, come i paesaggi.
 	    Per assicurare che il paziente continui a guardare le immagini in un posizione ottimale il sistema si serve di un Eye tracker, in modo da garantire il coretto posizionamento dell'immagine.
 	    	\item Pattern Flicker\cite{Pattern-Flicker}, è costituito da una cupola semisferica nera contenente un ottagono di LED rossi e una console utilizzata per controllare i LED stessi, figura:\ref{fig:Pattern-Flicker}.
@@ -147,7 +151,7 @@ numbers=autoenddot,
     \end{itemize}
 
 	\chapter{3D4Amb}
-	Il progetto è nato con l'intenzione di, creare uno strumento utile ed economico per il trattamento, misurazione dell'occhio pigro basato sul 3D.
+	Il progetto è nato con l'intenzione di creare uno strumento utile ed economico per il trattamento, misurazione dell'occhio pigro basato sul 3D.
 	 \begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{image/3D4Amb}
@@ -156,10 +160,10 @@ numbers=autoenddot,
 	\end{figure}
 	\section{Funzionamento e strumenti}
 	Il funzionamento di base del sistema 3D4Amb consiste nel presentare al paziente due immagini correlate tra loro ma leggermente diverse, pre-elaborate tramite il software 3D4Amb. Questo permette di creare una percezione tridimensionale della scena, dando la sensazione che gli oggetti si trovino davanti ai propri occhi.
-	Per realizzare le applicazioni video ludiche basate sulla differenziazione delle immagini, 3D4Amb utilizza diversi supporti tecnologici, il tutto a basso costo. Tuttavia, per poter utilizzare il sistema, è necessario garantire lo sdoppiamento delle immagini per i due occhi, in modo che ciascun occhio veda una sola immagine, ma insieme creino l'effetto tridimensionale.
+	Per realizzare le applicazioni video ludiche basate sulla differenziazione delle immagini, 3D4Amb utilizza diversi supporti tecnologici, il tutto a basso costo
 	Per garantire il corretto sdoppiamento, sono state sperimentate diverse soluzioni. Una di queste è l'utilizzo di occhiali speciali dotati di lenti polarizzate, che permettono ai due occhi di vedere immagini diverse, in base alla polarizzazione delle lenti. Un'altra soluzione consiste nell'utilizzo di schermi speciali, che proiettano due immagini diverse in modo che ciascun occhio possa vederne una sola.
 	Inoltre, per garantire la massima efficienza del sistema, è importante considerare anche la distanza tra gli occhi del paziente, in modo da regolare il sistema di visualizzazione in base alle caratteristiche anatomiche di ciascun individuo. In questo modo, è possibile ottenere una visione tridimensionale più nitida e confortevole per il paziente.
-	\subsubsection{Cardboard}\label{chap:cardboard}
+	\subsection{Cardboard}\label{chap:cardboard}
     Il funzionamento del Google Cardboard, figura:\ref{fig:cardboard}, si basa sulla creazione di un effetto stereoscopico\cite{Stereoscopio}, utilizzando uno smartphone, il quale viene inserito all'interno del dispositivo
 	Il cardboard utilizza due lenti che permettono di ingrandire l'immagine fino ad riempire il campo visivo\cite{Funzionamento_cardboard}.
 	\begin{figure}[H]
@@ -184,7 +188,7 @@ numbers=autoenddot,
     	\label{fig:cardboard-3D4Amb_elementi}
     \end{figure}
     Il cardboard è uno strumento di realtà virtuale a basso costo che sfrutta il proprio smartphone come schermo e processore. Questo significa che, grazie al cardboard, è possibile sfruttare tutte le potenzialità del proprio smartphone per creare esperienze di realtà virtuale. Inoltre, il fatto che il telefono risieda all'interno del cardboard permette di dividere le immagini emesse dallo schermo del telefono in modo che siano percepite come immagini separate dai due occhi, creando un effetto di tridimensionalità e immersività per l'utente. Grazie a questa tecnologia, è possibile accedere a un'ampia gamma di applicazioni di realtà virtuale disponibili sullo store del proprio smartphone, rendendo l'esperienza di realtà virtuale accessibile a un pubblico sempre più vasto.
-	\subsubsection{Occhiali Anaglifici}\label{chap:occhiali_anaglifici}
+	\subsection{Occhiali Anaglifici}\label{chap:occhiali_anaglifici}
 	Gli occhiali anaglifici, come si può vedere nella figura \ref{fig:occhiali_anaglifici}, sono provvisti da due lenti in gelatina rossa e ciano, dette anche filtri, che vengono utilizzati per permettere all'occhio di percepire un'immagine composta da due immagini sovrapposte, ognuna delle quali filtrata da un colore diverso. In particolare, una delle due immagini è filtrata in rosso e l'altra in ciano, in modo che quando l'immagine viene vista attraverso le lenti degli occhiali, ciascun occhio vede solo l'immagine che gli corrisponde e il cervello le unisce per creare l'effetto tridimensionale. Questa tecnica, chiamata anaglifo, è stata utilizzata per la visione di immagini tridimensionali fin dagli anni '50, e ancora oggi viene utilizzata in alcune applicazioni di realtà virtuale e giochi in 3D.
 	\begin{figure}[H]
 		\centering
@@ -200,7 +204,7 @@ numbers=autoenddot,
 	 	\label{fig:anaglifo}
 	 \end{figure}
 
-	\subsubsection{Active shutter 3D system}
+	\subsection{Active shutter 3D system}
 	   L'active shutter 3D system, invece, utilizza degli occhiali attivi, dotati di lenti liquide o cristalli liquidi che si alternano rapidamente tra uno stato di trasparenza e uno di opacità per bloccare la visione di uno degli occhi mentre l'altro vede l'immagine corrispondente, a una frequenza che può arrivare anche a 120Hz. In questo modo, le immagini vengono mostrate in rapida successione alternando i due occhi, creando la sensazione di visione tridimensionale. Questa tecnologia è diversa rispetto a quella del cardboard, in cui le immagini sono mostrate contemporaneamente davanti a entrambi gli occhi.
 		\begin{figure}[H]
 		\centering
@@ -210,16 +214,16 @@ numbers=autoenddot,
 	\end{figure}
 
 	\section{Obiettivi}
-	Utilizzando la tecnologia 3D è possibile trattare l'ambliopia, attraverso un approccio ludico, permettendo quindi di intrattenere maggiormente il paziente, spesso in età giovanile, aumentando quindi la probabilità di successo.
-	I punti in cui 3D4Amb si focalizza sono:
-	\begin{itemize}
-		\item Basso costoso, il sistema si basa su tecnologie a basso costo.
-		\item Facile da usare, non richiede nessun particolare capacità, permettendo anche ai pazienti più piccoli di poter usufruire del sistema senza l'assistenza dei genitori.
-		\item Uso domestico, il sistema può essere utilizzato nel ambiente domestico, evitando quindi le visite frequenti all'ospedale
-		\item Facilmente estendibile, 3D4Amb permette di usare le librerie software, agevolando  quindi l'estensione del sistema, aggiungendo nuove applicazione o funzioni.
-	\end{itemize}
+    Il progetto 3D4Amb è stato concepito con l'intento di sviluppare un sistema avanzato basato sulla tecnologia 3D, mirato a migliorare la diagnosi e il trattamento dell'ambliopia nei bambini piccoli. Grazie all'uso di immagini tridimensionali differenti per ciascun occhio, il sistema consente una diagnosi più precisa e semplice dell'ambliopia, che può poi essere trattata attraverso l'impiego di giochi interattivi e attività di intrattenimento.
+    \begin{itemize}
+    	\item Basso costo, in modo che possa essere acquistato da famiglie di qualsiasi estrazione economica. A tal fine, si è scelto di basare il sistema su tecnologie facilmente reperibili e accessibili al pubblico, che richiedono un investimento economico limitato.
+    	\item Semplice da usare, in quanto non richiede alcuna formazione specifica e può essere utilizzato dai bambini con una supervisione limitata o nulla. Si mira, inoltre, a rendere il sistema adatto all'uso domestico, evitando la necessità di recarsi in ospedale o in centri specializzati.
+    	\item Estendibile, grazie all'impiego di tecnologie standard e, possibilmente, open source, il sistema è progettato per consentire a sviluppatori terzi di ampliarne le funzionalità in modo semplice e immediato. Ciò garantisce la massima flessibilità e scalabilità del sistema nel tempo, in modo da poterlo adattare alle esigenze dei singoli utenti e alle future evoluzioni del mercato.
+    \end{itemize}
+    In definitiva, il progetto 3D4Amb rappresenta un'importante opportunità per migliorare la qualità della vita dei bambini affetti da ambliopia, garantendo loro un trattamento innovativo, efficace e accessibile a tutti.
+    
     \chapter{Progetto}
-     L'obiettivo di questa tesi è quello di sviluppare uno strumento di terapia per l'ambliopia che sia in grado di intrattenere maggiormente il paziente. Per raggiungere questo obiettivo, ho implementato un videogioco utilizzando il cardboard per sdoppiare le immagini. Il genere scelto è il FPS (First Person Shooter), in modo da costringere il paziente a osservare e girare l'ambiente circostante in modo dettagliato, cosa che sarebbe stata più difficile da realizzare mediante altri generi. L'utilizzo del cardboard ha reso il gioco più immersivo e coinvolgente. Inoltre, ho scelto di utilizzare dei toni fanciulleschi per alleggerire il più possibile la terapia. L'intento ludico del gioco risiede nel fattore di progressione tra i vari livelli. Per l'interazione con l'ambiente, ho deciso di utilizzare un gamepad, come mostrato in figura \ref{fig:gamepad}, il quale mi permette di avere un buon numero di tasti e di conseguenza maggiori possibilità di interazione con il gioco.
+     L'obiettivo di questa tesi è quello di sviluppare uno strumento di terapia per l'ambliopia che sia in grado di intrattenere maggiormente il paziente. Per raggiungere questo obiettivo, ho implementato un videogioco utilizzando il cardboard per sdoppiare le immagini. Il genere scelto è FPS (First Person Shooter), in modo da costringere il paziente a osservare e girare l'ambiente circostante in modo dettagliato, cosa che sarebbe stata più difficile da realizzare mediante altri generi. L'utilizzo del cardboard ha reso il gioco più immersivo e coinvolgente. Inoltre, ho scelto di utilizzare dei toni fanciulleschi per alleggerire il più possibile la terapia. L'intento ludico del gioco risiede nel fattore di progressione tra i vari livelli. Per l'interazione con l'ambiente, ho deciso di utilizzare un gamepad, come mostrato in figura \ref{fig:gamepad}, il quale mi permette di avere un buon numero di tasti e di conseguenza maggiori possibilità di interazione con il gioco.
      \begin{figure}[H]
     	\centering
     	\includegraphics[width=0.8\linewidth]{image/gamepad}
@@ -233,18 +237,17 @@ numbers=autoenddot,
     	\item:Cardboard, 
     	\item:Unity 3D, motore di gioco
     	\item:Visual Code, editor di codice sorgente
-    	\item:Blender, creazione di elementi 3D
     \end{itemize}
-  \subsubsection{Cardboard, motivi della scelta}\label{chap:cardboard_motivi}
-    La motivazione che mi ha portato a scegliere il cardboard e non gli occhiali anaglifici, risiedono principalmente nella sua versatilità, visto che mi permette di poter realizzare un applicazione con limitati limiti tecnici e con un budget ridotto, fatto cruciale, visto che si parla principalmente di un'applicazione idealmente indirizzata per pazienti giovanissimi, i quali potranno usufruire dei sui benefici comodamente da casa.
-    Una delle tecnologie che mi è stata particolarmente utile grazie al cardboard e allo smartphone, è il giroscopio. Questo componente ha permesso di creare un'esperienza di immersione più avanzata, in quanto ha reso possibile la percezione del movimento e dell'orientamento spaziale del dispositivo, trasferendo queste informazioni nel gioco. Grazie al giroscopio\ref{fig:giroscopio}, il giocatore può muoversi all'interno dell'ambiente virtuale semplicemente inclinando la testa, senza dover utilizzare alcun altro dispositivo di controllo. Questo ha reso l'esperienza di gioco più fluida e naturale, aumentando l'immersione del paziente nell'ambiente virtuale e rendendo il gioco ancora più coinvolgente.
+  \subsection{Cardboard, motivi della scelta}\label{chap:cardboard_motivi}
+    La motivazione che mi ha portato a scegliere il cardboard e non gli occhiali anaglifici risiedono principalmente nella sua versatilità, visto che mi permette di poter realizzare un applicazione con limitati limiti tecnici e con un budget ridotto, fatto cruciale, visto che si parla principalmente di un'applicazione idealmente indirizzata per pazienti giovanissimi, i quali potranno usufruire dei sui benefici comodamente da casa.
+    Una delle tecnologie che mi è stata particolarmente utile è il giroscopio del telefono che risiede all'interno del cardboard. Questo componente mi ha permesso di creare un'esperienza di immersione più avanzata, in quanto ha reso possibile la percezione del movimento e dell'orientamento spaziale del dispositivo, trasferendo queste informazioni nel gioco. Grazie al giroscopio\ref{fig:giroscopio}, il giocatore può ruotare la visuale all'interno dell'ambiente virtuale semplicemente inclinando e/o ruotando la testa, senza dover utilizzare nessun'altro dispositivo di controllo. Questo ha reso l'esperienza di gioco più fluida e naturale, aumentando l'immersione del paziente nell'ambiente virtuale e rendendo il gioco ancora più coinvolgente.
      \begin{figure}[H]
     	\centering
     	\includegraphics[width=0.5\linewidth]{image/giroscopio}
     	\caption{Assi Giroscopio.Fonte:\cite{Giro_image}}
     	\label{fig:giroscopio}
     \end{figure}
-    \subsubsection{Unity 3D}\label{unity3D}
+    \subsection{Unity 3D}\label{unity3D}
     Unity 3D è un motore di gioco sviluppato dalla Unity
     Technologies, il quale permette di realizzare dei videogiochi tridimensionali e bidimensionali, la sua comunity e le varie guide messe a disposizione da unity permettono di cimentarsi in questo progetto superando il plateau d'apprendimento.
     Si tratta di uno strumento che permette di alleggerire il processo di produzione attraverso l'utilizzo di un interfaccia grafica ben organizzata, vi sono 4 schermate principali:
@@ -261,11 +264,11 @@ numbers=autoenddot,
     	\label{fig:unity}
     \end{figure}
     Questo motore di gioco mi ha permesso  di poter realizzare il gioco indipendentemente dalla piattaforma per poi andare a costruire la versione apposita, senza dovere effettuare nessuna modifica.
-    Una funzione molto importante per questo progetto è stata la simulazione su dispositivo android, il quale mi ha permesso di poter provare l'applicativo direttamente sul mio telefono , e al contempo interagire e/o modificare la scena senza avere la necessita di dover buildare il tutto sul telefono.
+    Una funzione molto importante per questo progetto è stata la simulazione su dispositivo android, il quale mi ha permesso di poter provare l'applicativo direttamente sul mio telefono , e al contempo interagire e/o modificare la scena senza avere la necessita di dover installare il tutto sul telefono.
     \textbf{L'Asset Store}, è una delle caratteristiche che ho trovato fondamentale, ovvero unity3D, mette a disposizione una serie di oggetti, anche pubblicati dall'utente, che permettono di tralasciare alcuni aspetti in modo da potersi concentrare su altro.
     I materiali presenti sul Asset Store vanno dai semplici oggetti 3D,script a veri e propri pacchetti.
     Al interno del Asset Store è possibile quindi trovare tutti gli elementi utili per poter sviluppare un gioco da zero, volendo anche gratuitamente.
-    \subsubsection{Visual code}
+    \subsection{Visual code}
     Visual code è un editor di codice usato in correlazione con unity 3D per la realizzazione degli script di gioco, figura:\ref{fig:visual_code}.
     Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft che ha guadagnato rapidamente popolarità tra gli sviluppatori. È gratuito, multipiattaforma e altamente personalizzabile grazie all'ampia gamma di estensioni disponibili attraverso il marketplace integrato.
     Una delle caratteristiche distintive di Visual Studio Code è la sua interfaccia utente pulita e intuitiva. L'editor utilizza una combinazione di barre degli strumenti, pannelli laterali e schede per fornire un accesso rapido alle funzionalità chiave.
@@ -295,7 +298,7 @@ numbers=autoenddot,
     \end{figure}
     Nella figura \ref{fig:pozzo}, possiamo notare come hai due occhi venga mostrato lo stesso oggetto ma con diversa trasparenza, in questo modo sollecitiamo l'occhio afflitto da ambliopia, lasciando anche una traccia all'occhio sano.
     Il livello di trasparenza varia ad ogni fase di gioco, esso aumenterà(gli oggetti diventeranno più trasparenti) man mano che si avanzerà di livello, in modo da poter stimolare efficacemente l'occhio con il passare dei livelli.
-    \subsubsection{Target}
+    \subsection{Target}
     Per questo progetto i target sono utilizzati per rendere l'esperienza più video ludica, dando al paziente un obiettivo da portare a termine, con difficoltà crescente, in modo da rendere il tutto più sopportabile per il lungo periodo.
     I target sono principalmente degli scudi medievali, figura:\ref{fig:target_score}, i quali sono sparsi all'interno dei vari livelli di gioco.
     \begin{figure}[H]
@@ -328,13 +331,14 @@ numbers=autoenddot,
         \end{figure}
         \item Fase di sviluppo, dopo aver definito i vari requisiti ed aver sviluppato le componenti fondamentali mi sono cimentato nella creazione effettiva dei vari livelli, in cui sono andato ad utilizzare le componenti sopra sviluppate.
     \end{enumerate}
-    \subsubsection{Fase di prototipazione}
+    \subsection{Fase di prototipazione}
      Come detto in precedenza, in questa fase sono andato a definire le componenti principale del progetto:
      \begin{itemize}
      	\item Visuale, in cui mi sono occupato gestire due visualizzazione differenti.
      	\item Mappatura dei tasti, in cui ho definito i tasti utilizzati e le azioni a esse collegate.
      	\item Menu, in cui ho implementato i menu di scelta con le relative finestre.
      \end{itemize}
+     \subsubsection{Visuale}
      Per la visuale, la preoccupazione più grande è stata ideare un sistema che permettesse di differenziare le immagini dirette nei rispettivi occhi, per fare ciò ho usato due telecamere, poste al interno di un oggetto, in cui è presente lo script \textit{Camera}, di cui discuterò più avanti.
      Le due telecamere sono state poste alla distanza interpupillare media, 62mm\cite{Distanza_occhi}.
      Come accennato prima, le telecamere mostrano oggetti diversi, ovvero, oltre alla loro distanza, utile per ricreare l'effetto tridimensionale, mi sono anche preoccupato di trovare uno stratagemma che mi permettesse di mostrare lo stesso oggetto in maniera differente, l'effetto trasparenza.
@@ -363,7 +367,7 @@ numbers=autoenddot,
      \begin{displaymath}\label{for:rotate}
      	-limtiRotate  \leq X \leq limitRotate
      \end{displaymath}
- 
+     \subsubsection{Mappatura}
      Per la mappatura mi sono preoccupato di associare ogni tasto ad una specifica funzione, in modo da ricreare, una facile ergonomia, in modo tale da poter riconoscere i tasti principali senza l'utilizzo della vista, in quanto durante l'esperienza è richiesto l'uso del cardboard.
      Di seguito, figura:\ref{fig:gamepad_tasti}, riporto il layout dei tasti con le funzioni associate.
      Ho raggruppato la presentazione in 2 macro gruppi:Azioni personaggio e Navigazione menu.
@@ -391,7 +395,8 @@ numbers=autoenddot,
      	\item Navigazione opzioni.\textit{D Pad Tasti verticali}
      	\item Selezionare:\textit{Tasto quadrato}
      \end{itemize}
-     Come si può evincere, vi sono tasti non assegnati, questo implica la possibilità di espandere il gioco mediante l'implementazione non solo di nuovi livelli ma anche di nuove funzioni e azioni.\\\\
+     Come si può evincere, vi sono tasti non assegnati, questo implica la possibilità di espandere il gioco mediante l'implementazione non solo di nuovi livelli ma anche di nuove funzioni e azioni.
+     \subsubsection{Menu}
      Nella creazione dei menu, mi sono concentrato a cercare un sistema che rispettasse il concetto di stereogramma\cite{Stereogramma}. Ho notato che i classici strumenti di Unity per la creazione dei menu non permettevano di rispettare il principio fondamentale dell'immagine stereoscopica. In questo tipo di immagini, lo stesso oggetto - in questo caso, il menu - deve essere osservato con una variazione di prospettiva per creare l'effetto tridimensionale.
      Per ovviare a ciò, sono andato a ricreare il menu nel mondo di gioco, in modo che venisse ripreso dalle due telecamere, con differente prospettiva, figura:\ref{fig:menu_scena}.
      \begin{figure}[h]
@@ -408,7 +413,7 @@ numbers=autoenddot,
     	\label{fig:menu_simulator}
     \end{figure}
     Dopo aver progettato e creato i componenti sopra citati, mi sono cimentato nella creazione dei vari livelli durante la \textbf{fase di sviluppo}. Il punto focale era quello di ricreare un ambiente in grado di stimolare sia l'occhio pigro che la curiosità dei pazienti. Ho cercato di rendere i singoli livelli intrattenenti, per mantenere l'interesse del giocatore.
-    \subsubsection{Fase di sviluppo}
+    \subsection{Fase di sviluppo}
     Dopo aver completato la fase di progettazione e creazione dei vari componenti del gioco, mi sono concentrato sulla fase di sviluppo vera e propria. Durante questa fase, ho lavorato alla creazione dei singoli livelli del gioco, con l'obiettivo di rendere l'esperienza di gioco il più coinvolgente possibile. In questa sezione, descriverò il processo di sviluppo dei vari livelli.
     Per prima cosa, sono andato ad importare i vari Asset, edifici, oggetti, ecc, in modo da potermi focalizzare su altri aspetti che ho reputato più importanti.
     Gli asset che ho utilizzato sono:
@@ -419,7 +424,9 @@ numbers=autoenddot,
     	\item Curva di Bézier\cite{Pack_asset}, il quale mi ha permesso di ricreare i target in movimento.
     	\item Controller Test\cite{Controller_test}, Asset utilizzato per la mappatura, questione approfondita più avanti.
     \end{itemize}
-    Dopo aver selezionato i singoli asset, sono andato ad assemblare il personaggio giocante, formato principalmente dagli script:
+    Dopo aver selezionato i singoli asset, sono andato ad assemblare il personaggio giocante.
+    \subsubsection{Personaggio}
+    Il personaggio è possibile intuire è l'elemento principale di tutta l'esperienza, per questo motivo andrò a descriverne i singoli componenti.
     \begin{itemize}
         \item Camera, in cui vado a ruotare e/o muovere l'oggetto \textit{testa}, contenente le due telecamere.
         \item GestioneTwo, dove mi sono concentrato sulla gestione delle due telecamere del gioco, ricreando l'effetto trasparenza e di profondità.
@@ -444,6 +451,7 @@ numbers=autoenddot,
     L'oggetto \textit{GunHeavy} contiene lo script \textit{shoot} come mostrato nella figura \ref{fig:script_character}. Questo script gestisce l'azione di sparare utilizzando la classe Raycast di Unity 3D. La classe Raycast permette di emettere un raggio dalla posizione dell'oggetto in gioco e di determinare se colpisce altri oggetti nella scena. Questa funzione è stata utilizzata per permettere al giocatore di sparare ai vari target e guadagnare punti.
     Quando il Raycast colpisce i target, attiva una funzione all'interno degli stessi che permette di conteggiare i punti ottenuti dal giocatore, chiamata hit.\\
     Dopo aver costruito il personaggio giocante, sono andato a creare il terreno di gioco, disseminandolo di rocce, edifici e oggetti di scena.
+    \subsubsection{Mappa}
     Uno degli aspetti fondamentali è stato il posizionamento e la scelta degli oggetti "OcchioMalato", in quanto l'obiettivo principale è quello di andare a stimolare efficacemente l'occhio pigro, costringendo il paziente a prestare attenzione agli elementi del paesaggio.
     Legato a questo, ho disseminato ogni livello con un determinato numero di target fissi e/o in movimento, i quali sono essenziali per il proseguo del gioco e della terapia.
     Per quanto riguarda i target sono composti da un singolo script chiamato \textit{target} nel caso degli statici, invece per quelli in movimento, mi sono servito di uno script aggiuntivo che ricrea le curve di Bézier\cite{Pack_asset}.

@@ -29,12 +29,6 @@ ELISE REUTER.
   \url{https://medcitynews.com/2021/09/startup-testing-video-based-treatment-for-lazy-eye-touts-phase-3-results/}.
 \newblock [Online; visited on 1-12-2022].
 
-\bibitem{I-Bit}
-eye bit.
-\newblock How it works.
-\newblock \url{https://lazy-i-bit.co.uk/howitworks.html}.
-\newblock [Online; visited on 27-03-2023].
-
 \bibitem{Pattern-Flicker}
 oculistanet.
 \newblock Stimolatore pattern-flicher mf17.
@@ -85,6 +79,12 @@ xiaomiplanet.
 \newblock \url{https://3dstudio.co/low-and-high-poly-modeling/}.
 \newblock [Online; visited on 28-03-2023].
 
+\bibitem{perc_amblipia}
+humanitas.
+\newblock Ambliopia (occhio pigro).
+\newblock \url{https://www.humanitas.it/malattie/ambliopia-occhio-pigro/}.
+\newblock [Online; visited on 4-10-2022].
+
 \bibitem{pvs}
 Shaival~S. Shah, Jennifer~J. Jimenez, Emily~J. Rozema, Miki~T. Nguyen, Melissa
   Preciado, and Ashish~M. Mehta.
@@ -114,6 +114,12 @@ businesswire.
 \newblock
   \url{https://www.businesswire.com/news/home/20211020005896/en/Luminopia-Announces-FDA-Approval-of-Digital-Therapeutic-that-Uses-TV-Shows-to-Improve-Vision-in-Children-with-Lazy-Eye}.
 \newblock [Online; visited on 09-9-2022].
+
+\bibitem{I-Bit}
+eye bit.
+\newblock How it works.
+\newblock \url{https://lazy-i-bit.co.uk/howitworks.html}.
+\newblock [Online; visited on 27-03-2023].
 
 \bibitem{Stereoscopio}
 wikipedia.

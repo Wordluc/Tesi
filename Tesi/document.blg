@@ -58,47 +58,49 @@ Warning--entry type for "UnityTools" isn't style-file defined
 --line 309 of file ./reference/r_web.bib
 Warning--entry type for "Giro_image" isn't style-file defined
 --line 321 of file ./reference/r_web.bib
+Warning--entry type for "perc_amblipia" isn't style-file defined
+--line 333 of file ./reference/r_web.bib
 Database file #2: ./reference/art.bib
 Warning--empty journal in filtro
-You've used 29 entries,
+You've used 30 entries,
             1791 wiz_defined-function locations,
-            604 strings with 8717 characters,
-and the built_in function-call counts, 4435 in all, are:
-= -- 372
-> -- 191
+            609 strings with 8856 characters,
+and the built_in function-call counts, 4569 in all, are:
+= -- 384
+> -- 195
 < -- 0
-+ -- 82
-- -- 53
++ -- 84
+- -- 54
 * -- 91
-:= -- 725
-add.period$ -- 113
-call.type$ -- 29
-change.case$ -- 29
+:= -- 746
+add.period$ -- 117
+call.type$ -- 30
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 156
-empty$ -- 535
-format.name$ -- 53
-if$ -- 1021
+cite$ -- 31
+duplicate$ -- 161
+empty$ -- 553
+format.name$ -- 54
+if$ -- 1053
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 30
 missing$ -- 3
-newline$ -- 174
-num.names$ -- 29
-pop$ -- 187
+newline$ -- 180
+num.names$ -- 30
+pop$ -- 194
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 63
 stack$ -- 0
 substring$ -- 60
-swap$ -- 28
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 31
-width$ -- 31
-write$ -- 320
-(There were 27 warnings)
+while$ -- 32
+width$ -- 32
+write$ -- 331
+(There were 28 warnings)
