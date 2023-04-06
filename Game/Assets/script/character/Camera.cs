@@ -41,8 +41,9 @@ public class Camera : MonoBehaviour
           
                 float x=Mathf.Clamp(Input.gyro.rotationRate.x,-limitRotate,limitRotate);
                 float y=Mathf.Clamp(Input.gyro.rotationRate.y,-limitRotate,limitRotate);
-                float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate);
+                float z=Mathf.Clamp(Input.gyro.rotationRate.z,-limitRotate,limitRotate)*0.5f;
                 testaR.transform.localEulerAngles+=new Vector3(-x,0,z)*sensibility*Time.deltaTime;
+            //   camera.transform.Rotate(-Input.gyro.rotationRateUnbiased.x*speedRotation,0, Input.gyro.rotationRateUnbiased.z*speedRotation);
                 body.transform.Rotate(0, -y*sensibility*Time.deltaTime,0);
         }else if(typeMCamera==typeMouve.mouse){
       
@@ -92,10 +93,9 @@ public class Camera : MonoBehaviour
     private void Update(){
         if(Input.GetAxis("rb")==0f)
            angle();
-        else if(Input.GetAxis("rb")>0 && Input.GetAxis("rb")<=0.1f){
-               SetUp.setCommand("rb premuto",true);
-        }else if(Input.GetAxis("rb")>0.1f){
-           
+        else if(Input.GetAxis("rb")>0 && Input.GetAxis("rb")<=0.2){
+               SetUp.setCommand("rb rilasciato",true);
+        }else if(Input.GetAxis("rb")>0.2f){
             float x=Input.GetAxis("stick_right_x");
             float y=Input.GetAxis("stick_right_y");
             body.transform.Rotate(0, x*speedRotateRb*Time.deltaTime,0);

@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class Setting : Choice
 {
-    public GameObject menuBef;
+    public Menu menuBef;
+    public bool dontC=false;
     void Update()
     {
         scroll();
-        if(Input.GetButtonDown("option_right")){
+        if(Input.GetButtonDown("option_right") && !dontC){
+           SetUp.setCommand("Chiusura setting",true);
            gameObject.SetActive(false);
-           if(menuBef!=null)
-               menuBef.SetActive(true);
+           
         }
-        if(Input.GetButtonDown("b")){
-            SetUp.setCommand("Chiusura setting",true);
-            gameObject.SetActive(false);
-            if(menuBef!=null)
-               menuBef.SetActive(true);
+        if(Input.GetButtonDown("b") && !dontC){
+             gameObject.SetActive(false);
+            if(menuBef!=null){
+               menuBef.setActive("chiusura setting",true);
+               
+               }
         }
     }
 }

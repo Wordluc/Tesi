@@ -18,7 +18,7 @@ public class Slide : Option
    public void start_slide(float multi,float y){
          dot.transform.localPosition=Vector3.right*(-5+y/multi); 
           yt=((dot.transform.localPosition.x+5));
-            textValue.text=((int)yt+"");
+          
    }
    public float getY(){
       return yt;

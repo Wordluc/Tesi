@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "f3be5773",
         "name": "com.DefaultCompany.Myproject",
-        "processId": 11729,
+        "processId": 15613,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,12 @@
             "deviceId": "f3be5773",
             "name": "com.DefaultCompany.Myproject",
             "processId": 11729,
+            "exited": false
+        },
+        {
+            "deviceId": "f3be5773",
+            "name": "com.DefaultCompany.Myproject",
+            "processId": 15613,
             "exited": false
         }
     ],

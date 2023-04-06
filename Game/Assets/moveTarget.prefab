@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2417963998517457629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3128, y: -702.3623, z: -2752}
+  m_LocalPosition: {x: -3128, y: 8, z: -2752}
   m_LocalScale: {x: 544.5172, y: 544.5172, z: 544.5172}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -50,25 +50,25 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -0.16388121, y: -0.020313643, z: -1.2908388}
-      - {x: -0.97107196, y: -0.020313643, z: -1.1960338}
-      - {x: -0.781462, y: -0.00000019461986, z: 0.41834763}
-      - {x: 0.025728745, y: -0.00000019461986, z: 0.32354265}
-      - {x: 0.83291954, y: -0.00000019461986, z: 0.22873768}
-      - {x: 0.6433096, y: -0.020313643, z: -1.3856438}
+      - {x: -0.04070989, y: 0, z: -1.4231697}
+      - {x: 0.49252784, y: 0, z: -0.44347423}
+      - {x: 0.07998409, y: 0, z: 0.68560576}
+      - {x: -0.14890045, y: 0, z: 0.54950076}
+      - {x: -0.76394534, y: 0, z: 0.18376729}
+      - {x: -0.24399869, y: 0, z: -1.7966636}
       isClosed: 1
       space: 0
-      controlMode: 3
+      controlMode: 0
       autoControlLength: 0.3
       boundsUpToDate: 0
       bounds:
-        m_Center: {x: 0.289809, y: 0.016071394, z: -0.3006116}
-        m_Extent: {x: 0.70726216, y: 0.31268746, z: 0.58872247}
+        m_Center: {x: -0.00000035762787, y: 0.000000074505806, z: -0.0009777949}
+        m_Extent: {x: 2.2757854, y: 0.25822943, z: 0.0045830645}
       perAnchorNormalsAngle:
       - 0
       - 0
       globalNormalsAngle: 0
-      flipNormals: 1
+      flipNormals: 0
     vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
@@ -76,7 +76,7 @@ MonoBehaviour:
     showPathBounds: 0
     showPerSegmentBounds: 0
     displayAnchorPoints: 1
-    displayControlPoints: 0
+    displayControlPoints: 1
     bezierHandleScale: 1
     globalDisplaySettingsFoldout: 0
     keepConstantHandleSize: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
     showPathOptions: 1
     showVertexPathDisplayOptions: 0
     showVertexPathOptions: 1
-    showNormals: 0
+    showNormals: 1
     showNormalsHelpInfo: 0
     tabIndex: 0
   initialized: 1

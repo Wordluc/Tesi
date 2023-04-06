@@ -8,10 +8,12 @@ public class SetUp : MonoBehaviour
     public static int score;
     public float g;
     public float t;
-    public static float trasparency;
+    private static float trasparency;
     static private bool command=true;
     public  bool Setcommand;
-    public bool trasparency_variable;
+    public bool trasparency_variability;
+    public  enum levelTrasparent{Facile,Medio,Difficile};
+    public static levelTrasparent levelT;
     
     public static void setCommand(string who,bool value){
         command=value;
@@ -21,6 +23,7 @@ public class SetUp : MonoBehaviour
         
         return command;
     }
+    
     private void makeTransparentO(){
         GameObject []a=GameObject.FindGameObjectsWithTag("OcchioMalato");
         foreach(GameObject o in a){
@@ -37,7 +40,7 @@ public class SetUp : MonoBehaviour
            sano.layer=7;
            Material m=Resources.Load<Material>("s"+o.GetComponent<Renderer>().material.name.Replace(" (Instance)",""));//carico il materiale presente in resurces
            Color c=m.color;
-           c.a = trasparency/100;//rendo il materiale trasparente
+           c.a = getTransparent();//rendo il materiale trasparente
            m.color=c;
            sano.GetComponent<Renderer>().material=m;
            sano.transform.SetParent(o.transform);//settto l'oggetto creato come figlio
@@ -48,7 +51,7 @@ public class SetUp : MonoBehaviour
     }
     void Start()
     {
-        SetUp.trasparency=t;
+        getTransparent();
         SetUp.score=0;
         command=Setcommand;
         makeTransparentO();
@@ -60,15 +63,29 @@ public class SetUp : MonoBehaviour
            foreach(GameObject o in a){   
                 Material m=o.GetComponent<Renderer>().material;
                 Color c=m.color;
-                c.a = trasparency;
+                c.a = getTransparent();
                 m.color=c;
                 o.GetComponent<Renderer>().material=m;
            }
     }
+    static float getTransparent(){
+            switch(levelT){
+                case levelTrasparent.Facile:
+                   SetUp.trasparency=0.7f;
+                break;      
+                case levelTrasparent.Medio:
+                   SetUp.trasparency=0.5f;
+                break;
+                case levelTrasparent.Difficile:
+                   SetUp.trasparency=0.2f;
+                break;
+       }
+       return trasparency;
+    }
     void Update(){
         changeTransparent();
-        if(t!=SetUp.trasparency && trasparency_variable)
-            SetUp.trasparency=t;
+        if(t!=SetUp.trasparency && trasparency_variability)
+            SetUp.trasparency=getTransparent();
         if(text!=null)
           text.text="Score:"+SetUp.score;
     }

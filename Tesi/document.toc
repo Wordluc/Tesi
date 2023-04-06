@@ -12,20 +12,20 @@
 \contentsline {subsection}{\numberline {2.1.3}Active shutter 3D system}{13}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Obiettivi}{13}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Progetto}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Tecnologie utilizzate}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Cardboard, motivi della scelta}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Unity 3D}{17}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Visual code}{18}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Struttura}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Target}{19}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Implementazione}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Fase di prototipazione}{21}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Visuale}{21}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Mappatura}{22}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Menu}{24}{subsubsection.3.3.1.3}%
-\contentsline {subsection}{\numberline {3.3.2}Fase di sviluppo}{25}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Personaggio}{25}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Mappa}{27}{subsubsection.3.3.2.2}%
-\contentsline {section}{\numberline {3.4}Problemi}{28}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Conclusioni e Sviluppi futuri}{31}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Struttura}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Target}{17}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Tecnologie utilizzate}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Cardboard, motivi della scelta}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Unity 3D}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Visual code}{20}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Implementazione}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fase di prototipazione}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Visuale}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Mappatura}{23}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Menu}{24}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Fase di sviluppo}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Personaggio}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Mappa}{27}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Problemi}{28}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusioni e Sviluppi futuri}{31}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

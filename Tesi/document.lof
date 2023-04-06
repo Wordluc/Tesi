@@ -16,21 +16,22 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Differenziazione elementi su schermo.Fonte:\cite {active-shutter-3d_image}}}{13}{figure.2.7}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Layout gamepad utilizzato.Fonte:\cite {controller_image}}}{15}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Assi Giroscopio.Fonte:\cite {Giro_image}}}{16}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schermate unity}}{17}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Esempio di script realizzato con visual code}}{18}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Esempio di trasparenza mediante un oggetto di gioco}}{19}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Target con punteggio}}{20}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Target in movimento}}{20}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Scena prototipale}}{21}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Codice usato}}{22}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Mappatura tasti}}{23}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Vista del menu nella finestra \textit {Scene}}}{24}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Vista del menu nella finestra \textit {simulator}}}{24}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Organizzazione script}}{26}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Secondo livello}}{27}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Esempio fly score}}{28}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Albero low poly contro hight poly.Fonte:\cite {low_high}}}{28}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Prova controller test, per tasto X}}{29}{figure.3.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Esempio di trasparenza mediante un oggetto di gioco}}{16}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Target con punteggio}}{17}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Target in movimento}}{17}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Assi Giroscopio.Fonte:\cite {Giro_image}}}{18}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schermate unity}}{19}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Esempio di script realizzato con visual code}}{20}{figure.3.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Scena prototipale}}{21}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Codice usato}}{23}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mappatura tasti}}{24}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Vista del menu nella finestra \textit {Scene}}}{25}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Vista del menu nella finestra \textit {simulator}}}{25}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Organizzazione script}}{27}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Secondo livello}}{28}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Esempio fly score}}{28}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Albero low poly contro hight poly.Fonte:\cite {low_high}}}{29}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Prova controller test, per tasto X}}{30}{figure.4.10}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
