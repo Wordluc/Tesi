@@ -19,7 +19,6 @@ public class Menu : MonoBehaviour
     {   
            
         if(Input.GetButtonDown("option_right")){
-            Debug.Log("ggg");
             if(getLastUse()=="apertura menu" || getLastUse()=="chiusura setting"){
                 setActive("chiusura menu",false);
                 SetUp.setCommand("chiusura menu",true);

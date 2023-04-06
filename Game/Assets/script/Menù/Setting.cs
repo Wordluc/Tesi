@@ -18,8 +18,8 @@ public class Setting : Choice
              gameObject.SetActive(false);
             if(menuBef!=null){
                menuBef.setActive("chiusura setting",true);
-               
                }
         }
+
     }
 }
