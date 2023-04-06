@@ -2204,6 +2204,7 @@ MonoBehaviour:
   set_option:
   - {fileID: 1562264842}
   - {fileID: 1233417879}
+  - {fileID: 1352046579}
   i_vector: 0
   menuBef: {fileID: 96696745}
   dontC: 0
@@ -3565,7 +3566,7 @@ MonoBehaviour:
   status: 1
   back: {fileID: 786489581}
   a: {fileID: 1352046578}
-  panel_menu: {fileID: 2045584818}
+  panel_menu: {fileID: 0}
 --- !u!64 &1352046580
 MeshCollider:
   m_ObjectHideFlags: 0
