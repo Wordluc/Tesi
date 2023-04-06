@@ -71,7 +71,7 @@ public class SetUp : MonoBehaviour
     static float getTransparent(){
             switch(levelT){
                 case levelTrasparent.Facile:
-                   SetUp.trasparency=0.7f;
+                   SetUp.trasparency=0.8f;
                 break;      
                 case levelTrasparent.Medio:
                    SetUp.trasparency=0.5f;
