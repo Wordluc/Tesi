@@ -151,7 +151,7 @@ numbers=autoenddot,
 	\end{itemize}
 	
 	\chapter{3D4Amb}
-	Il progetto è nato con l'intenzione di creare uno strumento utile ed economico per il trattamento, misurazione dell'occhio pigro basato sul 3D.
+    Il progetto è stato creato con l'intenzione di creare uno strumento utile ed economico per il trattamento e la misurazione dell'occhio pigro, basato sulla tecnologia 3D..
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{image/3D4Amb}
@@ -165,7 +165,7 @@ numbers=autoenddot,
 	Inoltre, per garantire la massima efficienza del sistema, è importante considerare anche la distanza tra gli occhi del paziente, in modo da regolare il sistema di visualizzazione in base alle caratteristiche anatomiche di ciascun individuo. In questo modo, è possibile ottenere una visione tridimensionale più nitida e confortevole per il paziente.
 	\subsection{Cardboard}\label{chap:cardboard}
 	Il funzionamento del Google Cardboard, figura:\ref{fig:cardboard}, si basa sulla creazione di un effetto stereoscopico\cite{Stereoscopio}, utilizzando uno smartphone, il quale viene inserito all'interno del dispositivo.
-	Il cardboard utilizza due lenti che permettono di ingrandire l'immagine fino ad riempire il campo visivo\cite{Funzionamento_cardboard}.
+	Il cardboard utilizza due lenti che ingrandiscono l'immagine fino a riempire il campo visivo\cite{Funzionamento_cardboard}.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\linewidth]{image/cardboard}
@@ -231,7 +231,7 @@ numbers=autoenddot,
 		\label{fig:gamepad}
 	\end{figure}
 	\section{Struttura}
-	La struttura dell'applicativo è molto lineare, bisogna raccogliere dei punti mediante l'interazione con determinati oggetti sparsi per la mappa, denominati \textit{target}, una volta fatto ciò, si procede al livello successivo.
+	La struttura dell'applicativo è molto lineare, bisogna raccogliere dei punti mediante l'interazione con determinati oggetti sparsi per la mappa, denominati Target, una volta fatto ciò, si procede al livello successivo.
 	Ogni livello è caratterizzato da un grado di trasparenza diverso, argomento che verrà trattato maggiormente nei paragrafi successivi.
 	I livelli di trasparenza sono 3:
 	\begin{enumerate}
@@ -239,7 +239,7 @@ numbers=autoenddot,
 		\item Medio
 		\item Difficile
 	\end{enumerate}
-	La struttura dei livelli è molto lineare, in diversi punti della mappa vi sono diversi obiettivi a cui bisogna sparare, ogni target permette al paziente di ottenere dei punti, dopo aver ottenuto un determinato punteggio si aprirà un portale che condurrà al livello successivo.
+	La struttura dei livelli è molto lineare, in diversi punti della mappa vi sono diversi obiettivi a cui bisogna sparare, ogni Target permette al paziente di ottenere dei punti, dopo aver ottenuto un determinato punteggio si aprirà un portale che condurrà al livello successivo.
 	Al interno dei livelli vi sono degli oggetti denominati \textit{OcchioMalato}, i quali verranno mostrati trasparenti all'occhio sano e solidi a quello pigro, come nella figura:\ref{fig:pozzo}. 
 	\begin{figure}[H]
 		\centering
@@ -250,8 +250,8 @@ numbers=autoenddot,
 	Nella figura \ref{fig:pozzo}, possiamo notare come ai due occhi venga mostrato lo stesso oggetto ma con diversa trasparenza, in questo modo sollecitiamo l'occhio afflitto da ambliopia, lasciando anche una traccia all'occhio sano.
 	Il livello di trasparenza aumenterà(gli oggetti diventano più trasparenti) man mano che si avanzerà di livello, in modo da poter stimolare efficacemente l'occhio con il passare dei livelli.
 	\subsection{Target}
-	Per questo progetto i target sono utilizzati per rendere l'esperienza più ludica, dando al paziente un obiettivo da portare a termine, con difficoltà crescente, in modo da rendere il tutto più sopportabile per il lungo periodo.
-	I target sono principalmente degli scudi medievali, figura:\ref{fig:target_score}, i quali sono sparsi all'interno dei vari livelli di gioco.
+	Per questo progetto i Target sono utilizzati per rendere l'esperienza più ludica, dando al paziente un obiettivo da portare a termine, con difficoltà crescente, in modo da rendere il tutto più sopportabile per il lungo periodo.
+	I Target sono principalmente degli scudi medievali, figura:\ref{fig:target_score}, i quali sono sparsi all'interno dei vari livelli di gioco.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{image/target_score}
@@ -308,7 +308,7 @@ numbers=autoenddot,
 	Al interno del Asset Store è possibile quindi trovare tutti gli elementi utili per poter sviluppare un gioco da zero, volendo anche gratuitamente.
 	\subsection{Visual code}
 	Visual code è un editor di codice usato in correlazione con unity 3D per la realizzazione degli script di gioco, figura:\ref{fig:visual_code}.
-	Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft che ha guadagnato rapidamente popolarità tra gli sviluppatori. È gratuito, multipiattaforma e altamente personalizzabile grazie all'ampia gamma di estensioni disponibili attraverso il marketplace integrato.
+    Come già menzionato in precedenza, Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft che ha guadagnato rapidamente popolarità tra gli sviluppatori. È gratuito, multipiattaforma e altamente personalizzabile grazie all'ampia gamma di estensioni disponibili attraverso il marketplace integrato.
 	Una delle caratteristiche distintive di Visual Studio Code è la sua interfaccia utente pulita e intuitiva. L'editor utilizza una combinazione di barre degli strumenti, pannelli laterali e schede per fornire un accesso rapido alle funzionalità chiave.
 	Un'altra caratteristica importante di Visual Studio Code è la sua capacità di supportare molteplici linguaggi di programmazione.
 	\begin{figure}[H]
@@ -374,8 +374,7 @@ numbers=autoenddot,
 		-limtiRotate  \leq X \leq limitRotate
 	\end{displaymath}
 	\subsection{Mappatura}
-	Per la mappatura mi sono preoccupato di associare ogni tasto ad una specifica funzione, in modo da ricreare una facile ergonomia, in modo tale da poter riconoscere i tasti principali senza l'utilizzo della vista, in quanto durante l'esperienza è richiesto l'uso del cardboard.
-	Di seguito, figura:\ref{fig:gamepad_tasti}, riporto il layout dei tasti con le funzioni associate.
+    Per la mappatura, mi sono preoccupato di associare ogni tasto ad una specifica funzione in modo da ricreare una facile ergonomia. Questo permette di riconoscere i tasti principali senza l'utilizzo della vista durante l'esperienza, in quanto è richiesto l'uso del cardboard. Di seguito, nella figura \ref{fig:gamepad_tasti}, riporto il layout dei tasti con le funzioni associate. Ho raggruppato la presentazione in due macro gruppi:
 	Ho raggruppato la presentazione in 2 macro gruppi:Azioni personaggio e Navigazione menu.
 	\begin{figure}[H]
 		\centering
@@ -400,7 +399,7 @@ numbers=autoenddot,
 		\item Navigazione opzioni.\textit{D Pad Tasti verticali}
 		\item Clicca e salva:\textit{Tasto quadrato}
 	\end{itemize}
-	Come si può evincere, vi sono tasti non assegnati, questo implica la possibilità di espandere il gioco mediante l'implementazione non solo di nuovi livelli ma anche di nuove funzioni e azioni.
+	Come si può evincere, vi sono tasti non assegnati, questo implica la possibilità di espandere le funzionalità del gioco mediante l'implementazione non solo di nuovi livelli ma anche di nuove funzioni e azioni.
 	\subsection{Menu}
 	Nella creazione dei menu, mi sono concentrato a cercare un sistema che rispettasse il concetto di stereogramma\cite{Stereogramma}. Ho notato che i classici strumenti di Unity per la creazione dei menu non permettono di rispettare il principio fondamentale dell'immagine stereoscopica. In questo tipo di immagini, lo stesso oggetto - in questo caso, il menu - deve essere osservato con una variazione di prospettiva per creare l'effetto tridimensionale.
 	Per ovviare a ciò, sono andato a ricreare il menu nel mondo di gioco, in modo che venisse ripreso dalle due telecamere, con differente prospettiva, figura:\ref{fig:menu_scena}.
@@ -438,7 +437,7 @@ numbers=autoenddot,
 		\item Rocce\cite{Rock_asset}
 		\item Asset medievale\cite{Pack_asset}, contenente edifici, alberi e oggetti medievali. 
 		\item Muri\cite{Wall_asset}, contente i vari muri che circondano ogni livello.
-		\item Curva di Bézier\cite{Pack_asset}, il quale mi ha permesso di ricreare i target in movimento.
+		\item Curva di Bézier\cite{Pack_asset}, il quale mi ha permesso di ricreare i Target in movimento.
 		\item Controller Test\cite{Controller_test}, Asset utilizzato per la mappatura, questione approfondita più avanti.
 		\item Arma\cite{pistola}, contiene l'asset che ho utilizzato come emettitore del raycast,precisamente all'interno del progetto è denominato \textit{GunHeavy} e svolge la funzione di arma.
 	\end{itemize}
@@ -449,7 +448,7 @@ numbers=autoenddot,
 		\item Camera, in cui vado a ruotare e/o muovere l'oggetto \textit{testa}, contenente le due telecamere.
 		\item GestioneTwo, dove mi sono concentrato sulla gestione delle due telecamere del gioco, ricreando l'effetto trasparenza e di profondità.
 		\item Move, è uno script che ho sviluppato per gestire il movimento all'interno del gioco,questo script è stata fondamentale per garantire un'esperienza di gioco coinvolgente e immersiva.
-		\item Shoot, riguarda l'implementazione di un'azione fondamentale del gioco, il quale permette ai giocatori di raccogliere punti sparando ai target disseminati nella mappa
+		\item Shoot, riguarda l'implementazione di un'azione fondamentale del gioco, il quale permette ai giocatori di raccogliere punti sparando ai Target disseminati nella mappa
 		\item Teleporter, è uno script che ho creato per gestire il teletrasporto all'interno del gioco. Questo elemento è stato implementato per garantire una seconda opzione di movimento, nel caso in cui il motion sickness\cite{mottion_sickness} dovesse influenzare negativamente l'esperienza di gioco degli utenti.
 	\end{itemize}
 	Gli script sopra citati, vengono organizzati seguendo uno schema gerarchico, figura:\ref{fig:script_character}, essi compongono il personaggio, il componente più importante del gioco.
@@ -467,21 +466,18 @@ numbers=autoenddot,
 		\item spawnT, consente di impostare la posizione di origine dell'oggetto chiamato \textit{TeleSphere}, il quale può essere spostato in modo che funga da punto di riferimento per il teletrasporto.
 	\end{itemize}
 	L'oggetto \textit{GunHeavy} contiene lo script \textit{shoot} come mostrato nella figura \ref{fig:script_character}. Questo script gestisce l'azione di sparare utilizzando la classe Raycast di Unity 3D. La classe Raycast permette di emettere un raggio dalla posizione dell'oggetto in gioco e di determinare se colpisce altri oggetti nella scena. Questa funzione è stata utilizzata per permettere al giocatore di sparare ai vari target guadagnando punti.
-	Quando il Raycast colpisce i target, attiva una funzione all'interno degli stessi che permette di conteggiare i punti ottenuti dal giocatore, chiamata hit.\\
+	Quando il Raycast colpisce i Target, attiva una funzione all'interno degli stessi che permette di conteggiare i punti ottenuti dal giocatore, chiamata hit.\\
 	Dopo aver costruito il personaggio giocante, sono andato a creare il terreno di gioco, disseminando rocce, edifici e oggetti di scena.
 	\subsection{Mappa}
-	Uno degli aspetti fondamentali è stato il posizionamento e la scelta degli oggetti "OcchioMalato", in quanto l'obiettivo principale è quello di andare a stimolare efficacemente l'occhio pigro, costringendo il paziente a prestare attenzione agli elementi del paesaggio.
-	Legato a questo, ho disseminato ogni livello con un determinato numero di target fissi e/o in movimento, i quali sono essenziali per il prosieguo del gioco e della terapia.
-	Per quanto riguarda i target sono composti da un singolo script chiamato \textit{target} nel caso degli statici, invece per quelli in movimento, mi sono servito di uno script aggiuntivo che ricrea le curve di Bézier\cite{Pack_asset}.
-	\textbf{Le curve di Bézier}\cite{Path_asset}, sono utilizzate principalmente in ambito grafico e di progettazione assistita dal computer (CAD), in questo caso sono state usate per delineare il percorso che i vari target devono seguire. Queste curve sono particolarmente utili per creare forme e traiettorie fluide e precise utilizzando un insieme di punti di controllo.
-	Le curve sono state rappresentate in verde nella figura:\ref{fig:mappa}.
+	Uno degli aspetti fondamentali del progetto è stato il posizionamento e la scelta degli oggetti \textit{OcchioMalato}, poiché l'obiettivo principale è quello di stimolare efficacemente l'occhio pigro, costringendo il paziente a prestare attenzione agli elementi del paesaggio. Legato a questo, ho disseminato ogni livello con un determinato numero di Target fissi e/o in movimento che sono essenziali per il prosieguo del gioco e della terapia. Per quanto riguarda i Target, essi sono composti da un singolo script chiamato \textit{target} nel caso degli statici, mentre per quelli in movimento, mi sono servito di uno script aggiuntivo che ricrea le curve di Bézier \cite{Pack_asset}.
+	Le curve di Bézier \cite{Path_asset}, utilizzate principalmente in ambito grafico e di progettazione assistita dal computer (CAD), sono state utilizzate in questo caso per delineare il percorso che i vari Target devono seguire. Queste curve sono particolarmente utili per creare forme e traiettorie fluide e precise utilizzando un insieme di punti di controllo. Le curve sono state rappresentate in verde nella figura: \ref{fig:mappa}.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{image/mappa}
 		\caption{Secondo livello}
 		\label{fig:mappa}
 	\end{figure}
-	Nello script del target, oltre a definire la funzione "hit" scatenata dal Raycast, è stata implementata anche la creazione dell'oggetto \textit{fly score} attraverso il metodo \textit{Istantiate}, che sostituisce il target al momento dell'attivazione della funzione "hit". All'interno di questo oggetto è stato implementato uno script che crea un effetto visivo in cui il punteggio del target colpito vola verso l'alto rimpicciolendosi gradualmente, figura:\ref{fig:fly score}. Inoltre, è stata utilizzata una funzione coseno per generare una leggera turbolenza, al fine di rendere l'effetto più dinamico.
+	Nello script del Target, oltre a definire la funzione \textit{hit} scatenata dal Raycast, è stata implementata anche la creazione dell'oggetto \textit{fly score} attraverso il metodo \textit{Instantiate}, che sostituisce il target al momento dell'attivazione della funzione \textit{hit}. All'interno di questo oggetto è stato implementato uno script che crea un effetto visivo in cui il punteggio del target colpito vola verso l'alto rimpicciolendosi gradualmente, come mostrato in figura: \ref{fig:fly score}. Inoltre, è stata utilizzata una funzione coseno per generare una leggera turbolenza al fine di rendere l'effetto più dinamico.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{image/fly score}
@@ -489,7 +485,7 @@ numbers=autoenddot,
 		\label{fig:fly score}
 	\end{figure}
 	\subsubsection{Portale}
-  Come accennato in precedenza, c'è un portale presente su ogni mappa che, una volta attraversato, consente di accedere al livello successivo. Questo portale è stato realizzato utilizzando uno sprite raffigurante un cerchio nero, adornato con alcune pietre in movimento che permettono di simulare l'effetto di un buco nero, figura:\ref{fig:portale}.
+   Come accennato in precedenza, c'è un portale presente su ogni mappa che, una volta attraversato, consente di accedere al livello successivo. Questo portale è stato realizzato utilizzando uno sprite raffigurante un cerchio nero adornato con alcune pietre in movimento che permettono di simulare l'effetto di un buco nero, come mostrato in figura: \ref{fig:portale}. 
   \begin{figure}[H]
   	\centering
   	\includegraphics[width=0.6\linewidth]{image/portale}
@@ -498,20 +494,16 @@ numbers=autoenddot,
   \end{figure}
    L'innovativo effetto grafico utilizzato è stato studiato per rendere l'esperienza di gioco più fluida ed entusiasmante, evitando quei cambi di livello bruschi che potrebbero diminuire la soddisfazione del giocatore durante la partita. Una volta completato il livello, il giocatore si sentirà ancora più motivato a proseguire grazie alla sensazione di avventura e originalità conferita dall'effetto grafico. Questo è fondamentale per convincere il paziente a continuare con la terapia ludica, garantendo una maggiore efficacia nell'ottenere i risultati desiderati.
 	\section{Problemi}
-	In questo paragrafo elencherò le limitazioni e le forzature che ho introdotto nel progetto per garantirne la stabilità. Come già accennato in precedenza, capitolo:\ref{chap:cardboard_motivi}, l'utilizzo del Cardboard mi ha fornito un set di tecnologie molto utili, ma ha anche comportato una limitazione tecnica significativa. Lo smartphone utilizzato con il Cardboard non è in grado di elaborare immagini troppo complesse, il che mi ha costretto a scegliere uno stile low poly per gli asset  gioco.
-	Questa limitazione si può anche osservare dagli alberi scelti i quali non presentano foglie ma chiome stilizzate, figura:\ref{fig:low_hight}.
+    In questo paragrafo elencherò le limitazioni e le forzature che ho introdotto nel progetto per garantirne la stabilità. Come già accennato in precedenza, capitolo:\ref{chap:cardboard_motivi}, l'utilizzo del Cardboard mi ha fornito un set di tecnologie molto utili, ma ha anche comportato una limitazione tecnica significativa. Lo smartphone utilizzato con il Cardboard non è in grado di elaborare immagini troppo complesse, il che mi ha costretto a scegliere uno stile low poly per gli asset gioco. Questa limitazione si può anche osservare dagli alberi scelti i quali non presentano foglie ma chiome stilizzate, figura:\ref{fig:low_hight}.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{image/low_hight}
 		\caption{Albero low poly contro hight poly.Fonte:\cite{low_high}}
 		\label{fig:low_hight}
 	\end{figure}
-	In relazione a ciò, parlerò della trasparenza, che è stata ampiamente discussa nei paragrafi precedenti e che comporta la duplicazione degli oggetti identificati come "OcchioMalato", modificandone il materiale.
-	L'operazione sopra descritta implica che lo smartphone dovrà renderizzare e tenere in memoria nel peggior dei casi, il doppio degli elementi, questo implica che bisogna scegliere saggiamente a quali oggetti impostare il tag "OcchioMalato", per evitare di sovraccaricare il telefono.
-	Infine per chiudere il discorso cardboard, andrò a parlare della limitazione che influisce maggiormente sull'immersività del gioco, ovvero la limitazione dei gradi di libertà dell'oggetto \text{Testa}, il quale è responsabile di orientare le due telecamere.
-	Ho deciso di limitare la rotazione sull'asse z in quanto, dopo svariati test, mi sono accorto che essa causava problemi di mancata sincronizzazione tra il cardboard e il gioco.\\\\
-	Un altro problema, non correlato al cardboard, riguarda la mappatura dei comandi. Inizialmente, non avevo trovato la mappatura del gamepad utilizzato, il che significava che non avevo informazioni sui codici associati ad ogni tasto.
-	Per risolvere il problema della mappatura dei comandi, ho utilizzato un asset chiamato "Controller test"\cite{Controller_test}, reperibile sull'Asset Store di Unity3D. Dopo averlo installato sul telefono, l'asset sopra citato mi ha permesso di visualizzare i codici associati ai tasti e di mapparli correttamente in Unity3D, figura:\ref{fig:controller_test}. In questo modo, ho risolto il problema della mappatura \ref{fig:controller_test}.
+   In relazione a ciò, parlerò della trasparenza, che è stata ampiamente discussa nei paragrafi precedenti e che comporta la duplicazione degli oggetti identificati come \textit{OcchioMalato}, modificandone il materiale. L'operazione sopra descritta implica che lo smartphone dovrà renderizzare e tenere in memoria, nel peggior dei casi, il doppio degli elementi. Ciò implica che bisogna scegliere saggiamente a quali oggetti impostare il tag "OcchioMalato" per evitare di sovraccaricare il telefono.
+   Infine, per chiudere il discorso cardboard, andrò a parlare della limitazione che influisce maggiormente sull'immersività del gioco, ovvero la limitazione dei gradi di libertà dell'oggetto "Testa", il quale è responsabile di orientare le due telecamere. Ho deciso di limitare la rotazione sull'asse z in quanto, dopo svariati test, mi sono accorto che essa causava problemi di mancata sincronizzazione tra il cardboard e il gioco.\\\\
+   Un altro problema, non correlato al cardboard, riguarda la mappatura dei comandi. Inizialmente, non avevo trovato la mappatura del gamepad utilizzato, il che significava che non avevo informazioni sui codici associati ad ogni tasto. Per risolvere il problema della mappatura dei comandi, ho utilizzato un asset chiamato Controller test \cite{Controller_test}, reperibile sull'Asset Store di Unity3D. Dopo averlo installato sul telefono, l'asset sopra citato mi ha permesso di visualizzare i codici associati ai tasti e di mapparli correttamente in Unity3D, figura:\ref{fig:controller_test}. In questo modo, ho risolto il problema della mappatura. \ref{fig:controller_test}.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{image/controller_test}
