@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4196
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 4197
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 4198
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,14 +270,14 @@ MonoBehaviour:
     y: 451.2
     width: 1536
     height: 271.59998
-  m_MinSize: {x: 275, y: 71}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 230, y: 271}
+  m_MaxSize: {x: 10000, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -372,9 +372,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: f6b4ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 06b3ffff74b3ffff78b3ffff86b3ffff9ab3ffffd0baffff2cbbffffbec0ffff9ac4ffff12c8ffff70c9ffffacf7ffffb2f7ffff0af8ffff66f8ffffacf8ffffb2f8ffffbef8ffff30fbffffdea00000a8a1000038a20000
+      m_ExpandedIDs: 7eb9ffffc4b9ffffcab9ffffd6b9ffff74bbffffaabcffff0abdffff2ec1ffff06c5ffff7ac8ffffd2c9ffffc4cdffff24ceffff48d2ffff20d6ffff94d9ffffecdaffffcedbffff2edcffff52e0ffff2ae4ffff9ee7fffff6e8ffffe2e9ffff44eaffffd2efffffaaf3ffff2af7ffff82f8ffff30fbffff8a80000098810000c8810000cc82000026830000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -737,7 +737,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.015897287, y: -0.96789736, z: 0.24271685, w: 0.06338855}
     speed: 2
-    m_Value: {x: 0.015897227, y: -0.9678938, z: 0.24271595, w: 0.06338832}
+    m_Value: {x: -0.015897287, y: 0.96789736, z: -0.24271685, w: -0.06338855}
   m_Size:
     m_Target: 1224.9956
     speed: 2
@@ -1173,22 +1173,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/script/Men\xF9"
+    - Assets/V1/Model
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - "Assets/script/Men\xF9"
+  - Assets/V1/Model
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Luca\Desktop\GitHub\Tesi\Tesi\Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 89.400024}
-    m_SelectedIDs: b6610000
-    m_LastClickedID: 25014
-    m_ExpandedIDs: 0000000066610000686100006a6100006c6100006e61000070610000726100007461000076610000786100007a6100007c6100007e610000806100008261000000ca9a3b
+    scrollPos: {x: 0, y: 553.4}
+    m_SelectedIDs: 6e940000
+    m_LastClickedID: 37998
+    m_ExpandedIDs: 000000009e5e0000a05e0000a25e0000a45e0000a65e0000a85e0000aa5e0000ac5e0000ae5e0000b05e0000b25e0000b45e0000b65e0000b85e0000ba5e0000b8910000c2910000ca910000e69100003e93000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1216,7 +1216,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066610000686100006a6100006c6100006e61000070610000726100007461000076610000786100007a6100007c6100007e610000806100008261000000ca9a3b
+    m_ExpandedIDs: 000000009e5e0000a05e0000a25e0000a45e0000a65e0000a85e0000aa5e0000ac5e0000ae5e0000b05e0000b25e0000b45e0000b65e0000b85e0000ba5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1241,9 +1241,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ae010000
-    m_LastClickedInstanceID: 430
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000c690000206000004c630000fa6a0000026b0000626b0000d273000000000000c4660000d29d0000aa5f00003861000046610000dac20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
