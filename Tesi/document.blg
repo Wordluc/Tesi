@@ -62,47 +62,51 @@ Warning--entry type for "perc_amblipia" isn't style-file defined
 --line 333 of file ./reference/r_web.bib
 Warning--entry type for "pistola" isn't style-file defined
 --line 345 of file ./reference/r_web.bib
+Warning--entry type for "amblyoplay" isn't style-file defined
+--line 357 of file ./reference/r_web.bib
 Database file #2: ./reference/art.bib
+Warning--entry type for "nuoviTrattamenti" isn't style-file defined
+--line 1 of file ./reference/art.bib
 Warning--empty journal in filtro
-You've used 31 entries,
+You've used 33 entries,
             1791 wiz_defined-function locations,
-            614 strings with 9006 characters,
-and the built_in function-call counts, 4703 in all, are:
-= -- 396
-> -- 199
+            625 strings with 9269 characters,
+and the built_in function-call counts, 4975 in all, are:
+= -- 417
+> -- 211
 < -- 0
-+ -- 86
-- -- 55
-* -- 91
-:= -- 767
-add.period$ -- 121
-call.type$ -- 31
-change.case$ -- 31
++ -- 91
+- -- 58
+* -- 96
+:= -- 808
+add.period$ -- 127
+call.type$ -- 33
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 166
-empty$ -- 571
-format.name$ -- 55
-if$ -- 1085
+cite$ -- 34
+duplicate$ -- 176
+empty$ -- 607
+format.name$ -- 58
+if$ -- 1149
 int.to.chr$ -- 0
-int.to.str$ -- 31
+int.to.str$ -- 33
 missing$ -- 3
-newline$ -- 186
-num.names$ -- 31
-pop$ -- 201
+newline$ -- 196
+num.names$ -- 33
+pop$ -- 215
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 65
+skip$ -- 72
 stack$ -- 0
 substring$ -- 60
-swap$ -- 30
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 33
-width$ -- 33
-write$ -- 342
-(There were 29 warnings)
+while$ -- 35
+width$ -- 35
+write$ -- 361
+(There were 31 warnings)

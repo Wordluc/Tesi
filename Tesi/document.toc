@@ -5,28 +5,28 @@
 \contentsline {section}{\numberline {1.2}Cause}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Sintomi}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Trattamenti}{5}{section.1.4}%
-\contentsline {chapter}{\numberline {2}3D4Amb}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Funzionamento e strumenti}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cardboard}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Occhiali Anaglifici}{11}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Active shutter 3D system}{13}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Obiettivi}{13}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Progetto}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Struttura}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Target}{16}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Tecnologie utilizzate}{17}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Cardboard, motivi della scelta}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Unity 3D}{18}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Visual code}{20}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Implementazione}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fase di prototipazione}{22}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Visuale}{22}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Mappatura}{23}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Menu}{24}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Fase di sviluppo}{25}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Personaggio}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Mappa}{28}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Portale}{29}{subsubsection.4.2.2.1}%
-\contentsline {section}{\numberline {4.3}Problemi}{29}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusioni e Sviluppi futuri}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {2}3D4Amb}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Funzionamento e strumenti}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Cardboard}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Occhiali Anaglifici}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Active shutter 3D system}{15}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Obiettivi}{15}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Progetto}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Struttura}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Target}{18}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Tecnologie utilizzate}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Cardboard, motivi della scelta}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Unity 3D}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Visual code}{22}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Implementazione}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Fase di prototipazione}{24}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Visuale}{24}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Mappatura}{25}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Menu}{26}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Fase di sviluppo}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Personaggio}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Mappa}{30}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Portale}{31}{subsubsection.4.2.2.1}%
+\contentsline {section}{\numberline {4.3}Problemi}{31}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusioni e Sviluppi futuri}{35}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
