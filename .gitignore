@@ -64,16 +64,3 @@ Game/android
 Game/Nuova Cartella
 Game/prova_BackUpThisFolder_ButDontShipItWithYourGame
 Game/prova.apk
-#Latex
-**/*.aux
-**/*.lof
-**/*.log
-**/*.lot
-**/*.fls
-**/*.out
-**/*.toc
-**/*.fmt
-**/*.fot
-**/*.cb
-**/*.cb2
-**/*.lb
