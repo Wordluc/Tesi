@@ -83,10 +83,3 @@ Github provides a good one over here, I modified theirs slightly because i norma
 **/*.cb2
 **/*.lb
 
-*/document.synctex.gz
-Tesi/document.toc
-Tesi/document.log
-Tesi/document.lof
-Tesi/document.aux
-Tesi/document-frn.synctex.gz
-Tesi/document.toc
