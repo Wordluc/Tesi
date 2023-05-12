@@ -3829,7 +3829,7 @@ MonoBehaviour:
   heightH: 1
   heightL: -0.1
   body: {fileID: 7205978251580547842}
-  dInclinate: 0.7
+  dInclinate: 3
   MrotateX: 60
   MrotateZ: 0
   speedRotateRb: 50

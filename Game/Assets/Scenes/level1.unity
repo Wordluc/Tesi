@@ -3871,6 +3871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleSphere
       objectReference: {fileID: 0}
+    - target: {fileID: 7205978251048796620, guid: 907410a85385c0640bb8969b60cd9565, type: 3}
+      propertyPath: dInclinate
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7205978251580547842, guid: 907410a85385c0640bb8969b60cd9565, type: 3}
       propertyPath: m_Name
       value: Character
