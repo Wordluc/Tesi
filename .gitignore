@@ -67,8 +67,6 @@ Game/prova.apk
 
 
 
-Github provides a good one over here, I modified theirs slightly because i normally put my latex files in a nested folder in my git repo, so this solves that minor change:
-
 ## Core latex/pdflatex auxiliary files:
 **/*.aux
 **/*.lof
